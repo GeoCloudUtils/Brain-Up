@@ -1,113 +1,80 @@
-﻿using DG.Tweening;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿/// author GEO
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Nav_manager : MonoBehaviour
 {
-    public Button file_button;
-    public Button section_level_button;
-    public Button home_button;
-    public Button cart_button;
-    public Button edit_button;
-    public Button[] allButtons;
-    public GameObject level_panel;
-    public GameObject cart_panel;
-    public GameObject game_grid;
+    public GameObject setting_screen;
+    public GameObject nav_rel_tips;
+    public RectTransform nav_bar;
+    public Button[] nav_buttons;
+    public Button setting_button;
+    public GameObject[] screens;
 
+    private int last_targetIndex = -1;
     void Start()
     {
-        file_button.onClick.AddListener(OpenFilePanel);
-        section_level_button.onClick.AddListener(OpenLevelPanel);
-        home_button.onClick.AddListener(OpenHomeScreen);
-        cart_button.onClick.AddListener(OpenCartPanel);
-        edit_button.onClick.AddListener(OpenEditPanel);
-        home_button.transform.GetChild(0).gameObject.SetActive(true);
-        game_grid.SetActive(true);
-        game_grid.GetComponent<DOTweenAnimation>().DOPlay();
+        foreach (Button btn in nav_buttons)
+            btn.onClick.AddListener(delegate { DoNavButtonClick(btn); });
+        setting_button.onClick.AddListener(OpenSettings);
+        screens[2].gameObject.SetActive(true);
+        Tween sc_tween = screens[2].GetComponent<DOTweenAnimation>().tween;
+        if (!sc_tween.IsPlaying())
+            sc_tween.Play();
+        DoNavButtonClick(nav_buttons[2]);
     }
 
-    private void OpenEditPanel()
+    private void OpenSettings()
     {
-        onButtonClick(edit_button);
+        if (!setting_screen.activeSelf)
+            setting_screen.SetActive(true);
     }
 
-    private void OpenCartPanel()
+    private void DoNavButtonClick(Button btn)
     {
-        onButtonClick(cart_button);
-    }
-
-    private void OpenHomeScreen()
-    {
-        onButtonClick(home_button);
-    }
-
-    private void OpenLevelPanel()
-    {
-        onButtonClick(section_level_button);
-    }
-
-    private void OpenFilePanel()
-    {
-        onButtonClick(file_button);
-    }
-
-    private void onButtonClick(Button target)
-    {
-        if (target.transform.childCount > 0)
+        int targetIndex = System.Array.IndexOf(nav_buttons, btn);
+        if (last_targetIndex == targetIndex)
+            return;
+        nav_rel_tips.SetActive(false);
+        for (int i = 0; i < screens.Length; i++)
         {
-            if (target.transform.GetChild(0).gameObject.activeSelf)
-                return;
-            switch (target.name)
+            GameObject g = nav_buttons[i].gameObject;
+            if (i != targetIndex)
             {
-                case "file_button":
-                    game_grid.SetActive(false);
-                    break;
-                case "adv_menu":
-                    level_panel.SetActive(true);
-                    if (!level_panel.GetComponent<DOTweenAnimation>().tween.IsPlaying())
-                        level_panel.GetComponent<DOTweenAnimation>().DOPlay();
-                    cart_panel.SetActive(false);
-                    game_grid.SetActive(false);
-                    break;
-                case "home":
-                    level_panel.SetActive(false);
-                    cart_panel.SetActive(false);
-                    game_grid.SetActive(true);
-                    if(!game_grid.GetComponent<DOTweenAnimation>().tween.IsPlaying())
-                        game_grid.GetComponent<DOTweenAnimation>().DOPlay();
-                    break;
-                case "cart":
-                    cart_panel.SetActive(true);
-                    if (!cart_panel.GetComponent<DOTweenAnimation>().tween.IsPlaying())
-                        cart_panel.GetComponent<DOTweenAnimation>().DOPlay();
-                    level_panel.SetActive(false);
-                    game_grid.SetActive(false);
-                    break;
-                case "edit":
-                    game_grid.SetActive(false);
-                    break;
-                default:
-                    break;
-            }
-            target.GetComponent<RectTransform>().localScale = new Vector3(1.3f, 1.3f, 1.3f);
-            target.transform.GetChild(0).gameObject.SetActive(true);
-            DisableOther(target);
-        }
-    }
-    private void DisableOther(Button target)
-    {
-        foreach(Button btn in allButtons)
-        {
-            if (btn != target)
-            {
-                btn.GetComponent<RectTransform>().localScale = Vector3.one;
-                btn.transform.GetChild(0).gameObject.SetActive(false);
-
+                screens[i].SetActive(false);
+                g.transform.GetChild(0).gameObject.SetActive(false);
+                g.transform.GetChild(1).GetComponent<Image>().DOColor(targetIndex == 2 ? Color.white : new Color(0.3f, 0.3f, 0.3f, 1f), 0.1f);
             }
         }
+        btn.transform.GetChild(0).gameObject.SetActive(true);
+        DOTweenAnimation btn_tween = btn.transform.GetChild(0).GetComponent<DOTweenAnimation>();
+        if (btn_tween != null)
+        {
+            if (!btn_tween.tween.IsPlaying())
+                btn_tween.DOPlay();
+        }
+        if (targetIndex != 2)
+        {
+            btn.transform.GetChild(1).GetComponent<Image>().DOColor(new Color(0f, 208f, 255f, 255f), 0.1f);
+            nav_bar.GetComponent<Image>().DOColor(new Color(195f, 195f, 195f, 255f), 0.1f);
+        }
+        else
+        {
+            nav_rel_tips.SetActive(true);
+            nav_bar.GetComponent<Image>().DOFade(0.25f, 0.1f);
+            for (int i = 0; i < screens.Length; i++)
+            {
+                GameObject g = nav_buttons[i].gameObject;
+                if (i != targetIndex)
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                screens[i].SetActive(false);
+                g.transform.GetChild(1).GetComponent<Image>().color = Color.white;
+            }
+        }
+        screens[targetIndex].SetActive(true);
+        DOTweenAnimation screen_anim = screens[targetIndex].GetComponent<DOTweenAnimation>();
+        if (!screen_anim.tween.IsPlaying())
+            screen_anim.DOPlay();
+        last_targetIndex = targetIndex;
     }
 }

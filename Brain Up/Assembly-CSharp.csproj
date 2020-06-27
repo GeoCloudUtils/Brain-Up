@@ -76,6 +76,7 @@
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
     <Compile Include="Assets\Scripts\Nav_manager.cs" />
     <Compile Include="Assets\Scripts\Numer_calc_generator.cs" />
+    <Compile Include="Assets\Scripts\Setting_manager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
