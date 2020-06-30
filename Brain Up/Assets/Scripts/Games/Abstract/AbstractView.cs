@@ -14,4 +14,14 @@ namespace Assets.Scripts.Games.Abstract
         public abstract void Create(T model);
         public abstract bool Hint();
     }
+
+    public interface ViewAbstract<T> where T: ModelAbstract
+    {
+        T Model { get; set; }
+
+        void StartGame(Action callback);
+        void StopGame();
+        void Create(T model);
+        bool Hint();
+    }
 }
