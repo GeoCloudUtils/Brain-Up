@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c746b23192b30a4a99954171e9c8dae, type: 3}
+  m_Name: Questions_History_Easy
+  m_EditorClassIdentifier: 
+  questions:
+  - question: King Henry VIII was the second monarch of which European royal house?
+    answers:
+    - Tudor
+    - York
+    - Stuart
+    - Lancaster
+  - question: Which of the following African countries was most successful in resisting
+      colonization?
+    answers:
+    - Ethiopia
+    - C&ocirc;te d&rsquo;Ivoire
+    - Congo
+    - Namibia
+  - question: The original Roman alphabet lacked the following letters EXCEPT?
+    answers:
+    - X
+    - W
+    - U
+    - J
+  - question: Which modern day country is the region that was known as Phrygia in
+      ancient times?
+    answers:
+    - Turkey
+    - Syria
+    - Greece
+    - Egypt
+  - question: When did the Battle of the Somme begin?
+    answers:
+    - July 1st, 1916
+    - August 1st, 1916
+    - July 2nd, 1916
+    - June 30th, 1916
+  - question: When was Google founded?
+    answers:
+    - September 4, 1998
+    - October 9, 1997
+    - December 12, 1989
+    - Feburary 7th, 2000
+  - question: How long did World War II last?
+    answers:
+    - 6 years
+    - 4 years
+    - 5 years
+    - 7 years
+  - question: In 1939, Britain and France declared war on Germany after it invaded
+      which country?
+    answers:
+    - Poland
+    - Czechoslovakia
+    - Austria
+    - Hungary
+  - question: To what political party did Abraham Lincoln belong when elected POTUS?
+    answers:
+    - Republican
+    - Democrat
+    - Independent
+    - Whig
+  - question: Which country was Josef Stalin born in?
+    answers:
+    - Georgia
+    - Russia
+    - Germany
+    - Poland
+  - question: Which of the following ancient peoples was NOT classified as Hellenic
+      (Greek)?
+    answers:
+    - Illyrians
+    - Dorians
+    - Achaeans
+    - Ionians
+  - question: Which famous world leader is famed for the saying, "Let them eat cake",
+      yet is rumored that he/she never said it at all?
+    answers:
+    - Marie Antoinette
+    - Czar Nicholas II
+    - Elizabeth I
+    - Henry VIII
+  - question: What was Manfred von Richthofen's nickname?
+    answers:
+    - The Red Baron
+    - The High Flying Ace
+    - The Blue Serpent
+    - The Germany Gunner
+  - question: When did the Battle of the Somme begin?
+    answers:
+    - July 1st, 1916
+    - August 1st, 1916
+    - July 2nd, 1916
+    - June 30th, 1916
+  - question: Who was the first prime minister of Canada?
+    answers:
+    - John Macdonald
+    - John Abbott
+    - Alexander Mackenzie
+    - Robert Borden
+  - question: Which of the following countries was not an axis power during World
+      War II?
+    answers:
+    - Soviet Union
+    - Italy
+    - Germany
+    - Japan
+  - question: In 1939, Britain and France declared war on Germany after it invaded
+      which country?
+    answers:
+    - Poland
+    - Czechoslovakia
+    - Austria
+    - Hungary
+  - question: These two countries held a commonwealth from the 16th to 18th century.
+    answers:
+    - Poland and Lithuania
+    - Hutu and Rwanda
+    - North Korea and South Korea
+    - Bangladesh and Bhutan
+  - question: Who led the Communist Revolution of Russia?
+    answers:
+    - Vladimir Lenin
+    - Joseph Stalin
+    - Vladimir Putin
+    - Mikhail Gorbachev
+  - question: What is the historical name of Sri Lanka?
+    answers:
+    - Ceylon
+    - Myanmar
+    - Colombo
+    - Badulla
+    - 
