@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.Framework.Database;
 using Assets.Scripts.Games;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -13,6 +14,7 @@ namespace Assets.Scripts
         public Action<int, int> onCoinsCountChanged = null;
         public Action<int> onLevelChanged = null;
         public Action<int, int> onHintsCountChanged=null;
+
         #endregion
 
 
@@ -43,6 +45,7 @@ namespace Assets.Scripts
             }
         }
 
+
         public int Hints
         {
             get => data.hints;
@@ -59,6 +62,7 @@ namespace Assets.Scripts
             get => data.starPerLevel;
         }
 
+        public List<int> BoughtItems => data.boughtItems;
         #endregion
 
 
@@ -117,6 +121,7 @@ namespace Assets.Scripts
             return data != null;
         }
 
+
         internal void SetStarsForLevel(int level, int nrStars)
         {
             if (level > Stars.Length)
@@ -131,8 +136,28 @@ namespace Assets.Scripts
 
         internal int GetGameProgress(int gameId)
         {
-            Debug.Log("GameId: " + gameId);
             return data.gamesProgress[gameId];
+        }
+
+
+        internal void SetAsBought(int itemId)
+        {
+            if (IsItemBought(itemId))
+                return;
+            BoughtItems.Add(itemId);
+        }
+
+
+        internal bool IsItemBought(int itemId)
+        {
+            return BoughtItems.Exists((id) => id == itemId);
+        }
+
+        internal void SetAsNonBought(int itemId)
+        {
+            if (!IsItemBought(itemId))
+                return;
+            BoughtItems.Remove(itemId);
         }
 
         #endregion

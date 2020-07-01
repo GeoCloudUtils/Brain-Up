@@ -4,6 +4,7 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
 using Assets.Scripts.Games.Gamedata.WordsDictionary;
+using Assets.Scripts.Games.GameData.CategorizedWordsDictionary;
 using Assets.Scripts.Games.Other;
 using Assets.Scripts.Screens;
 using System;
@@ -38,16 +39,17 @@ namespace Assets.Scripts.Games.GuessWordGame
         public void StartGame(Action endCallback = null)
         {
 
-            WordRow wordRow = Model.GetCurrentWord();
+            CatWord wordRow = Model.GetCurrentWord();
 
-            description.text = "";
+            description.text = wordRow.description;
 
             string w = wordRow.word.ToUpper();
             char[] letters = w.ToCharArray();
             word.SetText(w);
             word.HideAllLetters();
 
-            StartCoroutine(ShowLettersInRow(letters, endCallback));
+            gameScreen.Show(true);
+            endCallback?.Invoke();
         }
 
         public void StopGame()
@@ -76,24 +78,6 @@ namespace Assets.Scripts.Games.GuessWordGame
         public bool IsWordCorrect()
         {
             return word.IsCorrect();
-        }
-
-        protected IEnumerator ShowLettersInRow(char[] letters, Action endCallback)
-        {
-            showLettersScreen.SetActive(true);
-
-            foreach (char let in letters)
-            {
-                bigLetter.text = let.ToString();
-                yield return new WaitForSeconds(changeLetterInterval);
-            }
-
-            gameScreen.Show(true);
-            showLettersScreen.SetActive(false);
-
-            endCallback?.Invoke();
-
-            yield return null;
         }
 
         public GameScreenAbstract GetScreen()

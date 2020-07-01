@@ -12,6 +12,7 @@ using Assets.Scripts.Screens;
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using Assets.Scripts.Games.CapitalsGame;
 
 namespace Assets.Scripts.Games
 {
@@ -20,12 +21,11 @@ namespace Assets.Scripts.Games
     {
         RepeatLetters = 0,
         RepeatColors = 1,
+        Acknowledge_History = 2,
         SelectFlag = 3,
+        Acknowledge_Countries = 4,
         GuessWord = 5,
         TimeKiller = 6,
-        Acknowledge_History = 2,
-        Acknowledge_Countries = 4,
-
     }
 
     [Serializable]
@@ -63,6 +63,16 @@ namespace Assets.Scripts.Games
         NoCoins = 5
     }
 
+    [Serializable]
+    public enum Continent
+    {
+        Any = 0,
+        America = 1,
+        Europe = 2,
+        Australia = 3,
+        Africa = 4,
+    }
+
 
 
     public class ControllerGlobal : SingleInstanceObject<ControllerGlobal>
@@ -74,6 +84,8 @@ namespace Assets.Scripts.Games
         public float timeForWatchAd = 60f;
         public GameId currGameId;
         public GameLanguage currGameLanguage;
+        public GameDifficulty currDifficulty = GameDifficulty.Easy;
+        public Continent currContinent = Continent.Any;
         //
         private bool _gameRunning = false;
         private bool timerEnabled = false;
@@ -81,26 +93,14 @@ namespace Assets.Scripts.Games
         //getters & setters
         public int HintsUsed { get; set; }
         public int Attempts { get; set; }
+        [SerializeField] public int COINS_FOR_AD;
+        [SerializeField] public int TIME_FOR_AD;
+
         //events
         public Action<GameEndReason> GameFinished;
         public Action<bool, bool> GameStarted;
 
         private ControllerAbstract _currController;
-
-        public class I
-        {
-
-        }
-
-        public class A : I
-        {
-            public I Hello() { return this; }
-        }
-
-        public class B : A
-        {
-            public new I Hello() { return this; }
-        }
 
 
         //Classes
@@ -119,15 +119,13 @@ namespace Assets.Scripts.Games
             _database = Database.Instance;
 
             //TMP> Reset progress
-            _database.Coins = 30;
+            _database.Coins = 1000;
             _database.Hints = 0;
             for (int a = 0; a < 10; ++a)
                 _database.SetGameProgress(a, 1);
-
+            _database.BoughtItems.Clear();
             //  AddControllerForGame(GameId.Acknowledge_Countries, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
             //  AddControllerForGame(GameId.Acknowledge_History, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
-
-           
         }
 
 
@@ -176,18 +174,25 @@ namespace Assets.Scripts.Games
                     _currController = ControllerRepeatColors.Instance; break;
                 case GameId.RepeatLetters:
                     _currController = ControllerRepeatLetters.Instance; break;
+                case GameId.Acknowledge_History:
+                    _currController = ControllerHistory.Instance; break;
+                case GameId.Acknowledge_Countries:
+                    _currController = ControllerCapitals.Instance; break;
             }
 
 
             currGameId = gameId;
             currGameLanguage = gameLanguage;
 
+            _currController.GetModel().GameId = gameId;
             GameScreenGlobal.Instance._lastScreen = _currController.GetView().GetScreen() ;
 
             Action<bool,bool> action = (enableTimer, enableCheckbar) =>
             {
                 var global = ControllerGlobal.Instance;
-                Debug.LogWarning("Game Started. Enable timer: " + enableTimer);
+                Debug.LogFormat("Game Started. EnableTimer: {0}; GameId: {1}",
+                    enableTimer, 
+                    (int)_currController.GetModel().GameId);
                 if (enableTimer)
                 {
                     global.time = global.model.gameDuration;
@@ -197,8 +202,6 @@ namespace Assets.Scripts.Games
                 global.GameStarted?.Invoke(enableTimer, enableCheckbar);
             };
             _currController.StartGame(action);
-
-            Debug.Log("GlobalController: Game started.");
         }
 
         internal void Prolong(Action<bool> resultCallback)
@@ -224,7 +227,8 @@ namespace Assets.Scripts.Games
         internal void StopGame(GameEndReason reason)
         {
             _gameRunning = false;
-            _currController.StopGame();
+            if(_currController!=null)
+                _currController.StopGame();
             GameFinished?.Invoke(reason);
         }
 

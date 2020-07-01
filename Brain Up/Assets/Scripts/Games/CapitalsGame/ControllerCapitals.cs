@@ -6,42 +6,73 @@ using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
 using Assets.Scripts.Games.RepeatLettersGame;
+using Assets.Scripts.Games.TimeKillerGame;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Games.TimeKillerGame
+namespace Assets.Scripts.Games.CapitalsGame
 {
     [Serializable]
-    public class ControllerTimeKiller : SingleInstanceObject<ControllerTimeKiller>,
+    public class ControllerCapitals : SingleInstanceObject<ControllerCapitals>,
         ControllerAbstract, IAdvancingGame
     {
-       //Vars
+        //Vars
+        public ModelCapitals Model;
+        public ViewCapitals View;
+        private Dictionary<Continent, string> continents = new Dictionary<Continent, string>();
         private Database _database;
         protected ControllerGlobal _globalController;
         //getters & setters
-        [SerializeField] public ModelTimeKiller Model;
-        [SerializeField] public ViewTimeKiller View;
         public bool EnableTimer { get; set; }
-        public int HintsUsed {get;set;}
-        public int Attempts {get;set; }
+        public int HintsUsed { get; set; }
+        public int Attempts { get; set; }
         //events
         public Action<GameEndReason> GameFinished;
 
-        protected void Start()
+        private void Start()
         {
             _database = Database.Instance;
             EnableTimer = false;
             _globalController = ControllerGlobal.Instance;
+
+            continents.Add(Continent.Africa, "Africa");
+            continents.Add(Continent.America, "America");
+            continents.Add(Continent.Australia, "Australia");
+            continents.Add(Continent.Europe, "Europe");
         }
+
+        
 
         protected MultipleAnswersQuestion GetData()
         {
-            MultipleAnswersQuestion data = Resources.Load<MultipleAnswersQuestion>("GameData/Questions_General");
+            MultipleAnswersQuestion allContinentsData = Resources.Load<MultipleAnswersQuestion>("GameData/Capitals");
+
+            MultipleAnswersQuestion data = ScriptableObject.CreateInstance<MultipleAnswersQuestion>();
+
+            Continent continent = ControllerGlobal.Instance.currContinent;
+            if (continent != Continent.Any)
+            {
+                List<Question> questions = new List<Question>();
+                string currContinent = continents[continent];
+                foreach (Question q in allContinentsData.questions)
+                {
+                    if (q.answers[1] == currContinent)
+                        questions.Add(q);
+                }
+                data.questions = questions.ToArray();
+            }
+            else
+            {
+                data.questions = allContinentsData.questions;
+            }
+
             return data;
         }
 
-        public void StartGame(Action<bool,bool> callback)
+        public void StartGame(Action<bool, bool> callback)
         {
+            Debug.Log("ControllerCapitals: StartGame start.");
             MultipleAnswersQuestion data = GetData();
 
             Model.SetData(data);
@@ -51,10 +82,11 @@ namespace Assets.Scripts.Games.TimeKillerGame
             HintsUsed = 0;
             Attempts = 0;
             View.StartGame(() =>
-              {
-                  Model.StartGame();
-                  callback?.Invoke(EnableTimer, false);
-              });
+            {
+                Model.StartGame();
+                callback?.Invoke(EnableTimer, false);
+            });
+            Debug.Log("ControllerCapitals: StartGame end.");
         }
 
         internal void RestartGame()

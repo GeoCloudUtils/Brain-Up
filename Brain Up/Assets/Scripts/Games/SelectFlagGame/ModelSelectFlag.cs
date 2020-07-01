@@ -21,10 +21,11 @@ namespace Assets.Scripts.Games.SelectFlagGame
         public int progress = 1;
         public int questionsCount = 10;
         private List<Tuple<int, Sprite, string>> data;
-        protected int gameId;
         private const int FLAGS_ON_ROW = 8;
         private const int FLAGS_COUNT_ON_TEXTURE = 12 * FLAGS_ON_ROW;
         private const int FLAGS_COUNT = 4;
+
+        public GameId GameId { get; set; }
 
         private void Start()
         {

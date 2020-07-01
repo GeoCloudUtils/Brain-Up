@@ -5,6 +5,7 @@
 
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.Gamedata.WordsDictionary;
 using Assets.Scripts.Games.GameData.CategorizedWordsDictionary;
 using Assets.Scripts.Games.Other;
 using Assets.Scripts.Screens;
@@ -42,8 +43,8 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             Debug.Log("HistoryController: Starting game...");
 
             int progress = Database.Instance.GetGameProgress((int)GameId.Acknowledge_History);
-            CatWord wordInfo = Model.GetCurrentWord();
-            description.text = wordInfo.description;
+            WordRow wordInfo = Model.GetCurrentWord();
+            description.text = "";
 
             string w = wordInfo.word.ToUpper();
             char[] letters = w.ToCharArray();

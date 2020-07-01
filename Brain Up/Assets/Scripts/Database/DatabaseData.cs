@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Framework.Database;
+using System.Collections.Generic;
 
 namespace Assets.Scripts
 {
@@ -9,5 +10,6 @@ namespace Assets.Scripts
         public int hints = 3;
         public int[] starPerLevel = new int[200];
         public int[] gamesProgress = new int[20];
+        public List<int> boughtItems = new List<int>();
     }
 }

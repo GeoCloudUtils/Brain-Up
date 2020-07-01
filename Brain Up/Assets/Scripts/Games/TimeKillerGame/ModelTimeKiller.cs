@@ -18,17 +18,16 @@ namespace Assets.Scripts.Games.TimeKillerGame
     public class ModelTimeKiller : SingleInstanceObject<ModelTimeKiller>,
         ModelAbstract
     {
-        private MultipleAnswersQuestion rawData;
-        protected int gameId;
-        private Question data;
+        protected MultipleAnswersQuestion rawData;
+        protected Question allData;
         private int correctAnswer;
         public int progress = 1;
         public Database _database;
+        public GameId GameId { get; set; }
+
         private void Start()
         {
-            rawData = Resources.Load<MultipleAnswersQuestion>("GameData/Questions_History_Easy");
             _database = Database.Instance;
-            gameId = (int)GameId.TimeKiller;
         }
 
         public void StartGame()
@@ -39,8 +38,8 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         public void Create()
         {
-            int progress = Database.Instance.GetGameProgress(gameId);
-            data = rawData.questions[progress].Clone();
+            int progress = Database.Instance.GetGameProgress((int)GameId);
+            allData = rawData.questions[progress].Clone();
         }
 
         public void StopGame()
@@ -50,16 +49,22 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         public Question GetData()
         {
-            return data;
+            return allData;
         }
+
+        public void SetData(MultipleAnswersQuestion questions)
+        {
+            rawData = questions;
+        }
+
 
         internal bool Advance()
         {
-            int currProgress = _database.GetGameProgress(gameId);
+            int currProgress = _database.GetGameProgress((int)GameId);
             if (currProgress >= rawData.questions.Length) return false;
 
             progress = currProgress + 1;
-            _database.SetGameProgress((int)GameId.TimeKiller, progress);
+            _database.SetGameProgress((int)GameId, progress);
             return true;
         }
     }

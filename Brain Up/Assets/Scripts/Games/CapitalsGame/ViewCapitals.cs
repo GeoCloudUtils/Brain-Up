@@ -4,29 +4,33 @@
  */
 
 using Assets.Scripts.Framework.Other;
+using Assets.Scripts.Games;
 using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.GameData;
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
+using Assets.Scripts.Games.TimeKillerGame;
 using Assets.Scripts.LettersGames;
 using Assets.Scripts.Screens;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
-
-namespace Assets.Scripts.Games.TimeKillerGame
+namespace Assets.Scripts.Games.CapitalsGame
 {
-    public class ViewTimeKiller : SingleInstanceObject<ViewTimeKiller>,
+    [Serializable]
+    public class ViewCapitals : SingleInstanceObject<ViewCapitals>,
         ViewAbstract
     {
+
         //Vars
         public GameScreenMultipleAnswers gameScreen;
         //Properties
-        public ModelTimeKiller Model;
+        public ModelCapitals Model;
 
 
 
-        public void Create(ModelTimeKiller model)
+
+        public void Create(ModelCapitals model)
         {
             this.Model = model;
         }
@@ -46,7 +50,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
             return false;
         }
 
-     
+
 
         public void StartGame(Action endCallback = null)
         {
@@ -59,7 +63,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
                 answers.Swap(index_1, index_2);
             });
 
-            for (int a=0; a < answers.Length; ++a)
+            for (int a = 0; a < answers.Length; ++a)
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);
 
             gameScreen.InitScreen(data.answers, data.question, answers);
@@ -77,7 +81,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         internal void Advance()
         {
-           gameScreen.SetProgress(Model.progress);
+            gameScreen.SetProgress(Model.progress);
         }
 
         ModelAbstract ViewAbstract.GetModel()
@@ -87,7 +91,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         public void SetModel(ModelAbstract model)
         {
-            Model = (ModelTimeKiller)model;
+            Model = (ModelCapitals)model;
         }
     }
 }

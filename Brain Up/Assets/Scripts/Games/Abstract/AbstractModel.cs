@@ -12,5 +12,7 @@ namespace Assets.Scripts.Games.Abstract
         void StartGame();
         void StopGame();
         void Create();
+
+        GameId GameId { get; set; }
     }
 }

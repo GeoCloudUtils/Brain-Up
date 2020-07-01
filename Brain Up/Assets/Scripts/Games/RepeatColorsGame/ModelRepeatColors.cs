@@ -13,11 +13,12 @@ namespace Assets.Scripts.Games.RepeatColorsGame
     {
         public Sprite[] allColors;
         private Sprite[] currColors;
-        private int gameId;
+
+        public GameId GameId { get; set; }
 
         public void StartGame()
         {
-            int progress = Database.Instance.GetGameProgress(gameId);
+            int progress = Database.Instance.GetGameProgress((int)GameId);
             int count = 3 + progress / 15;
             if (count > 14)
                 count = 14;
@@ -26,8 +27,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
 
         public void Create()
         {
-            gameId = (int)GameId.RepeatColors;
-            int progress = Database.Instance.GetGameProgress(gameId);
+            int progress = Database.Instance.GetGameProgress((int)GameId);
 
             int count = 3 + progress / 15;
             if (count > 14)
