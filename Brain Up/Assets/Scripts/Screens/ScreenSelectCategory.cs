@@ -22,8 +22,8 @@ namespace Assets.Scripts.Screens
         {
             if (_lastCategory != null)
                 _lastCategory.SetActive(false);
-            ControllerGlobal.Instance.StartGame((GameId)gameId, GameLanguage.English);
             GameScreenGlobal.Instance.Show(true);
+            ControllerGlobal.Instance.StartGame((GameId)gameId, GameLanguage.English);
         }
 
         public void OnExitClicked()

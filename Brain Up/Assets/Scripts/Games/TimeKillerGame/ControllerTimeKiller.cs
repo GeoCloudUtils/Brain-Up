@@ -10,14 +10,15 @@ using UnityEngine;
 
 namespace Assets.Scripts.Games.TimeKillerGame
 {
+    [Serializable]
     public class ControllerTimeKiller : SingleInstanceObject<ControllerTimeKiller>,
-        ControllerAbstract<ModelTimeKiller, ViewTimeKiller>
+        ControllerAbstract, IAdvancingGame
     {
        //Vars
         private Database _database;
         //getters & setters
-        public ModelTimeKiller Model { get; set; }
-        public ViewTimeKiller View { get; set; }
+        [SerializeField] public ModelTimeKiller Model;
+        [SerializeField] public ViewTimeKiller View;
         public bool EnableTimer { get; set; }
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
@@ -82,12 +83,22 @@ namespace Assets.Scripts.Games.TimeKillerGame
             return false;
         }
 
-        internal bool Advance()
+        public bool Advance()
         {
             bool canAdvance = Model.Advance();
             if (canAdvance)
                 View.Advance();
             return canAdvance;
+        }
+
+        ModelAbstract ControllerAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        ViewAbstract ControllerAbstract.GetView()
+        {
+            return View;
         }
     }
 }

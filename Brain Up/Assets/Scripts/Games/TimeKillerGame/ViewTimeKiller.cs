@@ -17,10 +17,13 @@ using UnityEngine;
 namespace Assets.Scripts.Games.TimeKillerGame
 {
     public class ViewTimeKiller : SingleInstanceObject<ViewTimeKiller>,
-        ViewAbstract<ModelTimeKiller>
+        ViewAbstract
     {
-        public ModelTimeKiller Model { get; set; }
+        //Vars
         public GameScreenMultipleAnswers gameScreen;
+        //Properties
+        public ModelTimeKiller Model;
+
 
 
         public void Create(ModelTimeKiller model)
@@ -28,10 +31,22 @@ namespace Assets.Scripts.Games.TimeKillerGame
             this.Model = model;
         }
 
+        public ModelTimeKiller GetModel()
+        {
+            return Model;
+        }
+
+        public GameScreenAbstract GetScreen()
+        {
+            return gameScreen;
+        }
+
         public bool Hint()
         {
             return false;
         }
+
+     
 
         public void StartGame(Action endCallback = null)
         {
@@ -61,6 +76,16 @@ namespace Assets.Scripts.Games.TimeKillerGame
         internal void Advance()
         {
            gameScreen.SetProgress(Model.progress);
+        }
+
+        ModelAbstract ViewAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        public void SetModel(ModelAbstract model)
+        {
+            Model = (ModelTimeKiller)model;
         }
     }
 }

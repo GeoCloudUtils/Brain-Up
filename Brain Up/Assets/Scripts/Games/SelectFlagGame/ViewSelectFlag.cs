@@ -15,15 +15,27 @@ using UnityEngine;
 namespace Assets.Scripts.Games.SelectFlagGame
 {
     public class ViewSelectFlag : SingleInstanceObject<ControllerSelectFlag>, 
-        ViewAbstract<ModelSelectFlag>
+        ViewAbstract
     {
-        public ModelSelectFlag Model { get; set; }
-
+        //Vars
         public GameScreenCards gameScreen;
+        //Properties
+        public ModelSelectFlag Model;
+
 
         public void Create(ModelSelectFlag model)
         {
             this.Model = model;
+        }
+
+        public ModelSelectFlag GetModel()
+        {
+            return Model;
+        }
+
+        public GameScreenAbstract GetScreen()
+        {
+            return gameScreen;
         }
 
         public bool Hint()
@@ -56,9 +68,21 @@ namespace Assets.Scripts.Games.SelectFlagGame
             
         }
 
+        ModelAbstract ViewAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        public void SetModel(ModelAbstract model)
+        {
+            Model = (ModelSelectFlag)model;
+        }
+
         internal void Advance()
         {
             gameScreen.SetProgress(Model.progress, Model.questionsCount);
         }
+
+
     }
 }

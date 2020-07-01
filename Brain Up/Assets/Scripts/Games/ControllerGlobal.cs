@@ -11,21 +11,21 @@ using Assets.Scripts.Games.RepeatLettersGame;
 using Assets.Scripts.Screens;
 using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace Assets.Scripts.Games
 {
     [Serializable]
     public enum GameId
     {
-        VisualMemory_Letters = 0,
-        VisualMemory_Colors = 1,
+        RepeatLetters = 0,
+        RepeatColors = 1,
+        SelectFlag = 3,
+        GuessWord = 5,
+        TimeKiller = 6,
         Acknowledge_History = 2,
-        Acknowledge_Flags = 3,
         Acknowledge_Countries = 4,
 
-        NonOrderedLetters = 5,
-        GuessWord = 6,
-        TimeKiller = 7,
     }
 
     [Serializable]
@@ -67,6 +67,7 @@ namespace Assets.Scripts.Games
 
     public class ControllerGlobal : SingleInstanceObject<ControllerGlobal>
     {
+        //Vars
         public ModelGlobal model;
         public ViewGlobal view;
         public float time;
@@ -75,197 +76,58 @@ namespace Assets.Scripts.Games
         public GameLanguage currGameLanguage;
         //
         private bool _gameRunning = false;
+        private bool timerEnabled = false;
         private Database _database;
-
-
         //getters & setters
-        public int HintsUsed {get;set;}
-        public int Attempts {get;set; }
-
+        public int HintsUsed { get; set; }
+        public int Attempts { get; set; }
         //events
         public Action<GameEndReason> GameFinished;
-        public Action<bool,bool> GameStarted;
+        public Action<bool, bool> GameStarted;
+
+        private ControllerAbstract _currController;
+
+        public class I
+        {
+
+        }
+
+        public class A : I
+        {
+            public I Hello() { return this; }
+        }
+
+        public class B : A
+        {
+            public new I Hello() { return this; }
+        }
+
 
         //Classes
-        private class Controllers
+        public class Controllers
         {
             public static ControllerGuessWord vmLetters;
             public static ControllerRepeatColors vmColors;
             public static ControllerRepeatLetters ackHistory;
             public static ControllerSelectFlag ackFlags;
             public static ControllerTimeKiller ackTimeKiller;
-
-            public static void Init()
-            {
-                vmLetters = ControllerGuessWord.Instance;
-                vmColors = ControllerRepeatColors.Instance;
-                ackHistory = ControllerRepeatLetters.Instance;
-                ackFlags = ControllerSelectFlag.Instance;
-                ackTimeKiller = ControllerTimeKiller.Instance;
-            }
-
-            public static void StartGame(GameId gameId)
-            {
-                dynamic controller = Controllers.vmLetters;
-                switch (gameId)
-                {
-                    case GameId.VisualMemory_Letters:
-                        controller = Controllers.vmLetters;
-                        break;
-                    case GameId.VisualMemory_Colors:
-                        controller = Controllers.vmColors;
-                        break;
-                    case GameId.Acknowledge_History:
-                        controller = Controllers.ackHistory;
-                        break;
-                    case GameId.Acknowledge_Flags:
-                        controller = Controllers.ackFlags;
-                        break;
-                    case GameId.TimeKiller:
-                        controller = Controllers.ackTimeKiller;
-                        break;      
-                }
-
-                GameScreenGlobal.Instance._lastScreen = controller.view.gameScreen;
-
-                Action<bool,bool> action = (enableTimer, enableCheckbar) =>
-                {
-                    var global = ControllerGlobal.Instance;
-                    Debug.LogWarning("Game Started. Enable timer: " + enableTimer);
-                    if (enableTimer)
-                    {
-                        global.time = global.model.gameDuration;
-                        global._gameRunning = true;
-                    }
-                    global.GameStarted?.Invoke(enableTimer, enableCheckbar);
-                };
-                controller.StartGame(action);
-            }
-
-            internal static void StopGame(GameId currGameId, GameEndReason reason)
-            {
-                switch (currGameId)
-                {
-                    case GameId.VisualMemory_Letters:
-                        Controllers.vmLetters.StopGame();
-                        break;
-                    case GameId.VisualMemory_Colors:
-                        Controllers.vmColors.StopGame();
-                        break;
-                    case GameId.Acknowledge_History:
-                        Controllers.ackHistory.StopGame();
-                        break;
-                    case GameId.Acknowledge_Flags:
-                        Controllers.ackFlags.StopGame();
-                        break;
-                    case GameId.TimeKiller:
-                        Controllers.ackTimeKiller.StopGame();
-                        break;
-                }
-
-            }
-
-            internal static bool Hint(GameId currGameId)
-            {
-                bool used = false;
-                switch (currGameId)
-                {
-                    case GameId.VisualMemory_Letters:
-                        used = Controllers.vmLetters.Hint();
-                        break;
-                    case GameId.VisualMemory_Colors:
-                        used = Controllers.vmColors.Hint();
-                        break;
-                    case GameId.Acknowledge_History:
-                        used = Controllers.ackHistory.Hint();
-                        break;
-                    case GameId.Acknowledge_Flags:
-                        used = Controllers.ackFlags.Hint();
-                        break;
-                    case GameId.TimeKiller:
-                        used = Controllers.ackTimeKiller.Hint();
-                        break;
-                }
-                return used;
-            }
-
-            internal static bool IsFinished(GameId currGameId)
-            {
-                bool finished = false;
-                switch (currGameId)
-                {
-                    case GameId.VisualMemory_Letters:
-                        finished = Controllers.vmLetters.IsCurrentGameFinished();
-                        break;
-                    case GameId.VisualMemory_Colors:
-                        finished = Controllers.vmColors.IsCurrentGameFinished();
-                        break;
-                    case GameId.Acknowledge_History:
-                        finished = Controllers.ackHistory.IsCurrentGameFinished();
-                        break;
-                    case GameId.Acknowledge_Flags:
-                        finished = Controllers.ackFlags.IsCurrentGameFinished();
-                        break;
-                    case GameId.TimeKiller:
-                        finished = Controllers.ackTimeKiller.IsCurrentGameFinished();
-                        break;
-                }
-                return finished;
-            }
-
-            internal static bool Check(GameId currGameId)
-            {
-                bool finished = false;
-                switch (currGameId)
-                {
-                    case GameId.VisualMemory_Letters:
-                        finished = Controllers.vmLetters.Check();
-                        break;
-                    case GameId.VisualMemory_Colors:
-                        finished = Controllers.vmColors.Check();
-                        break;
-                    case GameId.Acknowledge_History:
-                        finished = Controllers.ackHistory.Check();
-                        break;
-                    case GameId.Acknowledge_Flags:
-                        finished = Controllers.ackFlags.Check();
-                        break;
-                    case GameId.TimeKiller:
-                        finished = Controllers.ackTimeKiller.Check();
-                        break;
-                }
-                return finished;
-            }
-
-            internal static bool Advance(GameId currGameId)
-            {
-                bool canAdvance = false;
-                switch (currGameId)
-                {
-                    case GameId.Acknowledge_Flags:
-                        canAdvance = Controllers.ackFlags.Advance();
-                        break;
-                    case GameId.TimeKiller:
-                        canAdvance = Controllers.ackTimeKiller.Advance();
-                        break;
-                }
-
-                return canAdvance;
-            }
         }
-
 
 
         private void Start()
         {
             _database = Database.Instance;
-            Controllers.Init();
 
             //TMP> Reset progress
             _database.Coins = 30;
             _database.Hints = 0;
-            for(int a=0; a < 10; ++a)
+            for (int a = 0; a < 10; ++a)
                 _database.SetGameProgress(a, 1);
+
+            //  AddControllerForGame(GameId.Acknowledge_Countries, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
+            //  AddControllerForGame(GameId.Acknowledge_History, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
+
+           
         }
 
 
@@ -290,23 +152,52 @@ namespace Assets.Scripts.Games
 
         internal bool Check()
         {
-            return Controllers.Check(currGameId);
+            return ((ICheckingGame)_currController).Check();
         }
 
         public bool IsCurrModuleFinished()
         {
-            return Controllers.IsFinished(currGameId);
+            return false;
         }
 
 
         public void StartGame(GameId gameId, GameLanguage gameLanguage = GameLanguage.None)
         {
             Debug.Log("GlobalController: Starting game...");
+            
+            switch (gameId){
+                case GameId.SelectFlag: 
+                    _currController = ControllerSelectFlag.Instance; break;
+                case GameId.GuessWord:
+                    _currController = ControllerGuessWord.Instance; break;
+                case GameId.TimeKiller:
+                    _currController = ControllerTimeKiller.Instance; break;
+                case GameId.RepeatColors:
+                    _currController = ControllerRepeatColors.Instance; break;
+                case GameId.RepeatLetters:
+                    _currController = ControllerRepeatLetters.Instance; break;
+            }
+
+
             currGameId = gameId;
             currGameLanguage = gameLanguage;
 
+            GameScreenGlobal.Instance._lastScreen = _currController.GetView().GetScreen() ;
 
-            Controllers.StartGame(gameId);
+            Action<bool,bool> action = (enableTimer, enableCheckbar) =>
+            {
+                var global = ControllerGlobal.Instance;
+                Debug.LogWarning("Game Started. Enable timer: " + enableTimer);
+                if (enableTimer)
+                {
+                    global.time = global.model.gameDuration;
+                    global._gameRunning = true;
+                }
+                timerEnabled = enableTimer;
+                global.GameStarted?.Invoke(enableTimer, enableCheckbar);
+            };
+            _currController.StartGame(action);
+
             Debug.Log("GlobalController: Game started.");
         }
 
@@ -333,25 +224,25 @@ namespace Assets.Scripts.Games
         internal void StopGame(GameEndReason reason)
         {
             _gameRunning = false;
-
-            Controllers.StopGame(currGameId, reason);
-
+            _currController.StopGame();
             GameFinished?.Invoke(reason);
         }
 
         internal bool Advance()
         {
-            return Controllers.Advance(currGameId);
+            return ((IAdvancingGame)_currController).Advance();
         }
 
         internal void Pause(bool pause)
         {
-            _gameRunning = !pause;
+            if(timerEnabled)
+                _gameRunning = !pause;
         }
 
         internal bool Hint()
         {
-            bool used = Controllers.Hint(currGameId);
+            bool used = _currController.Hint();
+
 
             if (used)
                 HintsUsed += 1;

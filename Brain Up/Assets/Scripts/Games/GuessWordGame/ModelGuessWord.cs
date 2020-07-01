@@ -25,7 +25,7 @@ namespace Assets.Scripts.Games.GuessWordGame
         public void Create()
         {
             dictionary = Resources.Load<WordsDictionary>("GameData/OrderedLetters");
-            gameId = (int)GameId.VisualMemory_Letters;
+            gameId = (int)GameId.RepeatLetters;
             int progress = Database.Instance.GetGameProgress(gameId);
             currWord = dictionary.words[progress];
         }

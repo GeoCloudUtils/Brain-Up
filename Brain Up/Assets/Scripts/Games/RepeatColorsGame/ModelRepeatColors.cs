@@ -26,7 +26,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
 
         public void Create()
         {
-            gameId = (int)GameId.VisualMemory_Colors;
+            gameId = (int)GameId.RepeatColors;
             int progress = Database.Instance.GetGameProgress(gameId);
 
             int count = 3 + progress / 15;

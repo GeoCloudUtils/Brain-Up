@@ -13,7 +13,7 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.Games.RepeatColorsGame
 {
-    public class ViewRepeatColors : SingleInstanceObject<ViewRepeatColors>, ViewAbstract<ModelRepeatColors>
+    public class ViewRepeatColors : SingleInstanceObject<ViewRepeatColors>, ViewAbstract
     {
         [Header("References")]
         public ImagesWord word;
@@ -23,7 +23,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         [Header("Settings")]
         public float changeColorInterval = 1f;
         //
-        public ModelRepeatColors Model { get; set; }
+        public ModelRepeatColors Model;
 
         public void Create(ModelRepeatColors model)
         {
@@ -76,6 +76,8 @@ namespace Assets.Scripts.Games.RepeatColorsGame
 
         private IEnumerator ShowLettersInRow(Sprite[] letters, Action endCallback)
         {
+            Debug.Log("ShowLettersInRow started");
+            GameScreenGlobal.Instance.Show(false);
             showColorsScreen.SetActive(true);
 
             foreach (Sprite let in letters)
@@ -86,10 +88,26 @@ namespace Assets.Scripts.Games.RepeatColorsGame
 
             gameScreen.Show(true);
             showColorsScreen.SetActive(false);
+            GameScreenGlobal.Instance.Show(true);
 
             endCallback?.Invoke();
 
             yield return null;
+        }
+
+        public GameScreenAbstract GetScreen()
+        {
+            return gameScreen;
+        }
+
+        public ModelAbstract GetModel()
+        {
+            return Model;
+        }
+
+        public void SetModel(ModelAbstract model)
+        {
+            Model = (ModelRepeatColors)model;
         }
     }
 }

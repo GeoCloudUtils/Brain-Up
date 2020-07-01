@@ -18,7 +18,7 @@ using UnityEngine;
 namespace Assets.Scripts.Games.RepeatLettersGame
 {
     public class ViewRepeatLetters : SingleInstanceObject<ViewRepeatLetters>,
-        ViewAbstract<ModelRepeatLetters>
+        ViewAbstract
     {
         [Header("References")]
         public Word word;
@@ -29,7 +29,7 @@ namespace Assets.Scripts.Games.RepeatLettersGame
         [Header("Settings")]
         public float changeLetterInterval = 1f;
         //Properties
-        public ModelRepeatLetters Model { get; set; }
+        public ModelRepeatLetters Model;
 
 
         public void Create(ModelRepeatLetters model)
@@ -51,7 +51,8 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             word.HideAllLetters();
             Debug.Log("HistoryController: word - " + w);
             gameScreen.Show(true);
-            endCallback?.Invoke();
+
+            StartCoroutine(ShowLettersInRow(letters, endCallback));
             Debug.Log("HistoryController: Game started.");
         }
 
@@ -75,6 +76,15 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             return true;
         }
 
+        ModelAbstract ViewAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        public void SetModel(ModelAbstract model)
+        {
+            Model = (ModelRepeatLetters)model;
+        }
 
         public bool IsWordCorrect()
         {
@@ -83,6 +93,7 @@ namespace Assets.Scripts.Games.RepeatLettersGame
 
         protected IEnumerator ShowLettersInRow(char[] letters, Action endCallback)
         {
+            GameScreenGlobal.Instance.Show(false);
             showLettersScreen.SetActive(true);
 
             foreach (char let in letters)
@@ -93,10 +104,21 @@ namespace Assets.Scripts.Games.RepeatLettersGame
 
             gameScreen.Show(true);
             showLettersScreen.SetActive(false);
+            GameScreenGlobal.Instance.Show(true);
 
             endCallback?.Invoke();
 
             yield return null;
+        }
+
+        public GameScreenAbstract GetScreen()
+        {
+            return gameScreen;
+        }
+
+        public ModelRepeatLetters GetModel()
+        {
+            return Model;
         }
     }
 }

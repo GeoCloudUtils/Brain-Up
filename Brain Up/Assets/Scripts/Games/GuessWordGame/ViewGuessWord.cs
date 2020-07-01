@@ -16,7 +16,7 @@ using UnityEngine;
 namespace Assets.Scripts.Games.GuessWordGame
 {
     public class ViewGuessWord : SingleInstanceObject<ViewGuessWord>,
-        ViewAbstract<ModelGuessWord>
+        ViewAbstract
     {
         [Header("References")]
         public Word word;
@@ -27,11 +27,11 @@ namespace Assets.Scripts.Games.GuessWordGame
         [Header("Settings")]
         public float changeLetterInterval = 1f;
         //Properties
-        public ModelGuessWord Model { get; set; }
+        public ModelGuessWord Model;
 
         public void Create(ModelGuessWord model)
         {
-            this.Model = Model;
+            this.Model = model;
         }
 
 
@@ -94,6 +94,21 @@ namespace Assets.Scripts.Games.GuessWordGame
             endCallback?.Invoke();
 
             yield return null;
+        }
+
+        public GameScreenAbstract GetScreen()
+        {
+            return gameScreen;
+        }
+
+        public ModelAbstract GetModel()
+        {
+            return Model;
+        }
+
+        public void SetModel(ModelAbstract model)
+        {
+            Model = (ModelGuessWord)model;
         }
     }
 }

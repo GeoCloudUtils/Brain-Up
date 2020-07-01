@@ -15,8 +15,8 @@ namespace Assets.Scripts.Screens
         public void OnGamesListClicked()
         {
             Show(false);
-            ControllerGlobal.Instance.StopGame(GameEndReason.Exit);
             GameScreenGlobal.Instance.Show(false);
+            ControllerGlobal.Instance.StopGame(GameEndReason.Exit);
         }
 
         public void OnRetryClicked()

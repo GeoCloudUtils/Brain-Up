@@ -10,12 +10,12 @@ using UnityEngine;
 namespace Assets.Scripts.Games.SelectFlagGame
 {
     public class ControllerSelectFlag : SingleInstanceObject<ControllerSelectFlag>,
-        ControllerAbstract<ModelSelectFlag, ViewSelectFlag>
+        ControllerAbstract, IAdvancingGame
     {
         //getters & setters
         public bool EnableTimer { get; set; }
-        public ModelSelectFlag Model { get; set; }
-        public ViewSelectFlag View { get; set; }
+        public ModelSelectFlag Model;
+        public ViewSelectFlag View;
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
         //events
@@ -61,11 +61,6 @@ namespace Assets.Scripts.Games.SelectFlagGame
             return used;
         }
 
-        internal bool Check()
-        {
-            return false;
-        }
-
         public void StopGame()
         {
             View.StopGame();
@@ -78,12 +73,22 @@ namespace Assets.Scripts.Games.SelectFlagGame
             return false;
         }
 
-        internal bool Advance()
+        public bool Advance()
         {
             bool canAdvance = Model.Advance();
             if (canAdvance)
                 View.Advance();
             return canAdvance;
+        }
+
+        ModelAbstract ControllerAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        ViewAbstract ControllerAbstract.GetView()
+        {
+            return View;
         }
     }
 }

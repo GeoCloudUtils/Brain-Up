@@ -4,7 +4,7 @@
 
 namespace Assets.Scripts.Screens
 {
-    internal interface GameScreenAbstract
+    public interface GameScreenAbstract
     {
         void Show(bool show);
     }

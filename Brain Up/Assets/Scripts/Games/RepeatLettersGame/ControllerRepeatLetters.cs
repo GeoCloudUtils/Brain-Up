@@ -10,13 +10,13 @@ using UnityEngine;
 namespace Assets.Scripts.Games.RepeatLettersGame
 {
     public class ControllerRepeatLetters : SingleInstanceObject<ControllerRepeatLetters>,
-        ControllerAbstract<ModelRepeatLetters, ViewRepeatLetters>
+        ControllerAbstract, ICheckingGame
     {
         //Vars
         private Database _database;
         //getters & setters
-        public ModelRepeatLetters Model { get; set; }
-        public ViewRepeatLetters View { get; set; }
+        public ModelRepeatLetters Model;
+        public ViewRepeatLetters View;
         public bool EnableTimer { get; set; }
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
@@ -63,12 +63,12 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             return used;
         }
 
-        internal bool Check()
+        public bool Check()
         {
             if (View.IsWordCorrect())
             {
                 Debug.Log("Is correct!");
-                int id = (int)GameId.VisualMemory_Letters;
+                int id = (int)GameId.RepeatLetters;
                 int progress = _database.GetGameProgress(id);
                 _database.SetGameProgress(id, progress + 1);
                 return true;
@@ -92,7 +92,14 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             return false;
         }
 
-      
+        ModelAbstract ControllerAbstract.GetModel()
+        {
+            return Model;
+        }
 
+        ViewAbstract ControllerAbstract.GetView()
+        {
+            return View;
+        }
     }
 }

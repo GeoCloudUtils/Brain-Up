@@ -103,6 +103,8 @@
     <Compile Include="Assets\Scripts\Games\Abstract\AbstractController.cs" />
     <Compile Include="Assets\Scripts\Games\Abstract\AbstractModel.cs" />
     <Compile Include="Assets\Scripts\Games\Abstract\AbstractView.cs" />
+    <Compile Include="Assets\Scripts\Games\Abstract\IAdvancingGame.cs" />
+    <Compile Include="Assets\Scripts\Games\Abstract\ICheckingGame.cs" />
     <Compile Include="Assets\Scripts\Games\ControllerGlobal.cs" />
     <Compile Include="Assets\Scripts\Games\GameData\CategorizedWordsDictionary.cs" />
     <Compile Include="Assets\Scripts\Games\GameData\MultipleAnswersQuestion.cs" />

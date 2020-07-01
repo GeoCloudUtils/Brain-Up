@@ -98,10 +98,6 @@ namespace Assets.Scripts.Screens
 
             questionText.text = question;
             this.answers = answers;
-
-           
-
-            GameScreenGlobal.Instance.ShowOnlyScreen(false);
         }
 
         private int OnCheckState(StatesImage img)

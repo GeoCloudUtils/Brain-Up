@@ -9,14 +9,14 @@ using UnityEngine;
 namespace Assets.Scripts.Games.GuessWordGame
 {
     public class ControllerGuessWord : SingleInstanceObject<ControllerGuessWord>,
-        ControllerAbstract<ModelGuessWord, ViewGuessWord>
+        ControllerAbstract, ICheckingGame
     {
         //Vars
         protected Database _database;
         //getters & setters
         public bool EnableTimer { get; set; }
-        public ModelGuessWord Model { get; set; }
-        public ViewGuessWord View { get; set; }
+        public ModelGuessWord Model;
+        public ViewGuessWord View;
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
 
@@ -63,12 +63,12 @@ namespace Assets.Scripts.Games.GuessWordGame
             return used;
         }
 
-        internal bool Check()
+        public bool Check()
         {
             if (View.IsWordCorrect())
             {
                 Debug.Log("Is correct!");
-                int id = (int)GameId.VisualMemory_Letters;
+                int id = (int)GameId.RepeatLetters;
                 int progress = _database.GetGameProgress(id);
                 _database.SetGameProgress(id, progress + 1);
                 return true;
@@ -90,6 +90,17 @@ namespace Assets.Scripts.Games.GuessWordGame
         {
             View.StopGame();
             Model.StopGame();
+        }
+
+
+        ModelAbstract ControllerAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        ViewAbstract ControllerAbstract.GetView()
+        {
+            return View;
         }
     }
 }

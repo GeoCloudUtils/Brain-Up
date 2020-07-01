@@ -9,13 +9,13 @@ using UnityEngine;
 namespace Assets.Scripts.Games.RepeatColorsGame
 {
     public class ControllerRepeatColors : SingleInstanceObject<ControllerRepeatColors>,
-        ControllerAbstract<ModelRepeatColors, ViewRepeatColors>
+        ControllerAbstract, ICheckingGame
     {
         //Vars
         private Database _database;
         //getters & setters
-        public ModelRepeatColors Model { get; set; }
-        public ViewRepeatColors View { get; set; }
+        public ModelRepeatColors Model;
+        public ViewRepeatColors View;
         public bool EnableTimer { get; set; }
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
@@ -62,12 +62,12 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             return used;
         }
 
-        internal bool Check()
+        public bool Check()
         {
             if (View.IsWordCorrect())
             {
                 Debug.Log("Is correct!");
-                int id = (int)GameId.VisualMemory_Letters;
+                int id = (int)GameId.RepeatLetters;
                 int progress = _database.GetGameProgress(id);
                 _database.SetGameProgress(id, progress + 1);
                 return true;
@@ -91,5 +91,14 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             Model.StopGame();
         }
 
+        ModelAbstract ControllerAbstract.GetModel()
+        {
+            return Model;
+        }
+
+        ViewAbstract ControllerAbstract.GetView()
+        {
+            return View;
+        }
     }
 }

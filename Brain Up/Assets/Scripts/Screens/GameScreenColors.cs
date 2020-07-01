@@ -14,7 +14,7 @@ namespace Assets.Scripts.Screens
         protected new void Start()
         {
             base.Start();
-            gameId = (int)GameId.VisualMemory_Colors;
+            gameId = (int)GameId.RepeatColors;
             _controller = ControllerRepeatColors.Instance;
         }
 

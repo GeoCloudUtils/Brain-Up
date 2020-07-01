@@ -33,7 +33,7 @@ namespace Assets.Scripts.Screens
             controller = (ControllerGuessWord)ControllerGuessWord.Instance;
             _database = Database.Instance;
 
-            gameId = (int)GameId.VisualMemory_Letters;
+            gameId = (int)GameId.RepeatLetters;
 
         }
 

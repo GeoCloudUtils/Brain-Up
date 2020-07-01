@@ -14,6 +14,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Games.TimeKillerGame
 {
+    [Serializable]
     public class ModelTimeKiller : SingleInstanceObject<ModelTimeKiller>,
         ModelAbstract
     {

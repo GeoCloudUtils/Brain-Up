@@ -64,6 +64,7 @@ namespace Assets.Scripts.Screens
         {
             screen.SetActive(false);
             controller.RestartGame();
+            if(GameScreenGlobal.Instance._lastScreen!=null)
             GameScreenGlobal.Instance._lastScreen.Show(true);
         }
 
