@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063ab9665f21aa488f1b1dda22cf0a0, type: 3}
+  m_Name: CountriesFlags
+  m_EditorClassIdentifier: 
+  words:
+  - Andorra
+  - United Arab Emirates
+  - Afganistan
+  - Antigua And Barbuda
+  - Anguilla
+  - Armenia
+  - Moldova
+  - Angola
+  - Burkina Faso
+  - Bulgaria
+  - Bahrain
+  - Burundi
+  - Benin
+  - Bermuda
+  - Brunei
+  - Bolivia
+  - Congo
+  - Switzerland
+  - Vietnam
+  - Cook Islands
+  - Chile
+  - Cameroon
+  - China
+  - Colombia
+  - Algeria
+  - Ecuador
+  - Estonia
+  - Egypt
+  - Western Sahara
+  - Eritrea
+  - Spain
+  - Ethiopia
+  - Ghana
+  - Gibraltar
+  - Greenland
+  - The Gambia
+  - Guinea
+  - Equatorial Guinea
+  - Greece
+  - Albania
+  - Ireland
+  - Israel
+  - Isle of Man
+  - India
+  - Serbia
+  - Iraq
+  - Iran
+  - Iceland
+  - North Korea
+  - South Korea
+  - Kuwait
+  - Cayman Islands
+  - Kazakhstan
+  - Laos
+  - Lebanon
+  - Saint Lucia
+  - Montenegro
+  - Madagascar
+  - Marshall Islands
+  - Macedonia
+  - Mali
+  - Burma 
+  - Mongolia
+  - Macau
+  - New Caledonia
+  - Niger
+  - Norfolk Islands
+  - Nigeria
+  - Nicaragua
+  - Netherlands
+  - Norway
+  - Nauru
+  - Pitcairn Islands
+  - Puerto Rico
+  - Gaza Strip
+  - Portugal
+  - Palau
+  - Paraguay
+  - Qatar
+  - Romania
+  - Svalbard
+  - Slovakia
+  - Sierra Leone
+  - San Marino
+  - Senegal
+  - Somalia
+  - Suriname
+  - Saint Lucia
+  - Turkmenistan
+  - Tunisia
+  - Tonga
+  - Turkey
+  - Trinidad and Tobago
+  - Tuvalu
+  - Taiwan
+  - Tanzania
+  - Argentina
+  - American Samoa
+  - Austria
+  - Australia
+  - Aruba
+  - Azerbaijan
+  - Ucraine
+  - Barbados
+  - The Bahamas
+  - Bhutan
+  - Bouvet Island
+  - Botswana
+  - Belarus
+  - Belize
+  - Canada
+  - Liechtenstein
+  - Cuba
+  - Cape Verde
+  - Christmas Island
+  - Cyprus
+  - Czech
+  - Germany
+  - Djibouti
+  - Denmark
+  - Fiji
+  - Falkland Islands
+  - Italy
+  - Faroe Islands
+  - France
+  - Gabon
+  - United Kingdom
+  - Grenada
+  - Guam
+  - Guinea
+  - Guyana
+  - Hong Kong
+  - Guatemala
+  - Honduras
+  - Croatia
+  - Haiti
+  - Jersey
+  - Jamaica
+  - Jordan
+  - Japan
+  - Kenya
+  - Kyrgyzstan
+  - Cambodia
+  - Kiribati
+  - Sri Lanka
+  - Liberia
+  - Lesatho
+  - Lithuania
+  - Luxembourg
+  - Latvia
+  - Libya
+  - Morocco
+  - Mauritania
+  - Montserrat
+  - Malta
+  - Mauritius
+  - Maldives
+  - Malawi
+  - Mexico
+  - Malaysia
+  - New Zealand
+  - Oman
+  - Panama
+  - Peru
+  - French Polynesia
+  - Papua New Guinea
+  - Philippines
+  - Pakistan
+  - Russia
+  - Rwanda
+  - Saudi Arabia
+  - Solomon Islands
+  - Seychelles
+  - Sudan
+  - Sweden
+  - Singapore
+  - Syria
+  - Swaziland
+  - Mayotte
+  - Chad
+  - Yemen
+  - Togo
+  - Thailand
+  - Tajikistan
+  - Uganda
+  - United States
+  - Uruguay
+  - Uzbekistan
+  - Vatican
+  - Zimbabwe
+  - Venezuela
+  - Nepal

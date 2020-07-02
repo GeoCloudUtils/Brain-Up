@@ -1,0 +1,245 @@
+{
+   "response_code":0,
+   "results":[
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"King Henry VIII was the second monarch of which European royal house?",
+         "correct_answer":"Tudor",
+         "incorrect_answers":[
+            "York",
+            "Stuart",
+            "Lancaster"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which of the following African countries was most successful in resisting colonization?",
+         "correct_answer":"Ethiopia",
+         "incorrect_answers":[
+            "C&ocirc;te d&rsquo;Ivoire",
+            "Congo",
+            "Namibia"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"The original Roman alphabet lacked the following letters EXCEPT:",
+         "correct_answer":"X",
+         "incorrect_answers":[
+            "W",
+            "U",
+            "J"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which modern day country is the region that was known as Phrygia in ancient times?",
+         "correct_answer":"Turkey",
+         "incorrect_answers":[
+            "Syria",
+            "Greece",
+            "Egypt"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"When did the Battle of the Somme begin?",
+         "correct_answer":"July 1st, 1916",
+         "incorrect_answers":[
+            "August 1st, 1916",
+            "July 2nd, 1916",
+            "June 30th, 1916"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"When was Google founded?",
+         "correct_answer":"September 4, 1998",
+         "incorrect_answers":[
+            "October 9, 1997",
+            "December 12, 1989",
+            "Feburary 7th, 2000"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"How long did World War II last?",
+         "correct_answer":"6 years",
+         "incorrect_answers":[
+            "4 years",
+            "5 years",
+            "7 years"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"In 1939, Britain and France declared war on Germany after it invaded which country?",
+         "correct_answer":"Poland",
+         "incorrect_answers":[
+            "Czechoslovakia",
+            "Austria",
+            "Hungary"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"To what political party did Abraham Lincoln belong when elected POTUS?",
+         "correct_answer":"Republican",
+         "incorrect_answers":[
+            "Democrat",
+            "Independent",
+            "Whig"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which country was Josef Stalin born in?",
+         "correct_answer":"Georgia",
+         "incorrect_answers":[
+            "Russia",
+            "Germany",
+            "Poland"
+         ]
+      },
+	  {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+         "correct_answer":"Illyrians",
+         "incorrect_answers":[
+            "Dorians",
+            "Achaeans",
+            "Ionians"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he\/she never said it at all?",
+         "correct_answer":"Marie Antoinette",
+         "incorrect_answers":[
+            "Czar Nicholas II",
+            "Elizabeth I",
+            "Henry VIII"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"What was Manfred von Richthofen&#039;s nickname?",
+         "correct_answer":"The Red Baron",
+         "incorrect_answers":[
+            "The High Flying Ace",
+            "The Blue Serpent ",
+            "The Germany Gunner"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"When did the Battle of the Somme begin?",
+         "correct_answer":"July 1st, 1916",
+         "incorrect_answers":[
+            "August 1st, 1916",
+            "July 2nd, 1916",
+            "June 30th, 1916"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Who was the first prime minister of Canada?",
+         "correct_answer":"John Macdonald",
+         "incorrect_answers":[
+            "John Abbott",
+            "Alexander Mackenzie",
+            "Robert Borden"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Which of the following countries was not an axis power during World War II?",
+         "correct_answer":"Soviet Union",
+         "incorrect_answers":[
+            "Italy",
+            "Germany",
+            "Japan"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"In 1939, Britain and France declared war on Germany after it invaded which country?",
+         "correct_answer":"Poland",
+         "incorrect_answers":[
+            "Czechoslovakia",
+            "Austria",
+            "Hungary"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"These two countries held a commonwealth from the 16th to 18th century.",
+         "correct_answer":"Poland and Lithuania",
+         "incorrect_answers":[
+            "Hutu and Rwanda",
+            "North Korea and South Korea",
+            "Bangladesh and Bhutan"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"Who led the Communist Revolution of Russia?",
+         "correct_answer":"Vladimir Lenin",
+         "incorrect_answers":[
+            "Joseph Stalin",
+            "Vladimir Putin",
+            "Mikhail Gorbachev"
+         ]
+      },
+      {
+         "category":"History",
+         "type":"multiple",
+         "difficulty":"easy",
+         "question":"What is the historical name of Sri Lanka?",
+         "correct_answer":"Ceylon",
+         "incorrect_answers":[
+            "Myanmar",
+            "Colombo",
+            "Badulla"
+         ]
+      }
+   ]
+}

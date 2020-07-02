@@ -75,3 +75,4 @@ crashlytics-build.properties
 # Rider Editor Plugin
 **/JetBrains/*
 **/JetBrains.meta
+*.csproj

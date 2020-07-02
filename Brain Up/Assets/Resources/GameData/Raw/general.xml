@@ -1,0 +1,3821 @@
+<quizbang>
+<response status="0" text="Request OK, question data follows."/>
+<questions>
+<question id="5459" text="What nationality was the composer Bela Bartok?">
+<answer id="5458" text="Hungarian"/>
+<answer id="1822" text="Dutch"/>
+<answer id="1820" text="French"/>
+<answer id="1836" text="German"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8249" text="The Arturo Marino Beneitez Airport is located in which South American Capital City?">
+<answer id="3180" text="Santiago"/>
+<answer id="656" text="Montevideo"/>
+<answer id="8248" text="Buenos Aries"/>
+<answer id="7878" text="Bogota"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10259" text="In terms of ranking, where does Mercury come in a list of the hottest planets?">
+<answer id="10257" text="2nd"/>
+<answer id="10258" text="1st"/>
+<answer id="5181" text="3rd"/>
+<answer id="5532" text="4th"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8525" text="Which country is Arik Air based in?">
+<answer id="8523" text="Sierra Leona"/>
+<answer id="5756" text="Morocco"/>
+<answer id="8524" text="Djibouti"/>
+<answer id="6173" text="Nigeria"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6168" text="Thomas Gradgrind appears in which Dickens novel?">
+<answer id="6165" text="Hard Times"/>
+<answer id="6166" text="Nicholas Nickleby"/>
+<answer id="6167" text="David Copperfield"/>
+<answer id="126" text="Great Expectations"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8531" text="Which country is home to Las Americas Airport?">
+<answer id="8530" text="Dominican Republic"/>
+<answer id="774" text="Congo"/>
+<answer id="4917" text="Cuba"/>
+<answer id="7834" text="El Salvador"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6806" text="Complete the title of the Madonna song 'This Used to be my...'?">
+<answer id="6802" text="Playground"/>
+<answer id="6803" text="Lover"/>
+<answer id="6804" text="Life"/>
+<answer id="6805" text="Destiny"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10014" text="What is the scientific name for a red blood cell?">
+<answer id="10010" text="Erythrocyte"/>
+<answer id="10011" text="Monocyte"/>
+<answer id="10012" text="Leukocyte"/>
+<answer id="10013" text="Granulocyte"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10555" text="At which circuit does the Belgian Grand Prix occur?">
+<answer id="918" text="Spa-Francorchamps"/>
+<answer id="10552" text="Imola"/>
+<answer id="10553" text="Shuhai"/>
+<answer id="10554" text="Sepang"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6945" text="In 1991 Gloria Estefan was 'Coming out of...'?">
+<answer id="6943" text="The Dark"/>
+<answer id="6072" text="Love"/>
+<answer id="6944" text="The Pain"/>
+<answer id="6070" text="Desire"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9865" text="What are the muscles found at the front of your thighs known as?">
+<answer id="9861" text="Quadriceps"/>
+<answer id="9862" text="Triceps"/>
+<answer id="9863" text="Pectorals"/>
+<answer id="9864" text="Biceps"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="6586" text="Which of these Seas is so dense and salty that only bacteria, fungi and algae live in it?">
+<answer id="6510" text="The Dead Sea"/>
+<answer id="6585" text="The Eerie Sea"/>
+<answer id="6509" text="The Red Sea"/>
+<answer id="5935" text="The Black Sea"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7814" text="Bulawayo Airport is located in which African country?">
+<answer id="766" text="Zimbabwe"/>
+<answer id="1504" text="South Africa"/>
+<answer id="5757" text="Cameroon"/>
+<answer id="5755" text="Senegal"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8876" text="Which popstar starred in the 1970 film Performance?">
+<answer id="7496" text="Mick Jagger"/>
+<answer id="580" text="David Bowie"/>
+<answer id="3354" text="Paul McCartney"/>
+<answer id="1685" text="John Lennon"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8877" text="Mick Jagger starred in which of the following movies…?">
+<answer id="8780" text="Performance"/>
+<answer id="8865" text="I'm All Right Jack"/>
+<answer id="8837" text="The Life and Death of Colonel Blimp"/>
+<answer id="8813" text="Black Narcissus"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9098" text="Who directed the 1971 version of A Clockwork Orange?">
+<answer id="450" text="Stanley Kubrick"/>
+<answer id="9039" text="Alfred Hitchcock"/>
+<answer id="2656" text="David Lean"/>
+<answer id="9097" text="Richard Lester"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8083" text="KLM follows the name of which of the following to form the name of an airline?">
+<answer id="8080" text="Air France"/>
+<answer id="8081" text="Air Russia"/>
+<answer id="7817" text="Air China"/>
+<answer id="8082" text="Air UK"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9609" text="How many bones lie in each foot of the human body?">
+<answer id="6888" text="26"/>
+<answer id="670" text="22"/>
+<answer id="1547" text="12"/>
+<answer id="5270" text="18"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="2960" text="In Reservoir Dogs, who played Mr Orange?">
+<answer id="2956" text="Tim Roth"/>
+<answer id="2957" text="Harvey Keitel"/>
+<answer id="2958" text="Steve Buscemi"/>
+<answer id="2959" text="Quentin Tarantino"/>
+<tag id="1" text="movie"/>
+<tag id="3" text="character"/>
+<tag id="2" text="actor"/>
+</question>
+<question id="5206" text="'Pictures at an Exhibition' is a work by which composer?">
+<answer id="5190" text="Mussorgsky"/>
+<answer id="5204" text="Prokofiev"/>
+<answer id="5165" text="Grieg"/>
+<answer id="5174" text="Rimsky-Korsakov"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10766" text="What nationality was World Champion of 1967 Denny Hulme?">
+<answer id="6313" text="New Zealander"/>
+<answer id="1258" text="American"/>
+<answer id="1260" text="English"/>
+<answer id="6316" text="Australian"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10742" text="What is signalled by a yellow flag?">
+<answer id="10738" text="No overtaking"/>
+<answer id="10739" text="Go"/>
+<answer id="10740" text="Stop"/>
+<answer id="10741" text="Oil on Track"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10278" text="Mare Australe can be found where in the Solar System?">
+<answer id="10140" text="The Moon"/>
+<answer id="6606" text="Earth"/>
+<answer id="144" text="Mars"/>
+<answer id="10141" text="The Sun"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8875" text="What is the correct title of a 1970 crime drama directed by Nicolas Roeg?">
+<answer id="8780" text="Performance"/>
+<answer id="8874" text="Stage"/>
+<answer id="5339" text="Dance"/>
+<answer id="5340" text="Play "/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="10993" text="Who is the youngest British F1 driver to score a World Championship point?">
+<answer id="10969" text="Hamilton"/>
+<answer id="10970" text="Button"/>
+<answer id="10992" text="Di Resta"/>
+<answer id="10631" text="Irvine"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="2059" text="Which country is known to its inhabitants as Suomi?">
+<answer id="1044" text="Finland"/>
+<answer id="175" text="Sweden"/>
+<answer id="168" text="Hungary"/>
+<answer id="2057" text="Tibet"/>
+<tag id="152" text="geography"/>
+<tag id="2060" text="country"/>
+<tag id="114" text="name"/>
+</question>
+<question id="9906" text="What does the term “ossicle” mean?">
+<answer id="9902" text="Tiny bone"/>
+<answer id="9903" text="Large bone"/>
+<answer id="9904" text="Ear bone"/>
+<answer id="9905" text="Small muscle"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5123" text="Which Prussian prime minister unified several German states in the 19th century?">
+<answer id="5119" text="Bismarck"/>
+<answer id="5120" text="Cavour"/>
+<answer id="5121" text="Adenauer"/>
+<answer id="5122" text="Marx"/>
+<tag id="115" text="history"/>
+</question>
+<question id="6074" text="Tennessee William's most famous work was 'A Streetcar Named….'?">
+<answer id="6070" text="Desire"/>
+<answer id="6071" text="Hope"/>
+<answer id="6072" text="Love"/>
+<answer id="6073" text="Lust"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="5827" text="How many tentacles does a squid have?">
+<answer id="4770" text="10"/>
+<answer id="230" text="8"/>
+<answer id="670" text="22"/>
+<answer id="1545" text="14"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10655" text="In what year did Mario Andretti debut in Formula 1?">
+<answer id="300" text="1968"/>
+<answer id="8845" text="1978"/>
+<answer id="5897" text="1965"/>
+<answer id="2623" text="1975"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10721" text="What age was Emerson Fittipaldi when he became the youngest ever World Champion?">
+<answer id="1540" text="25"/>
+<answer id="668" text="20"/>
+<answer id="1520" text="15"/>
+<answer id="674" text="30"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="3187" text="The Galapagos Islands are part of which South American country?">
+<answer id="3186" text="Ecuador"/>
+<answer id="648" text="Colombia"/>
+<answer id="647" text="Peru"/>
+<answer id="1609" text="Venezuela"/>
+<tag id="152" text="geography"/>
+<tag id="3184" text="island"/>
+</question>
+<question id="10349" text="The Sumerians first mentioned the sighting of which planet in 3000BC?">
+<answer id="248" text="Mercury"/>
+<answer id="247" text="Venus"/>
+<answer id="142" text="Saturn"/>
+<answer id="144" text="Mars"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="7239" text="The video for which Michael Jackson song involves him dancing on top of the Statue of Liberty?">
+<answer id="7235" text="Black or White"/>
+<answer id="7236" text="Billie Jean"/>
+<answer id="7237" text="Earth Song"/>
+<answer id="7238" text="Heal the World"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10020" text="What is the smallest bone in the human body?">
+<answer id="10019" text="Stapes"/>
+<answer id="9793" text="Femur"/>
+<answer id="9929" text="Malleus"/>
+<answer id="9795" text="Tibia"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10814" text="Which British Driver was runner up when Jack Brabham won the 1959 World Championship?">
+<answer id="10698" text="Brooks"/>
+<answer id="10813" text="Moss"/>
+<answer id="7434" text="Hill"/>
+<answer id="10708" text="Hawthorn"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10066" text="Which gland in the body is responsible for regulating metabolism?">
+<answer id="9478" text="Thyroid"/>
+<answer id="9479" text="Mammary"/>
+<answer id="10065" text="Pituitary"/>
+<answer id="9480" text="Sebaceous"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10130" text="Ananke moons can be found orbiting which planet?">
+<answer id="141" text="Jupiter"/>
+<answer id="142" text="Saturn"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8880" text="Complete the title of a famous 1998 film 'Shakespeare in…'?">
+<answer id="6072" text="Love"/>
+<answer id="8878" text="Hate"/>
+<answer id="8879" text="Town"/>
+<answer id="681" text="England"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9687" text="Muscles: Where on the body is the frontalis muscle?">
+<answer id="9551" text="Head"/>
+<answer id="9686" text="Shoulders"/>
+<answer id="6952" text="Knee"/>
+<answer id="9585" text="Toe"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="339" text="What is the highest rank in the Royal Air Force?">
+<answer id="335" text="Air Chief Marshal"/>
+<answer id="336" text="Marshall of the RAF"/>
+<answer id="337" text="Air Commodore"/>
+<answer id="338" text="Group Captain"/>
+<tag id="302" text="aviation"/>
+<tag id="235" text="military"/>
+</question>
+<question id="4819" text="What rock star is credited with discovering Van Halen?">
+<answer id="4815" text="Gene Simmons Of Kiss"/>
+<answer id="4816" text="Paul McCartney Of The Beatles"/>
+<answer id="4817" text="Roger Daltrey Of The Who"/>
+<answer id="4818" text="Mick Jagger Of The Rolling Stones"/>
+<tag id="980" text="entertainment"/>
+</question>
+<question id="10048" text="Where in the body will you find the alimentary canal?">
+<answer id="9923" text="Abdomen"/>
+<answer id="9557" text="Chest"/>
+<answer id="9546" text="Brain"/>
+<answer id="6026" text="Heart"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10105" text="Which pigment is responsible for a tan's brown colour?">
+<answer id="10034" text="Melanin"/>
+<answer id="10102" text="Haemoglobin"/>
+<answer id="10103" text="Carotene"/>
+<answer id="10104" text="Bilirubin"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="225" text="Which major river flows through Frankfurt?">
+<answer id="221" text="Main"/>
+<answer id="222" text="Ruhr"/>
+<answer id="223" text="Danube"/>
+<answer id="224" text="Rhine"/>
+<tag id="153" text="europe"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="9688" text="Myopia effects which part of the human body?">
+<answer id="6126" text="Eye"/>
+<answer id="6104" text="Ear"/>
+<answer id="9526" text="Nose"/>
+<answer id="6106" text="Mouth"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7266" text="Victoria Beckham was known as which 'Spice'?">
+<answer id="7070" text="Posh"/>
+<answer id="6860" text="Baby"/>
+<answer id="562" text="Sporty"/>
+<answer id="4959" text="Scary"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1716" text="How many engines does a Boeing 737 have?">
+<answer id="231" text="2"/>
+<answer id="1715" text="1"/>
+<answer id="232" text="4"/>
+<answer id="526" text="3"/>
+<tag id="236" text="aircraft"/>
+</question>
+<question id="6607" text="Which planet in our solar system has the shortest rotation time?">
+<answer id="141" text="Jupiter"/>
+<answer id="247" text="Venus"/>
+<answer id="144" text="Mars"/>
+<answer id="6606" text="Earth"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8538" text="Which European country is home to Alitalia?">
+<answer id="167" text="Italy"/>
+<answer id="228" text="Spain"/>
+<answer id="227" text="France"/>
+<answer id="226" text="Portugal"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8228" text="Tacoma Airport is located in which American city?">
+<answer id="7119" text="Seattle"/>
+<answer id="518" text="New York"/>
+<answer id="8227" text="Columbus"/>
+<answer id="7806" text="Dallas"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6993" text="In which year did Madonna release her 'Immaculate Collection'?">
+<answer id="6413" text="1991"/>
+<answer id="365" text="1993"/>
+<answer id="367" text="1995"/>
+<answer id="161" text="1997"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10915" text="In which city was Nelson Piquet Sr born?">
+<answer id="7997" text="Rio"/>
+<answer id="6262" text="Brasilia"/>
+<answer id="10914" text="Flamenco"/>
+<answer id="6261" text="Sao Paulo"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7815" text="Butmir Airport is located in which country?">
+<answer id="7779" text="Bosnia and Herzegovina"/>
+<answer id="7780" text="Serbia"/>
+<answer id="4900" text="Russia"/>
+<answer id="6040" text="Ukraine"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6184" text="Viking 1 landed on which planet in 1976?">
+<answer id="144" text="Mars"/>
+<answer id="248" text="Mercury"/>
+<answer id="247" text="Venus"/>
+<answer id="143" text="Neptune"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6865" text="Enema of the State was the 1990s breakthrough album for which band?">
+<answer id="5749" text="Blink 182"/>
+<answer id="6863" text="The Offspring"/>
+<answer id="6730" text="Green Day"/>
+<answer id="6864" text="Bloodhound Gang"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2203" text="What type of aircraft did the Red Arrows fly in 1965, their first season?">
+<answer id="2200" text="Gnat"/>
+<answer id="2197" text="Hawk"/>
+<answer id="2199" text="Tucano"/>
+<answer id="2202" text="Lightning"/>
+<tag id="236" text="aircraft"/>
+</question>
+<question id="10167" text="Herse and Kale are moons of which planet?">
+<answer id="141" text="Jupiter"/>
+<answer id="142" text="Saturn"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="11136" text="On which track was Jim Clark killed in 1968?">
+<answer id="11011" text="Hockenheim"/>
+<answer id="918" text="Spa-Francorchamps"/>
+<answer id="10552" text="Imola"/>
+<answer id="11135" text="Interlagos"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8460" text="Where in the US would you find Midway airport?">
+<answer id="386" text="Chicago"/>
+<answer id="8458" text="Boston"/>
+<answer id="7240" text="San Francisco"/>
+<answer id="8459" text="Houston"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10933" text="Michael Schumacher won his first Grand Prix on which track?">
+<answer id="918" text="Spa-Francorchamps"/>
+<answer id="10931" text="Monte Carlo"/>
+<answer id="10552" text="Imola"/>
+<answer id="10932" text="Monza"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10925" text="In which year, along with victory in 1972, did Emerson Fittipaldi win the World Championship?">
+<answer id="2622" text="1974"/>
+<answer id="8845" text="1978"/>
+<answer id="1393" text="1980"/>
+<answer id="2007" text="1976"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6084" text="The Battle of Crecy took place in which year?">
+<answer id="6081" text="1346"/>
+<answer id="6082" text="1546"/>
+<answer id="5910" text="1946"/>
+<answer id="6083" text="1746"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="4214" text="Which UK railway station was used as a key location in the 1945 film Brief Encounter?">
+<answer id="4210" text="Carnforth"/>
+<answer id="4211" text="Sheffield"/>
+<answer id="4212" text="King's Cross"/>
+<answer id="4213" text="Rotherham"/>
+<tag id="1" text="movie"/>
+<tag id="4215" text="location"/>
+<tag id="2532" text="railways"/>
+<tag id="690" text="uk"/>
+</question>
+<question id="10842" text="Which former runner-up clinched his first World Title in 1969?">
+<answer id="1327" text="Stewart"/>
+<answer id="981" text="McLaren"/>
+<answer id="10813" text="Moss"/>
+<answer id="7434" text="Hill"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6149" text="The T-Bana is the name given to the underground rail system in which capital?">
+<answer id="6147" text="Stockholm"/>
+<answer id="6148" text="Copenhagen"/>
+<answer id="216" text="Paris"/>
+<answer id="1874" text="Rome"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6951" text="In 1991 which female vocalist topped the charts with the song 'Someday'?">
+<answer id="6733" text="Mariah Carey"/>
+<answer id="6734" text="Celine Dion"/>
+<answer id="6735" text="Whitney Houston"/>
+<answer id="6750" text="Wilson Phillips"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8600" text="William B Hartsfield Airport is located in which US city?">
+<answer id="8015" text="Atlanta"/>
+<answer id="518" text="New York"/>
+<answer id="5796" text="Washington"/>
+<answer id="7869" text="Lincoln"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6136" text="The 'right atrium' can be found in which part of your body?">
+<answer id="6026" text="Heart"/>
+<answer id="6104" text="Ear"/>
+<answer id="7736" text="Arm"/>
+<answer id="6106" text="Mouth"/>
+<tag id="5628" text="general-knowledge"/>
+<tag id="7737" text="anatomy"/>
+<tag id="1238" text="biology"/>
+</question>
+<question id="10907" text="How old was Jim Clark when he was killed in a tragic accident?">
+<answer id="676" text="32"/>
+<answer id="3177" text="28"/>
+<answer id="671" text="24"/>
+<answer id="668" text="20"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6998" text="Ixnay on the Hombre and Americana were 1990s albums by which band?">
+<answer id="6863" text="The Offspring"/>
+<answer id="5749" text="Blink 182"/>
+<answer id="6730" text="Green Day"/>
+<answer id="6864" text="Bloodhound Gang"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10872" text="Who was the British Driver who was joint runner up to Keke Roseberg in 1982?">
+<answer id="10572" text="Watson"/>
+<answer id="10571" text="Mansell"/>
+<answer id="7434" text="Hill"/>
+<answer id="10631" text="Irvine"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6494" text="Which female singer became a judge on the UK version of The Voice in 2015?">
+<answer id="6492" text="Rita Ora"/>
+<answer id="6159" text="Beyonce"/>
+<answer id="6493" text="Victoria Beckham"/>
+<answer id="6160" text="Adele"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="4996" text="Which of the following books would introduce you to the crafty pirate Long John Silver?">
+<answer id="4992" text="Treasure Island"/>
+<answer id="4993" text="Captains Courageous"/>
+<answer id="4994" text="Kidnapped"/>
+<answer id="4995" text="Robinson Caruso"/>
+<tag id="4769" text="books"/>
+</question>
+<question id="590" text="Which glam rock star was killed in a car accident in September 1977?">
+<answer id="577" text="Marc Bolan"/>
+<answer id="587" text="Ziggy Stardust"/>
+<answer id="588" text="Brian Eno"/>
+<answer id="589" text="Gary Numan"/>
+<tag id="565" text="pop"/>
+<tag id="107" text="music"/>
+<tag id="566" text="70s"/>
+</question>
+<question id="6669" text="Who wrote the classic work 'Nostromo'?">
+<answer id="6666" text="Joseph Conrad"/>
+<answer id="448" text="Charles Dickens"/>
+<answer id="6667" text="Jules Verne"/>
+<answer id="6668" text="Roald Dahl"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1745" text="The capital of which US state is called Helena?">
+<answer id="403" text="Montana"/>
+<answer id="1743" text="Nebraska"/>
+<answer id="208" text="Ohio"/>
+<answer id="402" text="North Dakota"/>
+<tag id="197" text="us"/>
+<tag id="198" text="state"/>
+<tag id="203" text="capital"/>
+</question>
+<question id="6688" text="With various features named after Queen Victoria’s daughter, which is Canada’s fourth largest province?">
+<answer id="6684" text="Alberta"/>
+<answer id="6685" text="British Columbia"/>
+<answer id="6686" text="Ontario"/>
+<answer id="6687" text="Quebec"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10452" text="Which planet comes between Venus and Mars?">
+<answer id="6606" text="Earth"/>
+<answer id="142" text="Saturn"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="5157" text="'Ave Maria' was composed by whom?">
+<answer id="5154" text="Schubert"/>
+<answer id="5155" text="Satie"/>
+<answer id="5156" text="Debussy"/>
+<answer id="1841" text="Bizet"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7173" text="Spellbound was a 1990s album by which female artist?">
+<answer id="6755" text="Paula Abdul"/>
+<answer id="7095" text="Brandy"/>
+<answer id="6756" text="Monica"/>
+<answer id="6733" text="Mariah Carey"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10583" text="For what team did Fangio win the last of his World Championships?">
+<answer id="1006" text="Maserati"/>
+<answer id="881" text="Lotus"/>
+<answer id="883" text="Alfa Romeo"/>
+<answer id="10582" text="Lancia-Ferrari"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="4981" text="Leonardi Da Vinci invented which one of these?">
+<answer id="4977" text="High heels"/>
+<answer id="4978" text="Kites"/>
+<answer id="4979" text="Gunpowder"/>
+<answer id="4980" text="Wine cork"/>
+<tag id="1065" text="science"/>
+</question>
+<question id="1824" text="Which car manufacturer won the Le Mans 24 hour race in 1955, 1956 and 1957?">
+<answer id="1361" text="Jaguar"/>
+<answer id="876" text="Mercedes"/>
+<answer id="1005" text="Porsche"/>
+<answer id="882" text="Ferrari"/>
+<tag id="357" text="motorracing"/>
+</question>
+<question id="10446" text="Which of Jupiter's moons is largest?">
+<answer id="10383" text="Ganymede"/>
+<answer id="10384" text="Io"/>
+<answer id="10385" text="Europa"/>
+<answer id="10386" text="Callisto"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="6486" text="Which European country is closest to Tunisia?">
+<answer id="167" text="Italy"/>
+<answer id="228" text="Spain"/>
+<answer id="6484" text="Albania"/>
+<answer id="6485" text="Croatia"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8792" text="Complete the title of seminal 1994 British Movie 'The Madness of King…'?">
+<answer id="2174" text="George"/>
+<answer id="8791" text="John"/>
+<answer id="488" text="Henry"/>
+<answer id="5215" text="Richard"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5821" text="How many lines are there in a sonnet?">
+<answer id="1545" text="14"/>
+<answer id="231" text="2"/>
+<answer id="527" text="5"/>
+<answer id="670" text="22"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8542" text="Which former country was home to the JAT airline?">
+<answer id="8067" text="Yugoslavia"/>
+<answer id="8068" text="Zarie"/>
+<answer id="8069" text="USSR"/>
+<answer id="8066" text="East Germany"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8624" text="Fergus, an IRA member, is the leading character in which film?">
+<answer id="8618" text="The Crying Game"/>
+<answer id="8619" text="Dr Zhivago"/>
+<answer id="8620" text="Life of Brian"/>
+<answer id="8621" text="Withnail and I"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="7341" text="Which Amy scored a hit in 1991 with 'Baby Baby'?">
+<answer id="7339" text="Grant"/>
+<answer id="6213" text="Smith"/>
+<answer id="7340" text="Jones"/>
+<answer id="5830" text="Johnson"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8794" text="Which film is based on the Regency Crisis of 1718?">
+<answer id="8793" text="The Madness of King George"/>
+<answer id="8775" text="Secrets and Lies"/>
+<answer id="8759" text="The Commitments"/>
+<answer id="6020" text="A Man For All Seasons"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="6518" text="Which of these British cities does NOT have an underground railway system?">
+<answer id="1268" text="Leeds"/>
+<answer id="1269" text="London"/>
+<answer id="84" text="Liverpool"/>
+<answer id="6120" text="Newcastle"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7031" text="Lisa Left Eye Lopes and Tionne Watkins were members of which group?">
+<answer id="6717" text="TLC"/>
+<answer id="6718" text="Spice Girls"/>
+<answer id="6716" text="All Saints"/>
+<answer id="6719" text="Eternal"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9860" text="What appear when the Sun activates your melanocytes?">
+<answer id="9856" text="Freckles"/>
+<answer id="9857" text="Moles"/>
+<answer id="9858" text="Wrinkles"/>
+<answer id="9859" text="Hairs"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5526" text="Which composers 7th Symphony is known as the 'Leningrad' symphony?">
+<answer id="5525" text="Shostakovich"/>
+<answer id="5201" text="Tchaikovsky"/>
+<answer id="5174" text="Rimsky-Korsakov"/>
+<answer id="5189" text="Mendelssohn"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="4738" text="As of 2014, who has the most Professional Bowlers Tour (PBA) National Titles?">
+<answer id="4734" text="Walter Ray Williams Jr."/>
+<answer id="4735" text="Earl Anthony"/>
+<answer id="4736" text="Pete Weber"/>
+<answer id="4737" text="Dick Weber"/>
+<tag id="4739" text="sports"/>
+</question>
+<question id="10781" text="What was the first name of 2004 BAR team member Sato?">
+<answer id="10777" text="Takuma"/>
+<answer id="10778" text="Yakuma"/>
+<answer id="10779" text="Jakuma"/>
+<answer id="10780" text="Zukuma"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7379" text="Which boyband sang about the 'End of the Road' in 1992?">
+<answer id="6696" text="Boyz II Men"/>
+<answer id="6706" text="Nsync"/>
+<answer id="6819" text="Kris Kross"/>
+<answer id="6741" text="Color Me Badd"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10918" text="In which season did Mika Hakkinen make his F1 debut?">
+<answer id="6413" text="1991"/>
+<answer id="1013" text="1989"/>
+<answer id="365" text="1993"/>
+<answer id="367" text="1995"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="11251" text="Who was dropped half way through the 2010 season by BMV Sauber?">
+<answer id="11246" text="De La Rosa"/>
+<answer id="11123" text="Kubica"/>
+<answer id="11250" text="Yamamoto"/>
+<answer id="10631" text="Irvine"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7849" text="Congonhas Airport can be found in which South American country?">
+<answer id="173" text="Brazil"/>
+<answer id="166" text="Argentina"/>
+<answer id="5678" text="Chile"/>
+<answer id="648" text="Colombia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10166" text="Hematite makes up the surface of which planet?">
+<answer id="144" text="Mars"/>
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="6606" text="Earth"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="7512" text="Which solo artist won the 1996 Grammy Award for 'Time Out of Mind'?">
+<answer id="5667" text="Bob Dylan"/>
+<answer id="6955" text="Eric Clapton"/>
+<answer id="6957" text="Bon Jovi"/>
+<answer id="7407" text="Santana"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="11269" text="Who won his only GP of the 2008 season in Canada?">
+<answer id="11123" text="Kubica"/>
+<answer id="10969" text="Hamilton"/>
+<answer id="10862" text="Massa"/>
+<answer id="10996" text="Alonso"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5908" text="In what year did Rembrandt paint 'The Night Watch'?">
+<answer id="5906" text="1642"/>
+<answer id="5307" text="1842"/>
+<answer id="787" text="1942"/>
+<answer id="5907" text="1742"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7354" text="Which band had a No.1 in 1990 with 'I Wish it Came True'?">
+<answer id="6693" text="Sweet Sensation"/>
+<answer id="7351" text="Sweet Sugar"/>
+<answer id="7352" text="Sugar Sensation"/>
+<answer id="7353" text="Sensation"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7374" text="Which band was started with a loan from the alleged Mafia member James Martorano?">
+<answer id="7007" text="New Kids On The Block"/>
+<answer id="6706" text="Nsync"/>
+<answer id="6717" text="TLC"/>
+<answer id="6828" text="Backstreet Boys"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7182" text="Taylor Dane had a hit record in 1990 with 'Love Will Lead You....'?">
+<answer id="4754" text="Back"/>
+<answer id="6790" text="Home"/>
+<answer id="7166" text="Here"/>
+<answer id="7181" text="To Me"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1389" text="What cartoon series was created by Trey Parker and Matt Stone?">
+<answer id="724" text="South Park"/>
+<answer id="722" text="The Simpsons"/>
+<answer id="1388" text="Scooby Doo"/>
+<answer id="725" text="King of the Hill"/>
+<tag id="197" text="us"/>
+<tag id="727" text="tv"/>
+<tag id="1390" text="cartoon"/>
+</question>
+<question id="9692" text="Named after an Italian, the sphincter of Oddi is in what part of the digestive system?">
+<answer id="9689" text="Duodenum"/>
+<answer id="9690" text="Ileum"/>
+<answer id="9691" text="Jujitsu"/>
+<answer id="1666" text="Appendix"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="6983" text="In what year did R Kelly have a worldwide hit with &quot;I Believe I Can Fly&quot;?">
+<answer id="161" text="1997"/>
+<answer id="362" text="1990"/>
+<answer id="365" text="1993"/>
+<answer id="162" text="1999"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6799" text="Complete the title of the James Ingram hit &quot;I Don't Have the....&quot;?">
+<answer id="6026" text="Heart"/>
+<answer id="6797" text="Soul "/>
+<answer id="5771" text="Time"/>
+<answer id="6798" text="Sense"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="4854" text="What country did King Hussein rule?">
+<answer id="4852" text="Jordan"/>
+<answer id="2056" text="Vietnam"/>
+<answer id="4853" text="Canada"/>
+<answer id="681" text="England"/>
+<tag id="115" text="history"/>
+</question>
+<question id="7900" text="Fort Lauderdale-Hollywood International airport lies in which US State?">
+<answer id="209" text="Florida"/>
+<answer id="206" text="California"/>
+<answer id="518" text="New York"/>
+<answer id="7753" text="Texas"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="11134" text="On how many occasions did Nelson Piquet Sr. win the World Championship?">
+<answer id="526" text="3"/>
+<answer id="232" text="4"/>
+<answer id="527" text="5"/>
+<answer id="231" text="2"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8071" text="Jet Airways are an airline based in which country?">
+<answer id="1503" text="India"/>
+<answer id="5653" text="China"/>
+<answer id="5839" text="Pakistan"/>
+<answer id="1606" text="Australia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="5178" text="&quot;Dido and Aeneas&quot; is a work by which composer?">
+<answer id="5160" text="Purcell"/>
+<answer id="5159" text="Elgar"/>
+<answer id="5176" text="Britten"/>
+<answer id="5177" text="Holst"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10218" text="How many known satellites orbit Jupiter?">
+<answer id="10216" text="67"/>
+<answer id="233" text="6"/>
+<answer id="1643" text="17"/>
+<answer id="10217" text="670"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="5621" text="Who composed the tone-poem &quot;The Isle of the Dead&quot;?">
+<answer id="5620" text="Rachmaninov"/>
+<answer id="5174" text="Rimsky-Korsakov"/>
+<answer id="5204" text="Prokofiev"/>
+<answer id="5189" text="Mendelssohn"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9828" text="The Wassermann Test is a test for what condition?">
+<answer id="9826" text="Syphilis"/>
+<answer id="9538" text="AIDS"/>
+<answer id="9827" text="Herpes"/>
+<answer id="9504" text="Diabetes"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7246" text="Timmy T also played which instrument?">
+<answer id="2645" text="Piano"/>
+<answer id="2646" text="Guitar"/>
+<answer id="7245" text="Harmonica"/>
+<answer id="7105" text="Drums"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8140" text="MIAT Airlines is the national airline of where?">
+<answer id="6437" text="Mongolia"/>
+<answer id="5756" text="Morocco"/>
+<answer id="8138" text="Macedonia"/>
+<answer id="8139" text="Montenegro"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8790" text="What is the first name of Dr. No?">
+<answer id="8786" text="Julius"/>
+<answer id="8787" text="Francis"/>
+<answer id="8788" text="Martin"/>
+<answer id="8789" text="Alan "/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="10971" text="Which British Driver is the only man to have won the World Championship in both F1 and Moto GP?">
+<answer id="10548" text="Surtees"/>
+<answer id="10550" text="Hunt"/>
+<answer id="10969" text="Hamilton"/>
+<answer id="10970" text="Button"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="437" text="The Stanley Cup is a major prize in which sport?">
+<answer id="433" text="Ice hockey"/>
+<answer id="434" text="Field hockey"/>
+<answer id="435" text="Baseball"/>
+<answer id="436" text="Basketball"/>
+<tag id="188" text="sport"/>
+<tag id="438" text="trophy"/>
+</question>
+<question id="10908" text="How old was Lewis Hamilton when he made his F1 debut?">
+<answer id="670" text="22"/>
+<answer id="668" text="20"/>
+<answer id="5270" text="18"/>
+<answer id="671" text="24"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8673" text="What is the surname of Gregory in Gregory's Girl?">
+<answer id="8671" text="Underwood"/>
+<answer id="5830" text="Johnson"/>
+<answer id="6213" text="Smith"/>
+<answer id="8672" text="Hannover"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9598" text="How many bones are there in typical human ear?">
+<answer id="233" text="6"/>
+<answer id="2023" text="9"/>
+<answer id="1547" text="12"/>
+<answer id="1520" text="15"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10815" text="Which British Driver won his first World title in 1962?">
+<answer id="7434" text="Hill"/>
+<answer id="10550" text="Hunt"/>
+<answer id="10813" text="Moss"/>
+<answer id="10708" text="Hawthorn"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8301" text="VIASA is the national airline of which country?">
+<answer id="1609" text="Venezuela"/>
+<answer id="166" text="Argentina"/>
+<answer id="5323" text="Mexico"/>
+<answer id="5678" text="Chile"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8881" text="What year saw the release of Shakespeare in Love?">
+<answer id="160" text="1998"/>
+<answer id="3960" text="2008"/>
+<answer id="1924" text="2003"/>
+<answer id="365" text="1993"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5166" text="&quot;Bolero&quot; was the work of which composer?">
+<answer id="5163" text="Ravel"/>
+<answer id="5150" text="Bach"/>
+<answer id="5164" text="Wagner"/>
+<answer id="5165" text="Grieg"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5380" text="The &quot;Hungarian Rhapsodies&quot; were a work by which composer?">
+<answer id="5179" text="Liszt"/>
+<answer id="5191" text="Weber"/>
+<answer id="5164" text="Wagner"/>
+<answer id="5165" text="Grieg"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="4774" text="Namibia became a colony of which European nation in 1884, under the name South-West Africa?">
+<answer id="399" text="Germany"/>
+<answer id="4772" text="Great Britian"/>
+<answer id="4773" text="The Netherlands"/>
+<answer id="226" text="Portugal"/>
+<tag id="115" text="history"/>
+</question>
+<question id="6645" text="Who succeed Augustus as Roman Emperor in 14 AD?">
+<answer id="121" text="Tiberius"/>
+<answer id="6644" text="Julius Caesar"/>
+<answer id="5016" text="Caligula"/>
+<answer id="5017" text="Nero"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10651" text="In what year did Damon Hill win his only World Championship?">
+<answer id="163" text="1996"/>
+<answer id="161" text="1997"/>
+<answer id="160" text="1998"/>
+<answer id="367" text="1995"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="1888" text="Who played Atticus Finch in the 1962 film of To Kill a Mockingbird?">
+<answer id="1884" text="Gregory Peck"/>
+<answer id="1885" text="Cary Grant"/>
+<answer id="1886" text="James Garner"/>
+<answer id="1887" text="Rock Hudson"/>
+<tag id="1" text="movie"/>
+<tag id="2" text="actor"/>
+</question>
+<question id="6818" text="Culture Beat had a 1990s hit with Mr…?">
+<answer id="6815" text="Vain"/>
+<answer id="3710" text="Big"/>
+<answer id="6816" text="Small"/>
+<answer id="6817" text="Huge"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7756" text="Alfonso Bonilla Aragon Airport is located in which South American country?">
+<answer id="648" text="Colombia"/>
+<answer id="647" text="Peru"/>
+<answer id="173" text="Brazil"/>
+<answer id="166" text="Argentina"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6833" text="Darrin O'Brien is better known as which Hip Hop Act?">
+<answer id="6830" text="Snow"/>
+<answer id="5774" text="Shaggy"/>
+<answer id="6831" text="Vanilla Ice"/>
+<answer id="6832" text="Sir Mix a Lot"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="11189" text="When Kimi Raikkonnen won the 2007 World Championship, for which team was he driving?">
+<answer id="882" text="Ferrari"/>
+<answer id="983" text="Williams"/>
+<answer id="981" text="McLaren"/>
+<answer id="11017" text="Brawn"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6434" text="Where would you find Rotterdam?">
+<answer id="5646" text="Netherlands"/>
+<answer id="227" text="France"/>
+<answer id="228" text="Spain"/>
+<answer id="167" text="Italy"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7055" text="Marky Mark was often backed by which 'Bunch'?">
+<answer id="7051" text="Funky Bunch"/>
+<answer id="7052" text="Crazy Bunch"/>
+<answer id="7053" text="Groovy Bunch"/>
+<answer id="7054" text="Mad Bunch"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8210" text="Saudi Arabian Airlines has their base at an airport in which city?">
+<answer id="8206" text="Jeddah"/>
+<answer id="8207" text="Beddah"/>
+<answer id="8208" text="Feddah"/>
+<answer id="8209" text="Teddah"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="187" text="Who won the Wimbledon Men's Singles Championship in 1974?">
+<answer id="183" text="Jimmy Connors"/>
+<answer id="184" text="Bjorn Borg"/>
+<answer id="191" text="Ilie Nastase"/>
+<answer id="186" text="Arthur Ashe"/>
+<tag id="190" text="wimbledon"/>
+<tag id="189" text="tennis"/>
+<tag id="188" text="sport"/>
+</question>
+<question id="8241" text="Thalerhof Airport can be found in which European City">
+<answer id="8240" text="Graz"/>
+<answer id="8237" text="Vienna"/>
+<answer id="5336" text="Turin"/>
+<answer id="4835" text="Berlin"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7773" text="As of 2013, what is the world's busiest airport based on passenger numbers?">
+<answer id="7769" text="Hartsfield-Jackson"/>
+<answer id="7770" text="Beijing Capital"/>
+<answer id="7771" text="London Heathrow"/>
+<answer id="7772" text="Tokyo International"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7750" text="Agno Airport can be found in Lugano in which European country?">
+<answer id="398" text="Switzerland"/>
+<answer id="167" text="Italy"/>
+<answer id="227" text="France"/>
+<answer id="1152" text="Austria"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7940" text="Hudson Fysh was one of the founders of which airline?">
+<answer id="7891" text="Qantas"/>
+<answer id="7854" text="Emirates"/>
+<answer id="7854" text="Emirates"/>
+<answer id="7892" text="BA"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8219" text="Stanstead is a famous airport in which city?">
+<answer id="1269" text="London"/>
+<answer id="1877" text="Madrid"/>
+<answer id="216" text="Paris"/>
+<answer id="5922" text="Glasgow"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10382" text="What is the fourth largest planet in the Solar System?">
+<answer id="143" text="Neptune"/>
+<answer id="252" text="Uranus"/>
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8901" text="Sidney Stratton is better known by what name in the title of a 1950s classic..?">
+<answer id="8899" text="The Man in the White Suit"/>
+<answer id="2649" text="The Third Man"/>
+<answer id="8900" text="The Man Who Knew Too Much"/>
+<answer id="6020" text="A Man For All Seasons"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8484" text="Which African country is home to Les Angades Airport?">
+<answer id="5756" text="Morocco"/>
+<answer id="7993" text="Ivory Coast"/>
+<answer id="5754" text="Tunisia"/>
+<answer id="1839" text="Egypt"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10000" text="What is the name of the chief muscle used in breathing?">
+<answer id="9998" text="Diaphragm"/>
+<answer id="9766" text="Thorax"/>
+<answer id="9923" text="Abdomen"/>
+<answer id="9999" text="Node"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="9855" text="What 1899 discovery is credited to the Bayer chemist Felix Hoffman?">
+<answer id="9851" text="Aspirin"/>
+<answer id="9852" text="Insulin"/>
+<answer id="9853" text="Paracetamol"/>
+<answer id="9854" text="Glaucoma"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="2083" text="Which football club did Harry Redknapp manage immediately before joining Portsmouth in 2001?">
+<answer id="2079" text="West Ham"/>
+<answer id="2080" text="Southampton"/>
+<answer id="2081" text="Bournemouth"/>
+<answer id="2082" text="Tottenham Hotspur"/>
+<tag id="690" text="uk"/>
+<tag id="105" text="football"/>
+</question>
+<question id="9095" text="Complete the title of a 1988 Terence Davies Film &quot;Distant Voices, Still…&quot;?">
+<answer id="9092" text="Lives"/>
+<answer id="7487" text="Days"/>
+<answer id="9093" text="Waters"/>
+<answer id="9094" text="Hearts"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="6513" text="Which of the following is the largest in area?">
+<answer id="227" text="France"/>
+<answer id="399" text="Germany"/>
+<answer id="175" text="Sweden"/>
+<answer id="228" text="Spain"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1391" text="What cartoon series was created by Mike Judge and Greg Daniels?">
+<answer id="725" text="King of the Hill"/>
+<answer id="724" text="South Park"/>
+<answer id="723" text="Family Guy"/>
+<answer id="722" text="The Simpsons"/>
+<tag id="197" text="us"/>
+<tag id="727" text="tv"/>
+<tag id="1390" text="cartoon"/>
+</question>
+<question id="788" text="In what year did The Battle of Britain take place?">
+<answer id="239" text="1940"/>
+<answer id="238" text="1939"/>
+<answer id="786" text="1941"/>
+<answer id="787" text="1942"/>
+<tag id="235" text="military"/>
+<tag id="115" text="history"/>
+</question>
+<question id="7575" text="Who had a No.1 hit with &quot;Justify My Love&quot;?">
+<answer id="3969" text="Madonna"/>
+<answer id="5703" text="Cher"/>
+<answer id="6733" text="Mariah Carey"/>
+<answer id="6735" text="Whitney Houston"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="87" text="Who won the FA Cup Final in 1977?">
+<answer id="83" text="Manchester United"/>
+<answer id="84" text="Liverpool"/>
+<answer id="85" text="Everton"/>
+<answer id="86" text="Arsenal"/>
+<tag id="105" text="football"/>
+<tag id="106" text="soccer"/>
+</question>
+<question id="7781" text="Banja Luka Airport is found in which European nation?">
+<answer id="7779" text="Bosnia and Herzegovina"/>
+<answer id="6040" text="Ukraine"/>
+<answer id="4900" text="Russia"/>
+<answer id="7780" text="Serbia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="5612" text="Who composed the famous &quot;Flight of the Bumble Bee&quot;?">
+<answer id="5174" text="Rimsky-Korsakov"/>
+<answer id="5164" text="Wagner"/>
+<answer id="5152" text="Chopin"/>
+<answer id="5177" text="Holst"/>
+<tag id="107" text="music"/>
+<tag id="5149" text="classical"/>
+</question>
+<question id="2600" text="What is the home stadium of the Chicago Bears NFL team?">
+<answer id="2597" text="Soldier Field"/>
+<answer id="2594" text="Lambeau Field"/>
+<answer id="2598" text="Ford Field"/>
+<answer id="2599" text="Heinz Field"/>
+<tag id="2586" text="nfl"/>
+<tag id="188" text="sport"/>
+<tag id="2587" text="americanfootball"/>
+<tag id="2066" text="stadium"/>
+</question>
+<question id="9878" text="What colour is bilirubin, a major ingredient of bile?">
+<answer id="4798" text="Yellow"/>
+<answer id="4795" text="Red"/>
+<answer id="5124" text="Black"/>
+<answer id="4797" text="Blue"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="8005" text="In which city does the busiest Airport in Germany lie?">
+<answer id="8003" text="Frankfurt "/>
+<answer id="4835" text="Berlin"/>
+<answer id="1909" text="Munich"/>
+<answer id="8004" text="Dortmund"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8168" text="Olympic Airlines are the national airline of which nation?">
+<answer id="1151" text="Greece"/>
+<answer id="167" text="Italy"/>
+<answer id="5219" text="America"/>
+<answer id="1620" text="UK"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8230" text="TAM Linhas Aereas is based in which Brazilian City?">
+<answer id="6261" text="Sao Paulo"/>
+<answer id="6262" text="Brasilia"/>
+<answer id="7997" text="Rio"/>
+<answer id="7998" text="Flamingo"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9986" text="What is the name given to the shoulder blade?">
+<answer id="9935" text="Scapula"/>
+<answer id="9933" text="Clavicle"/>
+<answer id="9985" text="Humerus"/>
+<answer id="9792" text="Ulna"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5127" text="What color shirts did Garibaldi's men wear?">
+<answer id="4795" text="Red"/>
+<answer id="5124" text="Black"/>
+<answer id="5125" text="Khaki"/>
+<answer id="5126" text="Orange"/>
+<tag id="115" text="history"/>
+</question>
+<question id="7432" text="Which Keith had a 1996 hit with &quot;Twisted&quot;?">
+<answer id="6744" text="Sweat"/>
+<answer id="7429" text="Beat"/>
+<answer id="7430" text="Keat"/>
+<answer id="7431" text="Kurt"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1474" text="What type of animal is a dik-dik?">
+<answer id="1470" text="Antelope"/>
+<answer id="1471" text="Rodent"/>
+<answer id="1472" text="Monkey"/>
+<answer id="1473" text="Sheep"/>
+<tag id="112" text="nature"/>
+<tag id="113" text="animal"/>
+<tag id="114" text="name"/>
+</question>
+<question id="10710" text="Stirling Moss was runner up 3 times in the World Championship to which driver?">
+<answer id="10707" text="Fangio"/>
+<answer id="10696" text="Ascari"/>
+<answer id="10708" text="Hawthorn"/>
+<answer id="10709" text="Gonzalez"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7894" text="Ferihegy Airport is located in which European City?">
+<answer id="1875" text="Budapest"/>
+<answer id="5235" text="Prague"/>
+<answer id="1874" text="Rome"/>
+<answer id="216" text="Paris"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10178" text="How long does it take for Venus to rotate once on its axis (in Earth days)?">
+<answer id="10175" text="224"/>
+<answer id="10176" text="324"/>
+<answer id="10177" text="124"/>
+<answer id="671" text="24"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10454" text="which planet gets its name from an Anglo Saxon word meaning soil?">
+<answer id="6606" text="Earth"/>
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="144" text="Mars"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="6526" text="Which of these European countries had the highest per capita GDP in 2013?">
+<answer id="6525" text="Luxembourg"/>
+<answer id="5929" text="Denmark"/>
+<answer id="175" text="Sweden"/>
+<answer id="399" text="Germany"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7994" text="In which African country would you find Port Bouet Airport?">
+<answer id="7993" text="Ivory Coast"/>
+<answer id="6173" text="Nigeria"/>
+<answer id="1504" text="South Africa"/>
+<answer id="5926" text="Mali"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="11242" text="Who is the youngest ever F1 World Champion?">
+<answer id="11122" text="Vettel"/>
+<answer id="10969" text="Hamilton"/>
+<answer id="10828" text="Schumacher"/>
+<answer id="10823" text="Prost"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10657" text="In what year did Mike Hawthorn became the first British World Champion?">
+<answer id="179" text="1958"/>
+<answer id="300" text="1968"/>
+<answer id="5902" text="1963"/>
+<answer id="6411" text="1953"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="1340" text="In which film does Michael Caine play a character named Charlie Croker?">
+<answer id="1336" text="The Italian Job"/>
+<answer id="1337" text="The Ipcress File"/>
+<answer id="1338" text="The Swarm"/>
+<answer id="1339" text="Educating Rita"/>
+<tag id="1" text="movie"/>
+<tag id="3" text="character"/>
+<tag id="114" text="name"/>
+</question>
+<question id="10307" text="Rhea is a moon of which planet?">
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8269" text="TIA is the Airport Code for the Capital City of which European country?">
+<answer id="6484" text="Albania"/>
+<answer id="5955" text="Bulgaria"/>
+<answer id="1151" text="Greece"/>
+<answer id="6482" text="Romania"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="2923" text="How tall is UK footballer Peter Crouch?">
+<answer id="2919" text="6 feet 7 inches"/>
+<answer id="2920" text="6 feet 6 inches"/>
+<answer id="2921" text="5 feet 10 inches"/>
+<answer id="2922" text="6 feet 9 inches"/>
+<tag id="188" text="sport"/>
+<tag id="105" text="football"/>
+<tag id="544" text="people"/>
+</question>
+<question id="916" text="Which UK motor racing circuit has a bend named Druids?">
+<answer id="597" text="Brands Hatch"/>
+<answer id="912" text="Silverstone"/>
+<answer id="915" text="Mallory Park"/>
+<answer id="911" text="Donnington"/>
+<tag id="188" text="sport"/>
+<tag id="357" text="motorracing"/>
+</question>
+<question id="10959" text="What did the Hesketh team have as its logo?">
+<answer id="10955" text="Teddy Bear"/>
+<answer id="10956" text="Barbie Doll"/>
+<answer id="10957" text="Action Man"/>
+<answer id="10958" text="Cartoon Pig"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8234" text="TAP is an airline from which nation?">
+<answer id="226" text="Portugal"/>
+<answer id="5646" text="Netherlands"/>
+<answer id="227" text="France"/>
+<answer id="399" text="Germany"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9932" text="What is the calcaneus?">
+<answer id="9931" text="Heel bone"/>
+<answer id="9526" text="Nose"/>
+<answer id="6025" text="Skull"/>
+<answer id="9585" text="Toe"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7255" text="Tracy Thorn and Ben Watt formed which 1990s duo?">
+<answer id="7253" text="Everything But the Girl"/>
+<answer id="7008" text="Kriss Kross"/>
+<answer id="6738" text="98 Degrees"/>
+<answer id="7254" text="All 4 Love"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="741" text="Which actor played James Bond in only one of the official Bond series?">
+<answer id="737" text="George Lazenby"/>
+<answer id="738" text="Sean Connery"/>
+<answer id="739" text="David Niven"/>
+<answer id="740" text="Denholm Elliot"/>
+<tag id="1" text="movie"/>
+<tag id="733" text="jamesbond"/>
+</question>
+<question id="8763" text="What genre of music do the band at the heart of the film The Commitments play?">
+<answer id="6797" text="Soul "/>
+<answer id="7065" text="Hip Hop"/>
+<answer id="8762" text="Hard Rock"/>
+<answer id="5872" text="Country"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8123" text="MCO is the airport code for an airport in which city?">
+<answer id="8120" text="Orlando"/>
+<answer id="8121" text="Oregon"/>
+<answer id="386" text="Chicago"/>
+<answer id="8122" text="Michigan"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7402" text="Which girl group had a 1990s hit with &quot;Bring It All Back&quot;?">
+<answer id="7250" text="Blauqe"/>
+<answer id="6717" text="TLC"/>
+<answer id="7401" text="Destinys Child"/>
+<answer id="7135" text="Jamboree"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6984" text="In what year did Shawn Colvin win the Grammy for Record of the Year?">
+<answer id="161" text="1997"/>
+<answer id="367" text="1995"/>
+<answer id="365" text="1993"/>
+<answer id="6413" text="1991"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10163" text="Galileo first observed the rings of which planet in 1610?">
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10976" text="Which season was the last in which Nigel Mansell competed?">
+<answer id="367" text="1995"/>
+<answer id="161" text="1997"/>
+<answer id="365" text="1993"/>
+<answer id="162" text="1999"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8795" text="Which 1994 film is based on a play by Alan Bennett?">
+<answer id="8793" text="The Madness of King George"/>
+<answer id="8775" text="Secrets and Lies"/>
+<answer id="8759" text="The Commitments"/>
+<answer id="6020" text="A Man For All Seasons"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="10345" text="The rover Spirit was sent to which planet?">
+<answer id="144" text="Mars"/>
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="6606" text="Earth"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8324" text="What does the N stand for in the airline ANA?">
+<answer id="8323" text="Nippon"/>
+<answer id="1043" text="Norway"/>
+<answer id="6173" text="Nigeria"/>
+<answer id="5646" text="Netherlands"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="11026" text="Drivers score how many points for coming 3rd (2013 season)?">
+<answer id="1520" text="15"/>
+<answer id="1547" text="12"/>
+<answer id="5270" text="18"/>
+<answer id="668" text="20"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6185" text="Wackford Squeers appears in which Charles Dickens novel?">
+<answer id="6166" text="Nicholas Nickleby"/>
+<answer id="6167" text="David Copperfield"/>
+<answer id="126" text="Great Expectations"/>
+<answer id="127" text="Oliver Twist"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8808" text="Which film concerns itself with Thomas More?">
+<answer id="6020" text="A Man For All Seasons"/>
+<answer id="8793" text="The Madness of King George"/>
+<answer id="8775" text="Secrets and Lies"/>
+<answer id="8759" text="The Commitments"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="7884" text="Eppley Field Airport lies in which Us State?">
+<answer id="1743" text="Nebraska"/>
+<answer id="6244" text="Nevada"/>
+<answer id="518" text="New York"/>
+<answer id="209" text="Florida"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="5286" text="In what century did Johannes Brahms live?">
+<answer id="5284" text="19th"/>
+<answer id="5285" text="20th"/>
+<answer id="618" text="18th"/>
+<answer id="617" text="17th"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9606" text="How many bones are there in the human hand?">
+<answer id="9604" text="27"/>
+<answer id="674" text="30"/>
+<answer id="9605" text="35"/>
+<answer id="1547" text="12"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5863" text="In the ear, you will find the Organs of…?">
+<answer id="5859" text="Corti"/>
+<answer id="5860" text="Morti"/>
+<answer id="5861" text="Florti"/>
+<answer id="5862" text="Torti"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="619" text="Where does Abraham Lincoln appear in the list of all US presidents?">
+<answer id="616" text="16th"/>
+<answer id="615" text="15th"/>
+<answer id="617" text="17th"/>
+<answer id="618" text="18th"/>
+<tag id="612" text="president"/>
+<tag id="197" text="us"/>
+</question>
+<question id="3279" text="Which novel, by Orson Scott Card, introduced the character Andrew Wiggin?">
+<answer id="3275" text="Ender's Game"/>
+<answer id="3276" text="Speaker for the Dead"/>
+<answer id="3277" text="Xenocide"/>
+<answer id="3278" text="The Memory of Earth"/>
+<tag id="110" text="sci-fi"/>
+<tag id="444" text="novel"/>
+<tag id="3" text="character"/>
+</question>
+<question id="7009" text="Joseph McIntyre was the youngest member of which 1990s boyband?">
+<answer id="7007" text="New Kids On The Block"/>
+<answer id="6706" text="Nsync"/>
+<answer id="6828" text="Backstreet Boys"/>
+<answer id="7008" text="Kriss Kross"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6368" text="What was the name of the 2014 app that hit 50 million downloads only to be withdrawn days later?">
+<answer id="6364" text="Flappy Bird"/>
+<answer id="6365" text="Happy Bird"/>
+<answer id="6366" text="Lappy Bird"/>
+<answer id="6367" text="Whacky Bird"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8064" text="In which Us State would you find WK Kellogg airport?">
+<answer id="4903" text="West Virginia"/>
+<answer id="6451" text="Kansas"/>
+<answer id="193" text="Missouri"/>
+<answer id="401" text="South Dakota"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="859" text="Which novel was the film Blade Runner based on?">
+<answer id="855" text="Do Androids Dream of Electric Sheep?"/>
+<answer id="856" text="Neuromancer"/>
+<answer id="857" text="I, Robot"/>
+<answer id="858" text="Fahrenheit 451"/>
+<tag id="1" text="movie"/>
+<tag id="131" text="literature"/>
+</question>
+<question id="6649" text="Who was awarded Time Magazine's Coolest Person of 2014 award?">
+<answer id="6646" text="Matthew McConaughey"/>
+<answer id="6447" text="Jennifer Lawrence"/>
+<answer id="6647" text="Usain Bolt"/>
+<answer id="6648" text="Derek Jeter"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="5216" text="&quot;The Blue Danube Waltz&quot; was composed by which Strauss?">
+<answer id="5213" text="Johann"/>
+<answer id="5214" text="Ludwig"/>
+<answer id="5215" text="Richard"/>
+<answer id="2174" text="George"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2024" text="How many Olympic Games gold medals did Carl Lewis win?">
+<answer id="2023" text="9"/>
+<answer id="233" text="6"/>
+<answer id="645" text="7"/>
+<answer id="230" text="8"/>
+<tag id="2009" text="olympics"/>
+<tag id="188" text="sport"/>
+</question>
+<question id="6431" text="Where on your body would you find your Ulna?">
+<answer id="6105" text="Arms"/>
+<answer id="6106" text="Mouth"/>
+<answer id="6107" text="Feet"/>
+<answer id="6026" text="Heart"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7134" text="REM released an album in the 1990s entitled &quot;Automatic for the...&quot;?">
+<answer id="5959" text="People"/>
+<answer id="7132" text="President"/>
+<answer id="6811" text="World"/>
+<answer id="7133" text="Masses"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6968" text="In the name of the 1990s group SWV, what does the S stand for?">
+<answer id="6965" text="Sisters"/>
+<answer id="6797" text="Soul "/>
+<answer id="6966" text="Singers"/>
+<answer id="6967" text="Start"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7553" text="Who did Mariah Carey team up with in 1999 on &quot;When You Believe&quot;?">
+<answer id="6735" text="Whitney Houston"/>
+<answer id="6734" text="Celine Dion"/>
+<answer id="7387" text="Gloria Estefan"/>
+<answer id="7552" text="Dionne Warwick"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="963" text="If you had visited Argassi, Kalamaki and Tsilivi, on which Greek island would you have been holidaying?">
+<answer id="959" text="Zante (Or Zakynthos)"/>
+<answer id="960" text="Crete"/>
+<answer id="961" text="Corfu"/>
+<answer id="962" text="Cephalonia"/>
+<tag id="152" text="geography"/>
+<tag id="153" text="europe"/>
+</question>
+<question id="8130" text="Mercedita Airport can be found in which country?">
+<answer id="8128" text="Puerto Rico"/>
+<answer id="8129" text="Guam"/>
+<answer id="4917" text="Cuba"/>
+<answer id="5011" text="Philippines"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="1657" text="In computing, what does the &quot;S&quot; in USB stand for?">
+<answer id="1655" text="Serial"/>
+<answer id="1247" text="System"/>
+<answer id="1248" text="Standard"/>
+<answer id="1656" text="Simple"/>
+<tag id="606" text="computing"/>
+</question>
+<question id="8515" text="Which city is home to Logan Airport?">
+<answer id="8458" text="Boston"/>
+<answer id="386" text="Chicago"/>
+<answer id="518" text="New York"/>
+<answer id="7806" text="Dallas"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10821" text="Which car was Jim Clark driving when he won the 1962 World Title?">
+<answer id="10819" text="Lotus-Climax"/>
+<answer id="10673" text="Cooper-Climax"/>
+<answer id="10641" text="McLaren-Ford"/>
+<answer id="10820" text="Brabham-Ford"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="9683" text="Lunulas can be found where..?">
+<answer id="9534" text="Fingers"/>
+<answer id="9541" text="Heels"/>
+<answer id="9681" text="Knees"/>
+<answer id="9682" text="Elbows"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10231" text="How many natural satellites does Venus have?">
+<answer id="1846" text="0"/>
+<answer id="231" text="2"/>
+<answer id="232" text="4"/>
+<answer id="233" text="6"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="6326" text="What relation is Jeb Bush to George W Bush?">
+<answer id="6320" text="Brother"/>
+<answer id="6322" text="Father"/>
+<answer id="6321" text="Son"/>
+<answer id="6325" text="Nephew"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10389" text="What is the largest object in the asteroid belt?">
+<answer id="10146" text="Ceres"/>
+<answer id="6503" text="Pluto"/>
+<answer id="10388" text="Make make"/>
+<answer id="10333" text="Eris"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="1500" text="In Greek mythology, which creature lived at the centre of the Cretan Labyrinth?">
+<answer id="1492" text="Minotaur"/>
+<answer id="1497" text="Phoenix"/>
+<answer id="1494" text="Centaur"/>
+<answer id="1499" text="Satyr"/>
+<tag id="1232" text="mythology"/>
+</question>
+<question id="7816" text="Byrd Field Airport can be found in which US State?">
+<answer id="245" text="Virginia"/>
+<answer id="4903" text="West Virginia"/>
+<answer id="206" text="California"/>
+<answer id="209" text="Florida"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9850" text="What “colour” name is given to the fat found in newborns that helps them make heat?">
+<answer id="7423" text="Brown"/>
+<answer id="4795" text="Red"/>
+<answer id="5124" text="Black"/>
+<answer id="5126" text="Orange"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="704" text="Which singer's real name is Reginald Dwight?">
+<answer id="700" text="Elton John"/>
+<answer id="701" text="Barry Manilow"/>
+<answer id="702" text="Sting"/>
+<answer id="703" text="Tom Jones"/>
+<tag id="705" text="realnames"/>
+<tag id="544" text="people"/>
+</question>
+<question id="8104" text="Lech Walesa in Gdansk is found in which European county?">
+<answer id="5319" text="Poland"/>
+<answer id="6040" text="Ukraine"/>
+<answer id="4900" text="Russia"/>
+<answer id="6482" text="Romania"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8750" text="When was Alan Parker's version of The Commitments released?">
+<answer id="6413" text="1991"/>
+<answer id="1392" text="1981"/>
+<answer id="1674" text="1971"/>
+<answer id="8749" text="1961"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="576" text="Which UK band went &quot;Star Trekkin'&quot; in 1987?">
+<answer id="572" text="The Firm"/>
+<answer id="573" text="The Klingons"/>
+<answer id="574" text="Jive Bunny"/>
+<answer id="575" text="The Flying Pickets"/>
+<tag id="565" text="pop"/>
+<tag id="107" text="music"/>
+<tag id="374" text="80s"/>
+</question>
+<question id="1103" text="Who designed the iconic map of the London Underground system?">
+<answer id="1099" text="Harry Beck"/>
+<answer id="1100" text="Harry Hill"/>
+<answer id="1101" text="Edward Johnston"/>
+<answer id="1102" text="Charles Rennie Mackintosh"/>
+<tag id="1104" text="design"/>
+<tag id="115" text="history"/>
+<tag id="1105" text="cartography"/>
+<tag id="1098" text="london"/>
+</question>
+<question id="11211" text="Which driver was fired by Torro Rosso during the 2009 season?">
+<answer id="11209" text="Bourdais"/>
+<answer id="10805" text="Piquet"/>
+<answer id="10996" text="Alonso"/>
+<answer id="11210" text="Glock"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7036" text="Lisa Loeb found chart success with which band?">
+<answer id="7032" text="Nine Stories"/>
+<answer id="7033" text="Seven Stories"/>
+<answer id="7034" text="Five Stories"/>
+<answer id="7035" text="Three Stories"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5888" text="In what century did Ireland suffer the Potato Famine?">
+<answer id="5284" text="19th"/>
+<answer id="5285" text="20th"/>
+<answer id="618" text="18th"/>
+<answer id="5887" text="21st"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10893" text="During which two seasons did Alberto Ascari win back to back World Championships?">
+<answer id="10889" text="1952-1953"/>
+<answer id="10890" text="1951-1952"/>
+<answer id="10891" text="1953-1954"/>
+<answer id="10892" text="1954-1955"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="4720" text="In 1980, Jona Lewie had two major UK hits - one was 'Stop the Cavalry', what was the other?">
+<answer id="4716" text="You'll Always Find Me in the Kitchen at Parties"/>
+<answer id="4717" text="What's Another Year"/>
+<answer id="4718" text="Stomp"/>
+<answer id="4719" text="It's Different for Girls"/>
+<tag id="690" text="uk"/>
+<tag id="107" text="music"/>
+<tag id="374" text="80s"/>
+</question>
+<question id="8585" text="Which US city is home to Pinnacle Airlines?">
+<answer id="8584" text="Memphis"/>
+<answer id="8458" text="Boston"/>
+<answer id="7806" text="Dallas"/>
+<answer id="386" text="Chicago"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="5806" text="Harry Webb is the real name of which person?">
+<answer id="5805" text="Cliff Richard"/>
+<answer id="700" text="Elton John"/>
+<answer id="1342" text="Michael Caine"/>
+<answer id="5774" text="Shaggy"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1726" text="In what year did Louis Bleriot become the first person to fly across the English Channel?">
+<answer id="1722" text="1909"/>
+<answer id="1723" text="1903"/>
+<answer id="1724" text="1912"/>
+<answer id="1725" text="1906"/>
+<tag id="236" text="aircraft"/>
+<tag id="115" text="history"/>
+<tag id="690" text="uk"/>
+</question>
+<question id="5560" text="Which of these periods of classical music came first?">
+<answer id="5559" text="Renaissance"/>
+<answer id="5433" text="Baroque"/>
+<answer id="5434" text="Classical"/>
+<answer id="5436" text="Romantic"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8781" text="Hortense Cumberbatch is the main character in which seminal British movie?">
+<answer id="8775" text="Secrets and Lies"/>
+<answer id="8759" text="The Commitments"/>
+<answer id="6020" text="A Man For All Seasons"/>
+<answer id="8780" text="Performance"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8105" text="Leonardo Da Vinci Airport is located in which Italian City?">
+<answer id="1874" text="Rome"/>
+<answer id="5236" text="Naples"/>
+<answer id="1832" text="Milan"/>
+<answer id="1834" text="Florence"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="2705" text="In what year was Tolkien's The Hobbit first published?">
+<answer id="240" text="1937"/>
+<answer id="2703" text="1928"/>
+<answer id="787" text="1942"/>
+<answer id="2704" text="1933"/>
+<tag id="131" text="literature"/>
+<tag id="115" text="history"/>
+</question>
+<question id="10053" text="Where would you find your conjunctiva?">
+<answer id="9545" text="Eyes"/>
+<answer id="9548" text="Stomach"/>
+<answer id="9533" text="Ears"/>
+<answer id="9546" text="Brain"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7096" text="Never Say Never was a 1990s album by which female artist?">
+<answer id="7095" text="Brandy"/>
+<answer id="6756" text="Monica"/>
+<answer id="3969" text="Madonna"/>
+<answer id="6755" text="Paula Abdul"/>
+<tag id="107" text="music"/>
+<tag id="2917" text="90s"/>
+</question>
+<question id="7260" text="Usher hit No.1 in 1998 with &quot;Nice and...&quot;?">
+<answer id="5229" text="Slow"/>
+<answer id="5230" text="Fast"/>
+<answer id="5739" text="Easy"/>
+<answer id="5232" text="Quiet"/>
+<tag id="107" text="music"/>
+<tag id="2917" text="90s"/>
+</question>
+<question id="9883" text="What do the lachrymal glands produce?">
+<answer id="9790" text="Tears"/>
+<answer id="6744" text="Sweat"/>
+<answer id="9733" text="Blood"/>
+<answer id="9859" text="Hairs"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="174" text="Who won the World Cup Final in 1938?">
+<answer id="167" text="Italy"/>
+<answer id="168" text="Hungary"/>
+<answer id="173" text="Brazil"/>
+<answer id="166" text="Argentina"/>
+<tag id="106" text="soccer"/>
+<tag id="105" text="football"/>
+<tag id="170" text="worldcup"/>
+</question>
+<question id="8858" text="Truly Scrumptious is a character from which famous film?">
+<answer id="8849" text="Chitty Chitty Bang Bang"/>
+<answer id="8850" text="Half a Sixpence"/>
+<answer id="8847" text="Oliver"/>
+<answer id="8848" text="Bedknobs and Broomsticks"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="11261" text="Who was the runner up by only one point in the 2008 season?">
+<answer id="10862" text="Massa"/>
+<answer id="10996" text="Alonso"/>
+<answer id="10970" text="Button"/>
+<answer id="11231" text="Rosberg"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10592" text="Former competitor Gerhard Berger won how many of his 210 Grands Prix?">
+<answer id="4770" text="10"/>
+<answer id="1846" text="0"/>
+<answer id="1715" text="1"/>
+<answer id="482" text="100"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5551" text="Which of the following paces translates roughly as &quot;walking pace&quot;?">
+<answer id="5548" text="Andante"/>
+<answer id="5549" text="Allegro"/>
+<answer id="5537" text="Ballade"/>
+<answer id="5550" text="Anitphon"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9669" text="The lattisimus dorsi muscle lies in which part of the body?">
+<answer id="4754" text="Back"/>
+<answer id="9557" text="Chest"/>
+<answer id="9550" text="Leg"/>
+<answer id="7736" text="Arm"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="11121" text="Lewis Hamilton was born in which year?">
+<answer id="2232" text="1985"/>
+<answer id="362" text="1990"/>
+<answer id="1393" text="1980"/>
+<answer id="2623" text="1975"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5803" text="Gordon Summer is the real name of which person?">
+<answer id="702" text="Sting"/>
+<answer id="5666" text="Stan Laurel"/>
+<answer id="5667" text="Bob Dylan"/>
+<answer id="5668" text="Bono"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="11199" text="Which British driver was killed at the Nurburgring in 1959?">
+<answer id="11198" text="Collins"/>
+<answer id="10550" text="Hunt"/>
+<answer id="6213" text="Smith"/>
+<answer id="10816" text="Rees"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8734" text="Cockney gangster Charlie Croker is the main character in which film?">
+<answer id="1336" text="The Italian Job"/>
+<answer id="8733" text="The Bank Job"/>
+<answer id="8703" text="Alfie"/>
+<answer id="8731" text="Get Carter"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5082" text="The Eiffel Tower is located where in Paris?">
+<answer id="5078" text="Champ de Mars"/>
+<answer id="5079" text="Bois de Boulogne"/>
+<answer id="5080" text="Jardin des Plantes"/>
+<answer id="5081" text="Parc de Belleville"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="8198" text="PVG is the airport code for the main airport in which Asian City?">
+<answer id="7919" text="Shanghai"/>
+<answer id="2018" text="Seoul"/>
+<answer id="7918" text="Beijing"/>
+<answer id="6285" text="Tokyo"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10431" text="Which body takes 248 Earth years to orbit the Sun?">
+<answer id="6503" text="Pluto"/>
+<answer id="10146" text="Ceres"/>
+<answer id="141" text="Jupiter"/>
+<answer id="142" text="Saturn"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10577" text="Estoril of is a circuit in which country?">
+<answer id="226" text="Portugal"/>
+<answer id="228" text="Spain"/>
+<answer id="167" text="Italy"/>
+<answer id="173" text="Brazil"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5660" text="Antananarivo is the capital city of which island country?">
+<answer id="4922" text="Madagascar"/>
+<answer id="5658" text="Maldives"/>
+<answer id="682" text="Ireland"/>
+<answer id="5659" text="Tonga"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6927" text="How many weeks did Lonestar spend at No.1 with &quot;Amazed&quot;?">
+<answer id="231" text="2"/>
+<answer id="527" text="5"/>
+<answer id="4770" text="10"/>
+<answer id="645" text="7"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2233" text="In what year did Colin Baker first play Doctor Who?">
+<answer id="2231" text="1984"/>
+<answer id="361" text="1986"/>
+<answer id="2232" text="1985"/>
+<answer id="1395" text="1983"/>
+<tag id="690" text="uk"/>
+<tag id="1559" text="television"/>
+<tag id="2" text="actor"/>
+</question>
+<question id="7404" text="Which girl group reached the top of the US charts in 1999 with &quot;Lately&quot;?">
+<answer id="7249" text="Divine"/>
+<answer id="7403" text="Blaque"/>
+<answer id="6717" text="TLC"/>
+<answer id="7401" text="Destinys Child"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2585" text="Which NFL team plays their home games at FedEx Field?">
+<answer id="2581" text="Washington Redskins"/>
+<answer id="2582" text="New York Jets"/>
+<answer id="2583" text="Buffalo Bills"/>
+<answer id="2584" text="Baltimore Ravens"/>
+<tag id="2586" text="nfl"/>
+<tag id="2587" text="americanfootball"/>
+<tag id="2066" text="stadium"/>
+</question>
+<question id="10977" text="Which team did Ayrton Senna join in 1985?">
+<answer id="881" text="Lotus"/>
+<answer id="908" text="Honda"/>
+<answer id="983" text="Williams"/>
+<answer id="2492" text="Renault"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="1344" text="Who played criminal overlord Mr Bridger in the 1969 film The Italian Job?">
+<answer id="1341" text="Noel Coward"/>
+<answer id="1342" text="Michael Caine"/>
+<answer id="1343" text="Benny Hill"/>
+<answer id="740" text="Denholm Elliot"/>
+<tag id="1" text="movie"/>
+<tag id="3" text="character"/>
+</question>
+<question id="9911" text="What has worn out when arthritis sets in?">
+<answer id="9907" text="Cartilage"/>
+<answer id="9908" text="Ligaments"/>
+<answer id="9909" text="Muscle"/>
+<answer id="9910" text="Tendons"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="9618" text="How many incisor teeth does a typical human have?">
+<answer id="230" text="8"/>
+<answer id="232" text="4"/>
+<answer id="233" text="6"/>
+<answer id="4770" text="10"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5464" text="What nationality was the compost Rimsky-Korsakov?">
+<answer id="5456" text="Russian"/>
+<answer id="1820" text="French"/>
+<answer id="1837" text="Italian"/>
+<answer id="1257" text="Spanish"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7583" text="Who legally adopted a symbol to replace his name in 1993?">
+<answer id="7572" text="Prince"/>
+<answer id="6831" text="Vanilla Ice"/>
+<answer id="6703" text="Michael Jackson"/>
+<answer id="700" text="Elton John"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7630" text="With whom did Faith Evans had a No. 1 hit in 1997 with the song &quot;I'll Be Missing You&quot;?">
+<answer id="7457" text="Puff Daddy"/>
+<answer id="7453" text="Will Smith"/>
+<answer id="7455" text="Usher"/>
+<answer id="7538" text="Jon B"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1541" text="What is the smallest positive whole number which cannot be scored with one dart on a standard dartboard?">
+<answer id="1539" text="23"/>
+<answer id="669" text="21"/>
+<answer id="670" text="22"/>
+<answer id="1540" text="25"/>
+<tag id="1524" text="mathematics"/>
+<tag id="188" text="sport"/>
+</question>
+<question id="10277" text="Lobate Scarps are a feature of which planet?">
+<answer id="248" text="Mercury"/>
+<answer id="247" text="Venus"/>
+<answer id="142" text="Saturn"/>
+<answer id="144" text="Mars"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8851" text="Food Glorious Food was a song from which musical?">
+<answer id="8847" text="Oliver"/>
+<answer id="8848" text="Bedknobs and Broomsticks"/>
+<answer id="8849" text="Chitty Chitty Bang Bang"/>
+<answer id="8850" text="Half a Sixpence"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5984" text="Myamnar used to be known as….?">
+<answer id="2054" text="Burma"/>
+<answer id="5654" text="North Korea"/>
+<answer id="4920" text="Sri Lanka"/>
+<answer id="5983" text="Malaysia"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="9880" text="What disease did Los Angeles scientists discover in 1981?">
+<answer id="9538" text="AIDS"/>
+<answer id="9879" text="Ebola"/>
+<answer id="9506" text="Tuberculosis"/>
+<answer id="1233" text="Malaria"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5823" text="How many Presidents of the USA were there during Fidel Castro's reign of power in Cuba?">
+<answer id="4770" text="10"/>
+<answer id="527" text="5"/>
+<answer id="1540" text="25"/>
+<answer id="674" text="30"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="784" text="What is the largest city in Tanzania?">
+<answer id="781" text="Dar es Salaam"/>
+<answer id="782" text="Dodoma"/>
+<answer id="771" text="Maputo"/>
+<answer id="783" text="Lindi"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="4976" text="Whose art style become known as Surrealism?">
+<answer id="548" text="Salvador Dali"/>
+<answer id="4973" text="Francisco de Goya"/>
+<answer id="4974" text="Edgar Degas"/>
+<answer id="4975" text="Peter Paul Rubens"/>
+<tag id="552" text="art"/>
+</question>
+<question id="5369" text="Queen Anne was the patron of which composer?">
+<answer id="5227" text="Handel"/>
+<answer id="5176" text="Britten"/>
+<answer id="5164" text="Wagner"/>
+<answer id="5150" text="Bach"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9753" text="The femur lies in which part of the human body?">
+<answer id="9550" text="Leg"/>
+<answer id="7736" text="Arm"/>
+<answer id="9557" text="Chest"/>
+<answer id="4754" text="Back"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7875" text="Dum Dum Airport lies in which major Asian City?">
+<answer id="6145" text="Calcutta"/>
+<answer id="7872" text="New Delhi"/>
+<answer id="7873" text="Bangalore"/>
+<answer id="7874" text="Dhaka"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8025" text="In which country is AirTran Airways based?">
+<answer id="1859" text="USA"/>
+<answer id="1620" text="UK"/>
+<answer id="227" text="France"/>
+<answer id="4853" text="Canada"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9726" text="Terse Minor can be found in which part of the body?">
+<answer id="4754" text="Back"/>
+<answer id="9557" text="Chest"/>
+<answer id="9679" text="Legs"/>
+<answer id="7736" text="Arm"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="7920" text="Haneda airport is located in which Asian city?">
+<answer id="6285" text="Tokyo"/>
+<answer id="2018" text="Seoul"/>
+<answer id="7918" text="Beijing"/>
+<answer id="7919" text="Shanghai"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8279" text="To the nearest million, how many passengers used Tokyo Narita Airport in 2012?">
+<answer id="8275" text="32 Million"/>
+<answer id="8276" text="302 Million"/>
+<answer id="8277" text="3 Million"/>
+<answer id="8278" text="130 Million"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="2970" text="In which decade was the popular board game Cluedo first published?">
+<answer id="2966" text="1940s"/>
+<answer id="2967" text="1930s"/>
+<answer id="2968" text="1950s"/>
+<answer id="2969" text="1960s"/>
+<tag id="2971" text="board"/>
+<tag id="2972" text="game"/>
+<tag id="115" text="history"/>
+</question>
+<question id="10312" text="Sol is the name given to which body in the solar system?">
+<answer id="6763" text="Sun"/>
+<answer id="6810" text="Moon"/>
+<answer id="6606" text="Earth"/>
+<answer id="247" text="Venus"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="11095" text="In what year did Lewis Hamilton win his first World Championship?">
+<answer id="3960" text="2008"/>
+<answer id="3957" text="2009"/>
+<answer id="3956" text="2010"/>
+<answer id="3955" text="2007"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5596" text="Who composed &quot;Pomp and Circumstance&quot;">
+<answer id="5159" text="Elgar"/>
+<answer id="5176" text="Britten"/>
+<answer id="5160" text="Purcell"/>
+<answer id="5186" text="Vaughn Williams"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="4751" text="What sport introduced the term southpaw?">
+<answer id="435" text="Baseball"/>
+<answer id="4749" text="Football"/>
+<answer id="436" text="Basketball"/>
+<answer id="4750" text="Hockey"/>
+<tag id="4739" text="sports"/>
+</question>
+<question id="6748" text="C and C Music Factory had a hit with &quot;Gonna make you...&quot;?">
+<answer id="6744" text="Sweat"/>
+<answer id="6745" text="Breath"/>
+<answer id="6746" text="Cry"/>
+<answer id="6747" text="Laugh"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7083" text="Monica had a 1998 No.1 with which song?">
+<answer id="7079" text="The First Night"/>
+<answer id="7080" text="The Last Night"/>
+<answer id="7081" text="Every Night"/>
+<answer id="7082" text="This Night"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10355" text="Triton is a moon of which planet?">
+<answer id="143" text="Neptune"/>
+<answer id="252" text="Uranus"/>
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="2621" text="Up to 2011, which stadium has hosted the most Super Bowls?">
+<answer id="2617" text="Louisana Superdome"/>
+<answer id="2618" text="Miami Orange Bowl"/>
+<answer id="2619" text="Rose Bowl"/>
+<answer id="2620" text="Georgia Dome"/>
+<tag id="2587" text="americanfootball"/>
+<tag id="2586" text="nfl"/>
+<tag id="188" text="sport"/>
+<tag id="197" text="us"/>
+</question>
+<question id="8203" text="RyanAir is an airline from which nation?">
+<answer id="682" text="Ireland"/>
+<answer id="679" text="Scotland"/>
+<answer id="680" text="Wales"/>
+<answer id="681" text="England"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="1063" text="In meteorology, what name is given to lines of equal atmospheric pressure?">
+<answer id="832" text="Isobars"/>
+<answer id="1060" text="Isotherms"/>
+<answer id="1061" text="Fronts"/>
+<answer id="1062" text="Cyclones"/>
+<tag id="1064" text="meteorology"/>
+<tag id="1065" text="science"/>
+</question>
+<question id="8316" text="What colour is the Air Berlin Logo?">
+<answer id="4795" text="Red"/>
+<answer id="4796" text="Green"/>
+<answer id="5671" text="Gold"/>
+<answer id="5670" text="White"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8608" text="Yundam Airport is located in which African country?">
+<answer id="8310" text="Gambia"/>
+<answer id="1504" text="South Africa"/>
+<answer id="8606" text="Rwanda"/>
+<answer id="5952" text="Kenya"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10987" text="Which year marked the retirement of Alain Prost?">
+<answer id="365" text="1993"/>
+<answer id="367" text="1995"/>
+<answer id="6413" text="1991"/>
+<answer id="161" text="1997"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="9583" text="How is the disease varicella better known?">
+<answer id="9580" text="Chickenpox"/>
+<answer id="9581" text="Mumps"/>
+<answer id="9582" text="Shingles"/>
+<answer id="9504" text="Diabetes"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="8169" text="On the American Airlines logo, the two As are red and...?">
+<answer id="4797" text="Blue"/>
+<answer id="5670" text="White"/>
+<answer id="4796" text="Green"/>
+<answer id="5124" text="Black"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8103" text="Las Vegas McCarran Airport has what international Airport code?">
+<answer id="8099" text="LAS "/>
+<answer id="8100" text="LAM "/>
+<answer id="8101" text="MLV"/>
+<answer id="8102" text="VLM"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9007" text="What year saw the release of Michael Anderson's The Dam Busters?">
+<answer id="8699" text="1955"/>
+<answer id="2232" text="1985"/>
+<answer id="1925" text="2005"/>
+<answer id="514" text="1935"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5962" text="Maurice Mickelwhite is the real name of which person?">
+<answer id="1342" text="Michael Caine"/>
+<answer id="5773" text="Harry Houdini"/>
+<answer id="5774" text="Shaggy"/>
+<answer id="702" text="Sting"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8923" text="Who played Harry Palmer in The Ipcress File?">
+<answer id="1342" text="Michael Caine"/>
+<answer id="521" text="Peter Sellers"/>
+<answer id="8631" text="Sid James"/>
+<answer id="8639" text="John Cleese"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="4339" text="Which British comedian's real name is Mark Jones?">
+<answer id="4335" text="Mark Lamarr"/>
+<answer id="4336" text="Marcus Brigstocke"/>
+<answer id="4337" text="Mark Thomas"/>
+<answer id="4338" text="Ricky Gervais"/>
+<tag id="690" text="uk"/>
+<tag id="4340" text="comedy"/>
+<tag id="705" text="realnames"/>
+</question>
+<question id="11262" text="Who was the runner up in the 2012 World Championship behind Vettel?">
+<answer id="10996" text="Alonso"/>
+<answer id="5191" text="Weber"/>
+<answer id="10969" text="Hamilton"/>
+<answer id="10970" text="Button"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="764" text="What is the capital of Botswana?">
+<answer id="760" text="Gabarone"/>
+<answer id="761" text="Lobatse"/>
+<answer id="762" text="Francistown"/>
+<answer id="763" text="Harare"/>
+<tag id="203" text="capital"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="8772" text="What do the main characters attempt to steal in A Fish Called Wanda?">
+<answer id="8769" text="Jewels"/>
+<answer id="6807" text="Money"/>
+<answer id="8770" text="Clothing"/>
+<answer id="8771" text="Pets"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5990" text="New Mexico, Texas, California and which other state border Mexico?">
+<answer id="5989" text="Arizona"/>
+<answer id="194" text="Kentucky"/>
+<answer id="209" text="Florida"/>
+<answer id="518" text="New York"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10325" text="The Caloris Basin can be found on which planet?">
+<answer id="248" text="Mercury"/>
+<answer id="247" text="Venus"/>
+<answer id="142" text="Saturn"/>
+<answer id="144" text="Mars"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8510" text="Which artist's name features in the name of Italy's busiest airport?">
+<answer id="8506" text="Da Vinci"/>
+<answer id="8507" text="Leonardo"/>
+<answer id="8508" text="Michelangelo"/>
+<answer id="8509" text="Raphael"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="11260" text="Who was the only non-Red Bull driver to earn a pole position in the 2011 season?">
+<answer id="10969" text="Hamilton"/>
+<answer id="10970" text="Button"/>
+<answer id="10828" text="Schumacher"/>
+<answer id="11231" text="Rosberg"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7628" text="Will Smith sang about what city in 1999?">
+<answer id="7627" text="Miami"/>
+<answer id="5743" text="Vegas"/>
+<answer id="216" text="Paris"/>
+<answer id="1874" text="Rome"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10913" text="In what year was F1 legend Michael Schumacher born?">
+<answer id="297" text="1969"/>
+<answer id="2622" text="1974"/>
+<answer id="9055" text="1964"/>
+<answer id="8973" text="1959"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6868" text="Eric Clapton won the 1992 Grammy for Record of the Year for the song &quot;Tears in…&quot;?">
+<answer id="6776" text="Heaven"/>
+<answer id="6866" text="Pain"/>
+<answer id="6072" text="Love"/>
+<answer id="6867" text="Hell"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5569" text="Which of these terms describes the slowest style of playing?">
+<answer id="5566" text="Adante"/>
+<answer id="5549" text="Allegro"/>
+<answer id="5567" text="Vivace"/>
+<answer id="5568" text="Presto"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6978" text="in what year did Boyz II Men hit the top of the charts with &quot;End of the Road&quot;?">
+<answer id="363" text="1992"/>
+<answer id="362" text="1990"/>
+<answer id="366" text="1994"/>
+<answer id="163" text="1996"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7590" text="Who said &quot;That Don't Impress Me Much&quot; in 1999?">
+<answer id="6754" text="Shania Twain"/>
+<answer id="6891" text="Jennifer Rush"/>
+<answer id="6892" text="Sheryl Crow"/>
+<answer id="3969" text="Madonna"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9113" text="Which monarch is played by Colin Firth in The King's Speech?">
+<answer id="9109" text="King George VI"/>
+<answer id="9110" text="King Edward VIII"/>
+<answer id="9111" text="King George V"/>
+<answer id="9112" text="King Edward VII"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="759" text="What is the Italian alternative name for the Mona Lisa?">
+<answer id="755" text="La Gioconda"/>
+<answer id="756" text="Venus de Urbino"/>
+<answer id="757" text="Doni Tondo"/>
+<answer id="758" text="Doni Madonna"/>
+<tag id="552" text="art"/>
+</question>
+<question id="7288" text="What nationality was reggae singer Snow?">
+<answer id="1821" text="Canadian"/>
+<answer id="1258" text="American"/>
+<answer id="1260" text="English"/>
+<answer id="6316" text="Australian"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="12737" text="What is the default length of a numeric variable in SAS?">
+<answer id="230" text="8"/>
+<answer id="1640" text="16"/>
+<answer id="232" text="4"/>
+<answer id="676" text="32"/>
+<tag id="12738" text="sas"/>
+</question>
+<question id="7140" text="Right Said Fred hat a No.1 Hit with &quot;I'm Too...&quot;?">
+<answer id="7137" text="Sexy"/>
+<answer id="7138" text="Drunk"/>
+<answer id="2347" text="Loose"/>
+<answer id="7139" text="Dirty"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1091" text="How many funnels did the RMS Queen Mary have?">
+<answer id="751" text="Three"/>
+<answer id="752" text="Four"/>
+<answer id="750" text="One"/>
+<answer id="749" text="Two"/>
+<tag id="115" text="history"/>
+<tag id="1090" text="transport"/>
+</question>
+<question id="8517" text="Which city is home to US Airways?">
+<answer id="1497" text="Phoenix"/>
+<answer id="518" text="New York"/>
+<answer id="8015" text="Atlanta"/>
+<answer id="8458" text="Boston"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8328" text="What does the T stand for in the name of STP Airways?">
+<answer id="8325" text="Tome"/>
+<answer id="8326" text="Tame"/>
+<answer id="5771" text="Time"/>
+<answer id="8327" text="Travel"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="507" text="Who directed the controversial 1971 film Straw Dogs?">
+<answer id="505" text="Sam Peckinpah"/>
+<answer id="500" text="Clint Eastwood"/>
+<answer id="450" text="Stanley Kubrick"/>
+<answer id="88" text="James Cameron"/>
+<tag id="1" text="movie"/>
+<tag id="109" text="director"/>
+</question>
+<question id="10484" text="William Herschel discovered which planet?">
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<answer id="141" text="Jupiter"/>
+<answer id="142" text="Saturn"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="7225" text="The title of the international hit by No Doubt in the 1990s was &quot;Don't…&quot;?">
+<answer id="7221" text="Speak"/>
+<answer id="7222" text="Talk "/>
+<answer id="7223" text="Shout"/>
+<answer id="7224" text="Listen"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6584" text="Which of these rivers does not flow directly into the Atlantic Ocean?">
+<answer id="6580" text="The Columbia River"/>
+<answer id="6581" text="The Congo River"/>
+<answer id="6582" text="The Orange River"/>
+<answer id="6583" text="The Amazon River"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10340" text="The Kuiper Belt lies how many AUs away from the sun?">
+<answer id="5273" text="50"/>
+<answer id="482" text="100"/>
+<answer id="4770" text="10"/>
+<answer id="1715" text="1"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="7537" text="Whigfield had a worldwide hit with a song about which night of the week?">
+<answer id="7533" text="Saturday"/>
+<answer id="7534" text="Friday"/>
+<answer id="7535" text="Sunday"/>
+<answer id="7536" text="Monday"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6172" text="Tony Abbot is the Prime Minister of which country?">
+<answer id="1606" text="Australia"/>
+<answer id="4853" text="Canada"/>
+<answer id="681" text="England"/>
+<answer id="682" text="Ireland"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1506" text="Which country produced almost all known diamonds until 1725?">
+<answer id="1503" text="India"/>
+<answer id="1504" text="South Africa"/>
+<answer id="173" text="Brazil"/>
+<answer id="1505" text="Persia"/>
+<tag id="1507" text="minerals"/>
+<tag id="115" text="history"/>
+<tag id="1508" text="geology"/>
+</question>
+<question id="8697" text="What decade provides the setting for Room At The Top (1958)?">
+<answer id="2966" text="1940s"/>
+<answer id="2969" text="1960s"/>
+<answer id="8663" text="1980s"/>
+<answer id="8696" text="1920s"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8142" text="Mirabel Airport is based in which Canadian City?">
+<answer id="2014" text="Montreal"/>
+<answer id="7858" text="Ottawa"/>
+<answer id="8000" text="Calgary"/>
+<answer id="8001" text="Vancouver"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6058" text="Sy Berger, who died in 2014, was associated with the creation of which collectable craze?">
+<answer id="6054" text="Baseball Cards"/>
+<answer id="6055" text="Stamps"/>
+<answer id="6056" text="Pogs"/>
+<answer id="6057" text="Food Labels"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="9785" text="The name scapula is given to what part of the human body?">
+<answer id="9584" text="Shoulder Blade"/>
+<answer id="9651" text="Neck"/>
+<answer id="9784" text="Elbow"/>
+<answer id="9523" text="Ankle"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5477" text="What was the first name of prolific Opera compose Puccini?">
+<answer id="5241" text="Giacomo"/>
+<answer id="5475" text="Guiseppe"/>
+<answer id="5476" text="Beppe"/>
+<answer id="5242" text="Franz"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8700" text="In what year was the original Alfie released?">
+<answer id="298" text="1966"/>
+<answer id="8698" text="1977"/>
+<answer id="360" text="1988"/>
+<answer id="8699" text="1955"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5450" text="What name, usually associated with females, is the middle name of Carl Weber?">
+<answer id="5446" text="Maria"/>
+<answer id="5447" text="Julia"/>
+<answer id="5448" text="Carol"/>
+<answer id="5449" text="Eve"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6024" text="Paul Hewson is the real name of which person?">
+<answer id="5668" text="Bono"/>
+<answer id="5805" text="Cliff Richard"/>
+<answer id="700" text="Elton John"/>
+<answer id="5773" text="Harry Houdini"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="10973" text="Which F1 driver formed his own airline after leaving F1?">
+<answer id="10826" text="Lauda"/>
+<answer id="10626" text="Brabham"/>
+<answer id="7434" text="Hill"/>
+<answer id="10631" text="Irvine"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10256" text="In terms of distance from the Sun, where does Saturn rank?">
+<answer id="5531" text="6th"/>
+<answer id="5182" text="5th"/>
+<answer id="5532" text="4th"/>
+<answer id="5183" text="7th"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="6420" text="Where in Europe would you find the city of Turku?">
+<answer id="1044" text="Finland"/>
+<answer id="4900" text="Russia"/>
+<answer id="175" text="Sweden"/>
+<answer id="2523" text="Turkey"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="4846" text="What unit is force measured in?">
+<answer id="4842" text="Newton"/>
+<answer id="4843" text="Newman"/>
+<answer id="4844" text="Neutron"/>
+<answer id="4845" text="Pushes"/>
+<tag id="1065" text="science"/>
+</question>
+<question id="2037" text="Brisbane is in which Australian state?">
+<answer id="2027" text="Queensland"/>
+<answer id="2025" text="New South Wales"/>
+<answer id="2036" text="Northern Territory"/>
+<answer id="2026" text="Victoria"/>
+<tag id="152" text="geography"/>
+<tag id="2022" text="australia"/>
+</question>
+<question id="4789" text="What does an anemometer gauge? ">
+<answer id="4785" text="Speed of Wind"/>
+<answer id="4786" text="Speed of Athletes"/>
+<answer id="4787" text="Speed of Spacecraft"/>
+<answer id="4788" text="Speed of Light"/>
+<tag id="1065" text="science"/>
+</question>
+<question id="5672" text="Austria's flag consists of red and..?">
+<answer id="5670" text="White"/>
+<answer id="5671" text="Gold"/>
+<answer id="4798" text="Yellow"/>
+<answer id="4797" text="Blue"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1860" text="In which country was the opera singer Maria Callas born?">
+<answer id="1859" text="USA"/>
+<answer id="1151" text="Greece"/>
+<answer id="167" text="Italy"/>
+<answer id="228" text="Spain"/>
+<tag id="1830" text="opera"/>
+<tag id="544" text="people"/>
+</question>
+<question id="10237" text="Hyperion is a moon of which planet?">
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10289" text="Olympus Mons is found on which planet?">
+<answer id="144" text="Mars"/>
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="6606" text="Earth"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="5314" text="in which centiry did Henry Purcell live?">
+<answer id="617" text="17th"/>
+<answer id="616" text="16th"/>
+<answer id="615" text="15th"/>
+<answer id="5284" text="19th"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="11253" text="Who was Kimi Raikonnen's partner at Ferrari when he won the 2007 World Title?">
+<answer id="10862" text="Massa"/>
+<answer id="10996" text="Alonso"/>
+<answer id="10828" text="Schumacher"/>
+<answer id="10970" text="Button"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6111" text="The famous soap opera, Home and Away, is set in which country?">
+<answer id="1606" text="Australia"/>
+<answer id="1468" text="New Zealand"/>
+<answer id="228" text="Spain"/>
+<answer id="227" text="France"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7272" text="What colour Velvet was a No.1 hit for Alannah Myles?">
+<answer id="5124" text="Black"/>
+<answer id="4797" text="Blue"/>
+<answer id="7143" text="Red Square"/>
+<answer id="5670" text="White"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6114" text="The flag of Cape Verde contains how many stars?">
+<answer id="4770" text="10"/>
+<answer id="668" text="20"/>
+<answer id="527" text="5"/>
+<answer id="1715" text="1"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7120" text="Pearl Jam were a 1990s band from which city?">
+<answer id="7119" text="Seattle"/>
+<answer id="518" text="New York"/>
+<answer id="6181" text="Las Vegas"/>
+<answer id="386" text="Chicago"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2104" text="Who provides the voice for cartoon character Lisa Simpson?">
+<answer id="2101" text="Yeardley Smith"/>
+<answer id="2098" text="Nancy Cartwright"/>
+<answer id="2096" text="Dan Castellaneta"/>
+<answer id="2103" text="Matt Groening"/>
+<tag id="114" text="name"/>
+<tag id="1390" text="cartoon"/>
+<tag id="3" text="character"/>
+</question>
+<question id="7002" text="Janet Jackson had a No.1 with what colour cat in 1990?">
+<answer id="5124" text="Black"/>
+<answer id="4795" text="Red"/>
+<answer id="5670" text="White"/>
+<answer id="6861" text="Ginger"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6883" text="Faith Evans and Puff Daddy spent how many weeks at No.1 with &quot;I'll Be Missing You&quot;?">
+<answer id="1647" text="11"/>
+<answer id="231" text="2"/>
+<answer id="645" text="7"/>
+<answer id="1644" text="19"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="9126" text="Which of these films was released in 1999?">
+<answer id="4766" text="Notting Hill"/>
+<answer id="9115" text="Four Weddings and Funeral"/>
+<answer id="9114" text="Love Actually"/>
+<answer id="9116" text="Bridget Jones's Diary"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="6158" text="The Vinson Massif is the highest mountain on which continent?">
+<answer id="6156" text="Antarctica"/>
+<answer id="6157" text="South America"/>
+<answer id="1587" text="Europe"/>
+<answer id="1586" text="Asia"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="5353" text="Neo-Classicism emerged in which decade?">
+<answer id="5349" text="1920's"/>
+<answer id="5350" text="1880's"/>
+<answer id="5351" text="1990's"/>
+<answer id="5352" text="1740's"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5758" text="El Jid of Thysdrus, the Roman amphitheatre, is in which African country?">
+<answer id="5754" text="Tunisia"/>
+<answer id="5755" text="Senegal"/>
+<answer id="5756" text="Morocco"/>
+<answer id="5757" text="Cameroon"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6524" text="Which of these detectives was created by Raymond Chandler?">
+<answer id="6520" text="Phillip Marlowe"/>
+<answer id="6521" text="Father Brown"/>
+<answer id="6522" text="Sherlock Holmes"/>
+<answer id="6523" text="Peter Wimsey"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6940" text="In 1990 Bon Jon Jovi hit No.1 with a what &quot;…of Glory&quot;?">
+<answer id="6936" text="Blaze"/>
+<answer id="6937" text="Haze"/>
+<answer id="6938" text="Raise"/>
+<answer id="6939" text="Maze"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8261" text="The New York Airport is named after which President?">
+<answer id="8072" text="JFK"/>
+<answer id="6515" text="Regan"/>
+<answer id="8254" text="Clinton"/>
+<answer id="7869" text="Lincoln"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8942" text="Rupert Grint plays which character in the Harry Potter films?">
+<answer id="8935" text="Ron Weasley"/>
+<answer id="8937" text="Hermione Grainger"/>
+<answer id="8939" text="Nearly Headless Nick"/>
+<answer id="8941" text="Severus Snape"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5580" text="Which of these was NOT one of the Three Tenors?">
+<answer id="5576" text="Andrea Bocelli"/>
+<answer id="5577" text="Jose Carrera"/>
+<answer id="5578" text="Placido Domingo"/>
+<answer id="5579" text="Luciano Pavarotti"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5994" text="Nullarbor Plain, the longest stretch of straight railway in the world, is in which Country?">
+<answer id="1606" text="Australia"/>
+<answer id="227" text="France"/>
+<answer id="4853" text="Canada"/>
+<answer id="4900" text="Russia"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="2181" text="Who was Prime Minister of the UK at the outbreak of World War I?">
+<answer id="2177" text="Herbert Henry Asquith"/>
+<answer id="2178" text="David Lloyd George"/>
+<answer id="2179" text="Stanley Baldwin"/>
+<answer id="2180" text="Sir Henry Campbell-Bannerman"/>
+<tag id="690" text="uk"/>
+<tag id="115" text="history"/>
+</question>
+<question id="7494" text="Which singer had a hit with &quot;Frozen&quot; in the 1990s?">
+<answer id="3969" text="Madonna"/>
+<answer id="700" text="Elton John"/>
+<answer id="6703" text="Michael Jackson"/>
+<answer id="6754" text="Shania Twain"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6829" text="Darren Hayes was a member of which 1990s band?">
+<answer id="6827" text="Savage Garden"/>
+<answer id="6710" text="Third Eye Blind"/>
+<answer id="6692" text="Roxette"/>
+<answer id="6828" text="Backstreet Boys"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7229" text="The track by The Orb that is thought to have invented Chill-Out music is &quot;Little Fluffy…&quot;?">
+<answer id="1384" text="Clouds"/>
+<answer id="7226" text="Bears"/>
+<answer id="7227" text="Beds"/>
+<answer id="7228" text="Dreams"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10685" text="Mario Andretti won his only World Championship in which year?">
+<answer id="8845" text="1978"/>
+<answer id="300" text="1968"/>
+<answer id="2623" text="1975"/>
+<answer id="5897" text="1965"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8616" text="Zia is an airport located in which country?">
+<answer id="7796" text="Bangladesh"/>
+<answer id="5654" text="North Korea"/>
+<answer id="5983" text="Malaysia"/>
+<answer id="8022" text="Armenia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="979" text="By what name is British comedian Royston Vasey more commonly known?">
+<answer id="1033" text="Roy &quot;Chubby&quot; Brown"/>
+<answer id="976" text="Frank Skinner"/>
+<answer id="977" text="Al Murray"/>
+<answer id="978" text="Matt Lucas"/>
+<tag id="980" text="entertainment"/>
+</question>
+<question id="10965" text="What relationship is World Champion Jacques Villeneuve to Gilles Villeneuve?">
+<answer id="6321" text="Son"/>
+<answer id="6322" text="Father"/>
+<answer id="6320" text="Brother"/>
+<answer id="7293" text="Uncle"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="6037" text="Rabat is the capital of which kingdom?">
+<answer id="5756" text="Morocco"/>
+<answer id="2055" text="Thailand"/>
+<answer id="598" text="Monaco"/>
+<answer id="6036" text="Oman"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8968" text="Kate Winslet played Marianne Dashwood in which Austen adaptation?">
+<answer id="5712" text="Sense and Sensibility"/>
+<answer id="5674" text="Emma"/>
+<answer id="1581" text="Pride and Prejudice"/>
+<answer id="8965" text="Northanger Abbey"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9789" text="The patella is found in which part of the human body?">
+<answer id="9550" text="Leg"/>
+<answer id="9557" text="Chest"/>
+<answer id="6025" text="Skull"/>
+<answer id="6104" text="Ear"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="939" text="Who wrote the Foundation series of sci-fi novels?">
+<answer id="861" text="Isaac Asimov"/>
+<answer id="862" text="Arthur C Clarke"/>
+<answer id="938" text="Robert A Heinlein"/>
+<answer id="865" text="Ray Bradbury"/>
+<tag id="110" text="sci-fi"/>
+<tag id="131" text="literature"/>
+</question>
+<question id="9805" text="The spleen is part of which biological system?">
+<answer id="9801" text="Immune"/>
+<answer id="9802" text="Lymphatic"/>
+<answer id="9803" text="Circulatory"/>
+<answer id="9804" text="Nervous"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="11283" text="With how many points did Vettel win the 2012 World Championship?">
+<answer id="11279" text="281"/>
+<answer id="11280" text="190"/>
+<answer id="11281" text="105"/>
+<answer id="11282" text="389"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5572" text="Which of these was NOT a German composer?">
+<answer id="5152" text="Chopin"/>
+<answer id="5570" text="Gluck"/>
+<answer id="5191" text="Weber"/>
+<answer id="5571" text="Teleman"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="1289" text="In which film does Tom Cruise play a character named David Aames?">
+<answer id="1285" text="Vanilla Sky"/>
+<answer id="1286" text="Mission Impossible"/>
+<answer id="1287" text="Far and Away"/>
+<answer id="1288" text="War of the Worlds"/>
+<tag id="1" text="movie"/>
+<tag id="3" text="character"/>
+<tag id="114" text="name"/>
+</question>
+<question id="7179" text="Sting, Rod Stewart and Bryan Adams teamed up and had a hit record with &quot;All For Love&quot; in what year?">
+<answer id="366" text="1994"/>
+<answer id="163" text="1996"/>
+<answer id="363" text="1992"/>
+<answer id="362" text="1990"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="11058" text="How many GPs did Vettel win in 2008?">
+<answer id="1715" text="1"/>
+<answer id="232" text="4"/>
+<answer id="527" text="5"/>
+<answer id="230" text="8"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8442" text="What is the official airport code for The Houston George Bush Intercontinental Airport?">
+<answer id="8438" text="IAH"/>
+<answer id="8439" text="IAA"/>
+<answer id="8440" text="HAI"/>
+<answer id="8441" text="IAB"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="8131" text="Mesa Airlines are based in which US State?">
+<answer id="5989" text="Arizona"/>
+<answer id="244" text="Georgia"/>
+<answer id="7753" text="Texas"/>
+<answer id="209" text="Florida"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10144" text="Callisto and Io are moons that orbit which planet?">
+<answer id="141" text="Jupiter"/>
+<answer id="142" text="Saturn"/>
+<answer id="252" text="Uranus"/>
+<answer id="143" text="Neptune"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10909" text="In what position did Alberto Ascari finish in the 1950 World Championship?">
+<answer id="5182" text="5th"/>
+<answer id="10258" text="1st"/>
+<answer id="5181" text="3rd"/>
+<answer id="5183" text="7th"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="2201" text="In 2010, what type of aircraft do the Red Arrows fly?">
+<answer id="2197" text="Hawk"/>
+<answer id="2198" text="Tornado"/>
+<answer id="2199" text="Tucano"/>
+<answer id="2200" text="Gnat"/>
+<tag id="236" text="aircraft"/>
+</question>
+<question id="1229" text="In Greek legend, who was a sculptor who fell in love with one of his own statues?">
+<answer id="1226" text="Pygmalion"/>
+<answer id="1227" text="Aphrodite"/>
+<answer id="247" text="Venus"/>
+<answer id="1228" text="Narcissus"/>
+<tag id="1230" text="greek"/>
+<tag id="1231" text="legend"/>
+<tag id="1232" text="mythology"/>
+</question>
+<question id="9653" text="In which part of the body is the carotid artery located?">
+<answer id="9651" text="Neck"/>
+<answer id="9546" text="Brain"/>
+<answer id="9652" text="Thigh"/>
+<answer id="9548" text="Stomach"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="8477" text="Where would you fund Subang airport?">
+<answer id="5983" text="Malaysia"/>
+<answer id="5654" text="North Korea"/>
+<answer id="8022" text="Armenia"/>
+<answer id="7796" text="Bangladesh"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9074" text="When was Brassed Off released?">
+<answer id="8665" text="1990s"/>
+<answer id="8663" text="1980s"/>
+<answer id="8664" text="1970s"/>
+<answer id="2969" text="1960s"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="10703" text="Phil Hill won the 1961 World Championships driving which car?">
+<answer id="882" text="Ferrari"/>
+<answer id="981" text="McLaren"/>
+<answer id="983" text="Williams"/>
+<answer id="10702" text="Vanwall"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10989" text="Who did Damon Hill replace when he joined Williams in 1993?">
+<answer id="10571" text="Mansell"/>
+<answer id="10823" text="Prost"/>
+<answer id="10829" text="Senna"/>
+<answer id="10828" text="Schumacher"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="276" text="In what year was the novel Moby-Dick first published?">
+<answer id="272" text="1851"/>
+<answer id="273" text="1845"/>
+<answer id="274" text="1847"/>
+<answer id="275" text="1855"/>
+<tag id="131" text="literature"/>
+</question>
+<question id="11202" text="Which British Formula 1 driver won Le Mans in 1990?">
+<answer id="10630" text="Brundle"/>
+<answer id="10631" text="Irvine"/>
+<answer id="7434" text="Hill"/>
+<answer id="10550" text="Hunt"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5243" text="Berlioz was a famous German composer. But what was his first name?">
+<answer id="5239" text="Hector"/>
+<answer id="5240" text="Johannes"/>
+<answer id="5241" text="Giacomo"/>
+<answer id="5242" text="Franz"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7991" text="In what year were British Airways founded?">
+<answer id="2622" text="1974"/>
+<answer id="2012" text="1924"/>
+<answer id="7990" text="1944"/>
+<answer id="1923" text="2004"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7925" text="How many destinations does Delta Airlines, Americas busiest airline, fly to?">
+<answer id="7922" text="343"/>
+<answer id="7923" text="1343"/>
+<answer id="7924" text="3343"/>
+<answer id="6858" text="34"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="4999" text="In the bible, who interpreted the dreams of Pharaoh?">
+<answer id="4997" text="Joseph"/>
+<answer id="4998" text="Daniel"/>
+<answer id="1161" text="David"/>
+<answer id="2173" text="Samuel"/>
+<tag id="5000" text="bible"/>
+</question>
+<question id="6188" text="West Side Story was based on which Shakespeare work?">
+<answer id="6043" text="Romeo and Juliet"/>
+<answer id="4761" text="The Taming of the Shrew"/>
+<answer id="4759" text="Hamlet"/>
+<answer id="4760" text="Macbeth"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8307" text="Vueling Airlines are from which country?">
+<answer id="228" text="Spain"/>
+<answer id="399" text="Germany"/>
+<answer id="227" text="France"/>
+<answer id="1877" text="Madrid"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10776" text="What was the fate of Chris Amon's self-entered car in the 1974 Spanish GP?">
+<answer id="10774" text="Failed to Finish"/>
+<answer id="10775" text="Failed to Start"/>
+<answer id="10733" text="Disqualified"/>
+<answer id="10734" text="Won"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8856" text="Roald Dahl helped write the script for which musical film?">
+<answer id="8849" text="Chitty Chitty Bang Bang"/>
+<answer id="8850" text="Half a Sixpence"/>
+<answer id="8847" text="Oliver"/>
+<answer id="8848" text="Bedknobs and Broomsticks"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9697" text="Olfactory refers to which of the body's senses?">
+<answer id="9693" text="Smell"/>
+<answer id="9694" text="Sight"/>
+<answer id="9695" text="Taste"/>
+<answer id="9696" text="Touch"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="10653" text="In what year did Jackie Stewart first win the World Championship?">
+<answer id="297" text="1969"/>
+<answer id="8973" text="1959"/>
+<answer id="9647" text="1956"/>
+<answer id="298" text="1966"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10695" text="On how many occasions did Niki Lauda win the World Championship for Ferrari?">
+<answer id="231" text="2"/>
+<answer id="526" text="3"/>
+<answer id="232" text="4"/>
+<answer id="527" text="5"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8087" text="Kloten Airport lies in which European City?">
+<answer id="8085" text="Zurich"/>
+<answer id="218" text="Brussels"/>
+<answer id="8086" text="Amsterdam"/>
+<answer id="5235" text="Prague"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10895" text="Emerson Fittipaldi last appeared in F1 in which season?">
+<answer id="1393" text="1980"/>
+<answer id="2623" text="1975"/>
+<answer id="2232" text="1985"/>
+<answer id="362" text="1990"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="5332" text="James Galway found fame playing which instrument?">
+<answer id="5330" text="Flute"/>
+<answer id="5331" text="Clarinet"/>
+<answer id="5325" text="Oboe"/>
+<answer id="2645" text="Piano"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6977" text="In what year did 2 Pac top the US Charts with California Love?">
+<answer id="163" text="1996"/>
+<answer id="160" text="1998"/>
+<answer id="366" text="1994"/>
+<answer id="363" text="1992"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6979" text="In what year did Bryan Adams hit the top of the charts with &quot;Everything I Do&quot;?">
+<answer id="6413" text="1991"/>
+<answer id="366" text="1994"/>
+<answer id="163" text="1996"/>
+<answer id="160" text="1998"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5931" text="In which country would you find the city of Aachen, the northern capital of Charlemenage's Empire?">
+<answer id="399" text="Germany"/>
+<answer id="167" text="Italy"/>
+<answer id="1151" text="Greece"/>
+<answer id="227" text="France"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="2490" text="What is the middle name of the singer born Reginald Kenneth Dwight">
+<answer id="2486" text="Hercules"/>
+<answer id="2487" text="Kenneth"/>
+<answer id="2488" text="Dwight"/>
+<answer id="2489" text="Reginald"/>
+<tag id="107" text="music"/>
+<tag id="566" text="70s"/>
+<tag id="2491" text="singers"/>
+</question>
+<question id="10941" text="Multiple World Champion Juan Manuel Fangio retired in which year?">
+<answer id="179" text="1958"/>
+<answer id="6411" text="1953"/>
+<answer id="5902" text="1963"/>
+<answer id="300" text="1968"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="7612" text="Who were &quot;Diggin on You&quot; in 1996?">
+<answer id="6717" text="TLC"/>
+<answer id="6718" text="Spice Girls"/>
+<answer id="7251" text="Destiny's Child"/>
+<answer id="6716" text="All Saints"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="5233" text="Adagio refers to what kind of pace within a piece of music?">
+<answer id="5229" text="Slow"/>
+<answer id="5230" text="Fast"/>
+<answer id="5231" text="Loud"/>
+<answer id="5232" text="Quiet"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6753" text="Christina Aguilera released Genie in a Bottle in which year?">
+<answer id="162" text="1999"/>
+<answer id="161" text="1997"/>
+<answer id="367" text="1995"/>
+<answer id="365" text="1993"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="6705" text="Barbie Girl was an international hit by Aqua, who hailed from which country?">
+<answer id="5929" text="Denmark"/>
+<answer id="175" text="Sweden"/>
+<answer id="1043" text="Norway"/>
+<answer id="1044" text="Finland"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10155" text="Despina and Larissa orbit which planet?">
+<answer id="143" text="Neptune"/>
+<answer id="252" text="Uranus"/>
+<answer id="142" text="Saturn"/>
+<answer id="141" text="Jupiter"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10271" text="In which year did Galieli discover the four major moon of Jupiter?">
+<answer id="10269" text="1610"/>
+<answer id="6416" text="1710"/>
+<answer id="137" text="1810"/>
+<answer id="10270" text="1910"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="5919" text="In what year was the Magna Carta signed?">
+<answer id="567" text="1215"/>
+<answer id="5916" text="1415"/>
+<answer id="5917" text="1015"/>
+<answer id="5918" text="1615"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="1433" text="In astrology, what star sign runs from 20 January - 18 February?">
+<answer id="1429" text="Aquarius"/>
+<answer id="1430" text="Capricorn"/>
+<answer id="1431" text="Sagittarius"/>
+<answer id="1432" text="Pisces"/>
+<tag id="1435" text="zodiac"/>
+<tag id="1434" text="astrology"/>
+</question>
+<question id="6060" text="Sycamore Row was a 2013 best seller written by?">
+<answer id="5630" text="John Grisham"/>
+<answer id="5629" text="Robert Harris"/>
+<answer id="453" text="Stephen King"/>
+<answer id="6059" text="Robert Galbraith"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="8638" text="Which was the first Monty Python feature film?">
+<answer id="8636" text="Holy Grail"/>
+<answer id="8620" text="Life of Brian"/>
+<answer id="8634" text="Meaning of Life"/>
+<answer id="8635" text="Spamalot"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8098" text="Larnaca airport is a famous holiday destination in which country?">
+<answer id="149" text="Cyprus"/>
+<answer id="1151" text="Greece"/>
+<answer id="228" text="Spain"/>
+<answer id="5323" text="Mexico"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="10445" text="Which nickname is often given to Mars?">
+<answer id="10441" text="The Red Planet"/>
+<answer id="10442" text="The Blue Plant"/>
+<answer id="10443" text="The Green Planet"/>
+<answer id="10444" text="The Black Planet"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="413" text="Which 80s pop group took their name from a character in the movie Barbarella?">
+<answer id="369" text="Duran Duran"/>
+<answer id="375" text="T'Pau"/>
+<answer id="412" text="UB40"/>
+<answer id="370" text="Kajagoogoo"/>
+<tag id="107" text="music"/>
+<tag id="374" text="80s"/>
+<tag id="114" text="name"/>
+</question>
+<question id="11118" text="Kimi Raikkonen won the 2007 World Title by how many points?">
+<answer id="1715" text="1"/>
+<answer id="527" text="5"/>
+<answer id="4770" text="10"/>
+<answer id="1520" text="15"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10573" text="Driving for Williams, which British driver was runner-up to Alain Prost in the 1986 season?">
+<answer id="10571" text="Mansell"/>
+<answer id="7434" text="Hill"/>
+<answer id="10572" text="Watson"/>
+<answer id="10549" text="Clark"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8079" text="Klagenfurt airport is located in which European country?">
+<answer id="1152" text="Austria"/>
+<answer id="398" text="Switzerland"/>
+<answer id="399" text="Germany"/>
+<answer id="4900" text="Russia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="410" text="Who drove Thrust SSC when it broke the land speed record in 1997?">
+<answer id="406" text="Andy Green"/>
+<answer id="407" text="Richard Noble"/>
+<answer id="408" text="Andy Brown"/>
+<answer id="409" text="Sir Stirling Moss"/>
+<tag id="115" text="history"/>
+<tag id="411" text="records"/>
+</question>
+<question id="5585" text="Which one of these was NOT a Czech composer?">
+<answer id="5583" text="Franck"/>
+<answer id="5584" text="Janacek"/>
+<answer id="5522" text="Smetana"/>
+<answer id="5223" text="Dvorak"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8852" text="Consider Yourself was a hit song from which British musical film?">
+<answer id="8847" text="Oliver"/>
+<answer id="8848" text="Bedknobs and Broomsticks"/>
+<answer id="8849" text="Chitty Chitty Bang Bang"/>
+<answer id="8850" text="Half a Sixpence"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="9665" text="Kyphosis affects which part of the human body?">
+<answer id="4754" text="Back"/>
+<answer id="9651" text="Neck"/>
+<answer id="9533" text="Ears"/>
+<answer id="9526" text="Nose"/>
+<tag id="7737" text="anatomy"/>
+</question>
+<question id="5934" text="In which Italian city would you find the Bardini Museum?">
+<answer id="1834" text="Florence"/>
+<answer id="1874" text="Rome"/>
+<answer id="1831" text="Venice"/>
+<answer id="5236" text="Naples"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="6331" text="What type of vehicle is a Sunderland?">
+<answer id="6327" text="Flying Boat"/>
+<answer id="6328" text="Helicopter"/>
+<answer id="6329" text="Submarine"/>
+<answer id="6330" text="Motorbike"/>
+<tag id="5628" text="general-knowledge"/>
+</question>
+<question id="7833" text="Cebu Pacific Air are based in which country?">
+<answer id="5011" text="Philippines"/>
+<answer id="5010" text="Japan"/>
+<answer id="647" text="Peru"/>
+<answer id="5983" text="Malaysia"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="2596" text="What is the home stadium of the San Francisco 49ers NFL team?">
+<answer id="2592" text="Candlestick Park"/>
+<answer id="2593" text="Reliant Stadium"/>
+<answer id="2594" text="Lambeau Field"/>
+<answer id="2595" text="EverBank Field"/>
+<tag id="2066" text="stadium"/>
+<tag id="2587" text="americanfootball"/>
+<tag id="2586" text="nfl"/>
+<tag id="188" text="sport"/>
+</question>
+<question id="7370" text="Which band sang the theme tune to the TV sitcom Friends?">
+<answer id="7366" text="The Rembrandts"/>
+<answer id="7367" text="The Remembers"/>
+<answer id="7368" text="The Remingtons"/>
+<answer id="7369" text="The Remembrance"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="7151" text="Savage Garden has a hit with Truly Madly Deeply in which year?">
+<answer id="160" text="1998"/>
+<answer id="162" text="1999"/>
+<answer id="161" text="1997"/>
+<answer id="163" text="1996"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="4196" text="Who directed the 2004 film The Aviator?">
+<answer id="4195" text="Martin Scorsese"/>
+<answer id="4189" text="Jonathan Demme"/>
+<answer id="4190" text="Michael Mann"/>
+<answer id="89" text="Ridley Scott"/>
+<tag id="109" text="director"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="7220" text="The Spice Girls first topped the US Charts in which year?">
+<answer id="161" text="1997"/>
+<answer id="162" text="1999"/>
+<answer id="160" text="1998"/>
+<answer id="163" text="1996"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2816" text="Who played Matthew Broderick's girlfriend in the 1983 film WarGames?">
+<answer id="2812" text="Ally Sheedy"/>
+<answer id="2813" text="Molly Ringwald"/>
+<answer id="2814" text="Meg Ryan"/>
+<answer id="2815" text="Demi Moore"/>
+<tag id="1" text="movie"/>
+<tag id="3" text="character"/>
+<tag id="2" text="actor"/>
+</question>
+<question id="1046" text="Oslo is the capital of which European country?">
+<answer id="1043" text="Norway"/>
+<answer id="1044" text="Finland"/>
+<answer id="175" text="Sweden"/>
+<answer id="1045" text="Iceland"/>
+<tag id="153" text="europe"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="754" text="How many Bond films have starred Pierce Brosnan?">
+<answer id="752" text="Four"/>
+<answer id="751" text="Three"/>
+<answer id="750" text="One"/>
+<answer id="749" text="Two"/>
+<tag id="733" text="jamesbond"/>
+</question>
+<question id="8967" text="Mr Dashwood is a character in which Austen film adaptation?">
+<answer id="5712" text="Sense and Sensibility"/>
+<answer id="5674" text="Emma"/>
+<answer id="1581" text="Pride and Prejudice"/>
+<answer id="8965" text="Northanger Abbey"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="5361" text="Pieces of music for smaller numbers of players shares a name with which part of a house?">
+<answer id="5357" text="Chamber"/>
+<answer id="5358" text="Attic"/>
+<answer id="5359" text="Roof"/>
+<answer id="5360" text="Kitchen"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10618" text="How many of his 32 Grands Prix did Alberto Ascari win?">
+<answer id="1546" text="13"/>
+<answer id="1644" text="19"/>
+<answer id="527" text="5"/>
+<answer id="671" text="24"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10887" text="Despite leaving Williams in 1988, in which year did Nigel Mansell return to the team?">
+<answer id="6413" text="1991"/>
+<answer id="365" text="1993"/>
+<answer id="363" text="1992"/>
+<answer id="366" text="1994"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="11272" text="Who won the 2012 World Championship?">
+<answer id="11122" text="Vettel"/>
+<answer id="10969" text="Hamilton"/>
+<answer id="5191" text="Weber"/>
+<answer id="10996" text="Alonso"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="2134" text="How many British one pound coins make a stack nearest to one inch (25.4 mm) high?">
+<answer id="2133" text="Eight"/>
+<answer id="752" text="Four"/>
+<answer id="1088" text="Five"/>
+<answer id="1320" text="Six"/>
+<tag id="2135" text="currency"/>
+</question>
+<question id="5460" text="What nationality was the composer Carl Weber?">
+<answer id="1836" text="German"/>
+<answer id="5453" text="Austrian"/>
+<answer id="1822" text="Dutch"/>
+<answer id="1257" text="Spanish"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2171" text="Which sport would you most associate with the town of Bisley in the UK?">
+<answer id="2168" text="Rifle shooting"/>
+<answer id="967" text="Horse Racing"/>
+<answer id="2169" text="Badminton"/>
+<answer id="2170" text="Squash"/>
+<tag id="690" text="uk"/>
+<tag id="188" text="sport"/>
+<tag id="152" text="geography"/>
+</question>
+<question id="525" text="Who played the US President in the film Dr Strangelove?">
+<answer id="521" text="Peter Sellers"/>
+<answer id="522" text="George C Scott"/>
+<answer id="523" text="James Earl Jones"/>
+<answer id="524" text="Alec Guinness"/>
+<tag id="1" text="movie"/>
+<tag id="2" text="actor"/>
+</question>
+<question id="1458" text="What was the codename for the World War II Dam Busters raid?">
+<answer id="1454" text="Operation Chastise"/>
+<answer id="1455" text="Operation Overlord"/>
+<answer id="1456" text="Operation Dynamo"/>
+<answer id="1457" text="Operation Constellation"/>
+<tag id="235" text="military"/>
+<tag id="115" text="history"/>
+<tag id="302" text="aviation"/>
+</question>
+<question id="456" text="Who wrote the novel The Shining, on which the 1980 film was based?">
+<answer id="453" text="Stephen King"/>
+<answer id="445" text="Dan Brown"/>
+<answer id="454" text="Dean Koontz"/>
+<answer id="455" text="Clive Barker"/>
+<tag id="444" text="novel"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="3499" text="Who said, &quot;It's not that I'm afraid to die. I just don't want to be there when it happens&quot;?">
+<answer id="3495" text="Woody Allen"/>
+<answer id="3496" text="Ellen DeGeneres"/>
+<answer id="3497" text="Drew Carey"/>
+<answer id="3498" text="Albert Brooks"/>
+<tag id="3484" text="quotes"/>
+<tag id="3500" text="authors"/>
+</question>
+<question id="10264" text="In what year was Pluto &quot;demoted&quot; to a be labelled a Dwarf Planet?">
+<answer id="1922" text="2006"/>
+<answer id="3957" text="2009"/>
+<answer id="5894" text="2013"/>
+<answer id="2298" text="2000"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8021" text="In which city would you find the Indra Gandhi Airport?">
+<answer id="3144" text="Delhi"/>
+<answer id="6145" text="Calcutta"/>
+<answer id="8019" text="Bombay"/>
+<answer id="8020" text="Daka"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="6971" text="In the name of the 1990s pop group Blaque, what does the B stand for?">
+<answer id="6969" text="Believing"/>
+<answer id="5124" text="Black"/>
+<answer id="5875" text="Best"/>
+<answer id="6970" text="Better"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="8890" text="Who played Shakespeare in Shakespare in Love?">
+<answer id="8886" text="Ralph Fiennes"/>
+<answer id="8887" text="Leonardo Di Caprio"/>
+<answer id="8888" text="Ben Affleck"/>
+<answer id="8889" text="Georffrey Rush"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8649" text="Who plays Brian in Monty Python's Life of Brian?">
+<answer id="886" text="Graham Chapman"/>
+<answer id="8639" text="John Cleese"/>
+<answer id="8640" text="Terry Gilliam"/>
+<answer id="8641" text="Terry Jones"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8627" text="Which seminal British movie is based on a novel by Boris Pasternak?">
+<answer id="8619" text="Dr Zhivago"/>
+<answer id="4203" text="Brief Encounter"/>
+<answer id="8621" text="Withnail and I"/>
+<answer id="8625" text="Gregory's Girl"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="8268" text="Thomson Airways are based in which country?">
+<answer id="681" text="England"/>
+<answer id="227" text="France"/>
+<answer id="399" text="Germany"/>
+<answer id="4853" text="Canada"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="9014" text="Which of these is the title of a 2000s Danny Dyer film?">
+<answer id="9010" text="The Football Factory"/>
+<answer id="9011" text="The Football Firm"/>
+<answer id="9012" text="The Football Lot"/>
+<answer id="9013" text="The Warehouse"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="864" text="Who directed the sci-fi film Blade Runner?">
+<answer id="89" text="Ridley Scott"/>
+<answer id="90" text="Tony Scott"/>
+<answer id="451" text="George Lucas"/>
+<answer id="450" text="Stanley Kubrick"/>
+<tag id="1" text="movie"/>
+<tag id="109" text="director"/>
+</question>
+<question id="10282" text="Maxwell Montes is the highest mountain on which planet?">
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="144" text="Mars"/>
+<answer id="141" text="Jupiter"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="10617" text="How many Grands Prix did Michele Alboreto compete in?">
+<answer id="10615" text="194"/>
+<answer id="10222" text="94"/>
+<answer id="1641" text="49"/>
+<answer id="10616" text="149"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="3" text="What is the scientific name for the snow leopard?">
+<answer id="2534" text="Panthera uncia"/>
+<answer id="7" text="Felis catus"/>
+<answer id="102" text="Panthera pardus"/>
+<answer id="6" text="Uncia uncia"/>
+<tag id="114" text="name"/>
+<tag id="113" text="animal"/>
+<tag id="112" text="nature"/>
+</question>
+<question id="7043" text="Madonna's &quot;Beautiful Stranger&quot; comes from the soundtrack to a film in which series?">
+<answer id="7040" text="Austin Powers"/>
+<answer id="7041" text="American Pie"/>
+<answer id="6635" text="James Bond"/>
+<answer id="7042" text="Fast and Furious"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10638" text="In the team name BAR was does the B stand for?">
+<answer id="952" text="British"/>
+<answer id="7971" text="Budget"/>
+<answer id="10637" text="Brute"/>
+<answer id="1819" text="Belgian"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="8929" text="What is the name of the school featured in the Harry Potter movies?">
+<answer id="8925" text="Hogwarts"/>
+<answer id="8926" text="Dogwarts"/>
+<answer id="8927" text="Fogwarts"/>
+<answer id="8928" text="Logwarts"/>
+<tag id="690" text="uk"/>
+<tag id="1" text="movie"/>
+</question>
+<question id="7896" text="Findel Airport can be found in which European country?">
+<answer id="6525" text="Luxembourg"/>
+<answer id="1044" text="Finland"/>
+<answer id="175" text="Sweden"/>
+<answer id="1043" text="Norway"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="5315" text="in which century did Dmitri Shostakovich live?">
+<answer id="5285" text="20th"/>
+<answer id="5284" text="19th"/>
+<answer id="617" text="17th"/>
+<answer id="618" text="18th"/>
+<tag id="5149" text="classical"/>
+<tag id="107" text="music"/>
+</question>
+<question id="10291" text="On which planet would you find the highland area named Alpha Regio?">
+<answer id="247" text="Venus"/>
+<answer id="248" text="Mercury"/>
+<answer id="144" text="Mars"/>
+<answer id="141" text="Jupiter"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="7897" text="Flumicino Airport is located in which Italian City?">
+<answer id="1874" text="Rome"/>
+<answer id="5236" text="Naples"/>
+<answer id="1832" text="Milan"/>
+<answer id="1834" text="Florence"/>
+<tag id="7744" text="air-travel"/>
+</question>
+<question id="7038" text="Mack Daddy was a Grammy nominated album for which Hip-Hop act?">
+<answer id="6832" text="Sir Mix a Lot"/>
+<answer id="6819" text="Kris Kross"/>
+<answer id="6831" text="Vanilla Ice"/>
+<answer id="6741" text="Color Me Badd"/>
+<tag id="2917" text="90s"/>
+<tag id="107" text="music"/>
+</question>
+<question id="2078" text="What name is given to the scientific study of the hair and scalp?">
+<answer id="2074" text="Trichology"/>
+<answer id="2075" text="Ichthyology"/>
+<answer id="2076" text="Hedonology"/>
+<answer id="2077" text="Heliology"/>
+<tag id="1065" text="science"/>
+<tag id="114" text="name"/>
+</question>
+<question id="10930" text="Michael Schumacher made his F1 debut in 1991 driving for which team?">
+<answer id="4852" text="Jordan"/>
+<answer id="2492" text="Renault"/>
+<answer id="882" text="Ferrari"/>
+<answer id="983" text="Williams"/>
+<tag id="357" text="motorracing"/>
+<tag id="2499" text="f1"/>
+</question>
+<question id="10267" text="In what year was Pluto discovered?">
+<answer id="10265" text="1930"/>
+<answer id="362" text="1990"/>
+<answer id="7988" text="1960"/>
+<answer id="10266" text="1900"/>
+<tag id="10127" text="solar-system"/>
+</question>
+<question id="8201" text="Rollin King is the founder of which major airline?">
+<answer id="8199" text="Southwest Airlines"/>
+<answer id="8144" text="Virgin"/>
+<answer id="7891" text="Qantas"/>
+<answer id="7854" text="Emirates"/>
+<tag id="7744" text="air-travel"/>
+</question>
+</questions>
+</quizbang>
