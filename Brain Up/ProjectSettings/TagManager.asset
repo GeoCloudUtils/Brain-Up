@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - setting_screen
+  - ad_screen
   layers:
   - Default
   - TransparentFX

@@ -1,14 +1,17 @@
 ﻿/// author GEO
 using DG.Tweening;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class Setting_manager : MonoBehaviour
 {
+    public AdScreenManager ad_screen;
     public DOTweenAnimation panel_tween;
     public Button music_button;
     public Button sfx_button;
+    public Button removeAds_button;
     public Button close_button;
     public bool musicOn = false;
     public bool sfxOn = false;
@@ -38,9 +41,18 @@ public class Setting_manager : MonoBehaviour
         music_button.onClick.AddListener(delegate { SetMusicState(true); });
         sfx_button.onClick.AddListener(delegate { SetSfxState(true); });
         close_button.onClick.AddListener(CloseSettings);
+        removeAds_button.onClick.AddListener(ShowRemoveAdScreen);
 
         SetMusicState(false);
         SetSfxState(false);
+    }
+
+    private void ShowRemoveAdScreen()
+    {
+        if (ad_screen == null)
+            throw new ArgumentNullException();
+        else
+            ad_screen.gameObject.SetActive(true);
     }
 
     private void CloseSettings()
@@ -75,7 +87,7 @@ public class Setting_manager : MonoBehaviour
 
     private void Update()
     {
-        if (!captureEvents)
+        if (!captureEvents || ad_screen.gameObject.activeSelf)
             return;
         musicOn = PlayerPrefs.GetString("Music_state") == "ON";
         sfxOn = PlayerPrefs.GetString("Sfx_state") == "ON";

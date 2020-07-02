@@ -74,6 +74,12 @@
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\Scripts\AdScreenManager.cs" />
+    <Compile Include="Assets\Scripts\AndroidTriggerNavigation.cs" />
+    <Compile Include="Assets\Scripts\DestroyMe.cs" />
+    <Compile Include="Assets\Scripts\LevelScreen_manager.cs" />
+    <Compile Include="Assets\Scripts\Level_button.cs" />
+    <Compile Include="Assets\Scripts\Level_tab.cs" />
     <Compile Include="Assets\Scripts\Nav_manager.cs" />
     <Compile Include="Assets\Scripts\Numer_calc_generator.cs" />
     <Compile Include="Assets\Scripts\Setting_manager.cs" />
