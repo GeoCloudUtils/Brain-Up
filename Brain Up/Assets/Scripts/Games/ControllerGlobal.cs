@@ -119,7 +119,7 @@ namespace Assets.Scripts.Games
             _database = Database.Instance;
 
             //TMP> Reset progress
-            _database.Coins = 1000;
+            _database.Coins = 30;
             _database.Hints = 0;
             for (int a = 0; a < 10; ++a)
                 _database.SetGameProgress(a, 1);
@@ -206,16 +206,19 @@ namespace Assets.Scripts.Games
 
         internal void Prolong(Action<bool> resultCallback)
         {
-            resultCallback += (watched) =>
+            Action<bool> globalCallback = (watched) =>
             {
+                Debug.Log("Watched Rewarded Ad? " + watched);
                 if (watched == true)
                 {
+                    GameScreenGlobal.Instance._lastScreen.Show(true);
                     time += timeForWatchAd;
                     _gameRunning = true;
                 }
+                resultCallback.Invoke(watched);
             };
 
-            WatchAd(resultCallback);
+            WatchAd(globalCallback);
         }
 
         internal void RestartGame()
@@ -255,12 +258,13 @@ namespace Assets.Scripts.Games
 
         internal void WatchAd(Action<bool> callback)
         {
-            //TODO Show Ad
-            bool result = true;
+            GameScreenGlobal.Instance.ShowLoadingAdScreen(true);
+            callback += (watched) =>
+            {
+                GameScreenGlobal.Instance.ShowLoadingAdScreen(false);
+            };
 
-
-            Debug.Log("Ad watched result: " + result);
-            callback?.Invoke(result);
+            GoogleAdmobModel.Instance.ShowRewarded(callback);
         }
     }
 }

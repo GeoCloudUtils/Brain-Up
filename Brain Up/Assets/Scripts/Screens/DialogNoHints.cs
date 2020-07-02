@@ -21,8 +21,11 @@ namespace Assets.Scripts.Screens
             Show(false);
             ControllerGlobal.Instance.Pause(false);
 
-            //TODO Wath add
-            Database.Instance.Hints += 4;
+            ControllerGlobal.Instance.WatchAd((watched)=>
+            {
+                if(watched)
+                    Database.Instance.Hints += 4;
+            });
         }
 
         public void OnNoClicked()

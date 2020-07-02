@@ -27,6 +27,7 @@ namespace Assets.Scripts.Games.GuessWordGame
         private void Start()
         {
             _database = Database.Instance;
+            EnableTimer = true;
         }
 
         public void StartGame(Action<bool,bool> callback)

@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Assets.Scripts;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -8,60 +9,37 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
+using TMPro;
 using UnityEngine;
 public class Test_4 : MonoBehaviour
 {
+    public TMP_Text coinsCount;
+    public int coins = 0;
+
     private void Start()
     {
-        //string filePath = @"F:\Projects\Unity\__BlackArtSoft_Projects__\BrainUp\Brain Up\Assets\Resources\GameData\general-4.xml";
-        //FixXml(filePath);
-        //ReadXML(filePath.Replace(".xml", "_fixed.xml"));
-
-        string root = @"F:\Projects\Unity\__BlackArtSoft_Projects__\BrainUp\Brain Up\Assets\Resources\GameData\";
-        XMLToScriptableObject(root + @"\Raw\WorldCities.xml", root + "WorldCities.txt");
+        coinsCount.text = coins.ToString();
     }
 
-    private void XMLToScriptableObject(string filePath, string outFilePath)
+    public void ShowBanner()
     {
-        Debug.Log("XMLToScriptableObject started!");
-        StringBuilder builder = new StringBuilder();
-        using (XmlReader reader = XmlReader.Create(filePath))
+        GoogleAdmobModel.Instance.ShowBanner("TestBanner", Vector2.zero);
+    }
+
+    public void ShowRewardedAd()
+    {
+        GoogleAdmobModel.Instance.ShowRewarded((watched)=>
         {
-            int counter = 0;
-            int nrRow = 0; 
-            while (reader.Read())
+            if (watched)
             {
-
-                if (reader.HasValue)
-                {
-                   // Debug.LogFormat("Name: {0}; Value: {1}", reader.Name.ToString(), reader.Value);
-                    if (counter == 1)
-                    {
-                        builder.Append("  - question: " + reader.Value + "\n");
-                        builder.Append("    answers: " + "\n");
-                    }
-                    else if (counter == 13)
-                    {
-                        builder.Append("    - " + reader.Value + "\n");
-                    }
-                    ++counter;
-                }
-
-                
-                switch (reader.Name.ToString())
-                {
-                    case "Row":
-                      //  Debug.LogFormat("-----------");
-                        counter = 0;
-                        ++nrRow;
-                        break;
-                }
-
-                //if (nrRow == 100) break;
+                coins += 50;
+                coinsCount.text = coins.ToString();
             }
-        }
+        });
+    }
 
-        File.WriteAllText(outFilePath, builder.ToString());
-        Debug.Log("XMLToScriptableObject end!");
+    public void ShowInterstitialAd()
+    {
+        GoogleAdmobModel.Instance.ShowInterstitial();
     }
 }

@@ -5,6 +5,7 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games;
 using Scripts.Extensions;
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ namespace Assets.Scripts.Screens
     {
         [Header("References")]
         public GameObject screen=null;
+        public GameObject loadingAdScreen = null;
         public ScreenSelectModule selectModuleScreen = null;
         public TMP_Text hintsCount = null;
         public TMP_Text coinsCount = null;
@@ -130,6 +132,11 @@ namespace Assets.Scripts.Screens
             checkbar.SetActive(enableCheckbar);
 
             screen.SetActive(true);
+        }
+
+        internal void ShowLoadingAdScreen(bool show)
+        {
+            loadingAdScreen.SetActive(show);
         }
         #endregion
 

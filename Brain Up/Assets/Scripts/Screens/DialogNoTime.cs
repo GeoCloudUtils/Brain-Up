@@ -3,6 +3,7 @@
  */
 using Assets.Scripts.Games;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace Assets.Scripts.Screens
 {
@@ -34,6 +35,8 @@ namespace Assets.Scripts.Screens
             screen.SetActive(false);
             ControllerGlobal.Instance.Prolong((success)=>
             {
+                if (!success)
+                    screen.SetActive(true);
                 //if (success)
                 //    GlobalController.Instance.Prolong();
                 //else
