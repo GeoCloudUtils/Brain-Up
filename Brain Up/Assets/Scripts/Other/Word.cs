@@ -32,7 +32,7 @@ namespace Assets.Scripts.Games.Other
         public void SetText(string word)
         {
             if (maxLetters == -1)
-                maxLetters = word.Length;
+                maxLetters = letters.Length;
 
             if (maxLetters < word.Length)
                 Debug.LogError("To much letters in Word!!! Max: " + maxLetters);
@@ -112,7 +112,7 @@ namespace Assets.Scripts.Games.Other
             int index = 0;
             foreach (char c in correctWord)
             {
-                Debug.LogFormat("Let: {0} {1} {2}", c.ToString(), letters[index].text, c.ToString() != letters[index].text);
+               // Debug.LogFormat("Let: {0} {1} {2}", c.ToString(), letters[index].text, c.ToString() != letters[index].text);
                 if (c.ToString() != letters[index].text)
                     correct.Add(index);
                 index++;

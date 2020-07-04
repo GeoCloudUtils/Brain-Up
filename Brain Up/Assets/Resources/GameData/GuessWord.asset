@@ -15,18 +15,12 @@ MonoBehaviour:
   words:
   - category: History
     words:
-    - word: HistWord i
+    - word: q
       description: This is a word... 0
       hints: []
-    - word: HistWord ii
+    - word: w
       description: This is a word... 1
       hints: []
-    - word: HistWord iii
+    - word: e
       description: This is a word... 2
       hints: []
-  - category: 
-    words: []
-  - category: 
-    words: []
-  - category: 
-    words: []

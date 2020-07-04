@@ -48,7 +48,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
             List<Tuple<int, Sprite, string>> data = Model.GetData();
             bool[] answers = new bool[data.Count];
 
-            gameScreen.SetProgress(Model.progress, Model.questionsCount);
+            gameScreen.SetProgress(Model.progress, -1);
 
             int correctIndex = new System.Random().Next(0, data.Count);
             answers[correctIndex] = true;
@@ -58,6 +58,11 @@ namespace Assets.Scripts.Games.SelectFlagGame
                 flags[a] = data[a].Item2;
 
             string question = "What is the flag of " + data[correctIndex].Item3 + "?";
+
+            Debug.LogFormat("Question: {0};", question);
+            for (int a = 0; a < 4; ++a)
+                Debug.LogFormat("Answer {0} Correct: {1}", a, answers[a]);
+
             gameScreen.InitScreen(flags, question, answers);
             gameScreen.Show(true);
             endCallback?.Invoke();

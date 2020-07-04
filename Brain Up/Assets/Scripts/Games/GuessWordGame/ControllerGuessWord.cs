@@ -9,19 +9,18 @@ using UnityEngine;
 namespace Assets.Scripts.Games.GuessWordGame
 {
     public class ControllerGuessWord : SingleInstanceObject<ControllerGuessWord>,
-        ControllerAbstract, ICheckingGame
+        ControllerAbstract, ICheckingGame, IAdvancingGame
     {
         //Vars
-        protected Database _database;
+        private Database _database;
         //getters & setters
         public bool EnableTimer { get; set; }
         public ModelGuessWord Model;
         public ViewGuessWord View;
         public int HintsUsed {get;set;}
         public int Attempts {get;set; }
-
-        //events
-        public Action<GameEndReason> GameFinished;
+        ModelAbstract ControllerAbstract.GetModel() => Model;
+        ViewAbstract ControllerAbstract.GetView() => View;
 
 
         private void Start()
@@ -32,11 +31,12 @@ namespace Assets.Scripts.Games.GuessWordGame
 
         public void StartGame(Action<bool,bool> callback)
         {
+            HintsUsed = 0;
+            Attempts = 0;
+
             Model.Create();
             View.Create(Model);
 
-            HintsUsed = 0;
-            Attempts = 0;
             View.StartGame(() =>
               {
                   Model.StartGame();
@@ -49,11 +49,10 @@ namespace Assets.Scripts.Games.GuessWordGame
             StartGame(null);
         }
 
-        internal void StopGame(GameEndReason reason)
+        public void StopGame()
         {
-            Model.StopGame();
             View.StopGame();
-            GameFinished?.Invoke(reason);
+            Model.StopGame();
         }
 
         public bool Hint()
@@ -69,9 +68,7 @@ namespace Assets.Scripts.Games.GuessWordGame
             if (View.IsWordCorrect())
             {
                 Debug.Log("Is correct!");
-                int id = (int)GameId.RepeatLetters;
-                int progress = _database.GetGameProgress(id);
-                _database.SetGameProgress(id, progress + 1);
+                int id = (int)ControllerGlobal.Instance.currGameId;
                 return true;
             }
             else
@@ -82,26 +79,15 @@ namespace Assets.Scripts.Games.GuessWordGame
             }
         }
 
-        internal bool IsCurrentGameFinished()
+        public bool Advance()
         {
-            return Model.GetRemainedWordsCount()==0;
+            bool canAdvance = Model.Advance();
+            if (canAdvance)
+                View.Advance();
+            return canAdvance;
         }
 
-        public void StopGame()
-        {
-            View.StopGame();
-            Model.StopGame();
-        }
+       
 
-
-        ModelAbstract ControllerAbstract.GetModel()
-        {
-            return Model;
-        }
-
-        ViewAbstract ControllerAbstract.GetView()
-        {
-            return View;
-        }
     }
 }

@@ -27,5 +27,16 @@ namespace Assets.Scripts.LettersGames
             list[a] = list[b];
             list[b] = value;
         }
+
+        public static IList<T> Slice<T>(this IList<T> list, int first, int last)
+        {
+            List<T> newList = new List<T>();
+            for (int a = first; a <= last; ++a)
+            {
+                newList.Add(list[a]);
+            }
+
+            return newList;
+        }
     }
 }

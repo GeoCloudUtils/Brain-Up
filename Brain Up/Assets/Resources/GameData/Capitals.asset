@@ -14,966 +14,1014 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - question: Somaliland
-    answers: 
+    answers:
     - Hargeisa
     - Africa
   - question: South Georgia and South Sandwich Islands
-    answers: 
+    answers:
     - King Edward Point
     - Antarctica
   - question: French Southern and Antarctic Lands
-    answers: 
-    - Port-aux-FranÃ§ais
+    answers:
+    - "Port-aux-Fran\xC3\xA7ais"
     - Antarctica
   - question: Palestine
-    answers: 
+    answers:
     - Jerusalem
     - Asia
   - question: Aland Islands
-    answers: 
+    answers:
     - Mariehamn
     - Europe
   - question: Nauru
-    answers: 
+    answers:
     - Yaren
     - Australia
   - question: Saint Martin
-    answers: 
+    answers:
     - Marigot
     - North America
   - question: Tokelau
-    answers: 
+    answers:
     - Atafu
     - Australia
   - question: Western Sahara
-    answers: 
-    - El-AaiÃºn
+    answers:
+    - "El-Aai\xC3\xBAn"
     - Africa
   - question: Afghanistan
-    answers: 
+    answers:
     - Kabul
     - Asia
   - question: Albania
-    answers: 
+    answers:
     - Tirana
     - Europe
   - question: Algeria
-    answers: 
+    answers:
     - Algiers
     - Africa
   - question: American Samoa
-    answers: 
+    answers:
     - Pago Pago
     - Australia
   - question: Andorra
-    answers: 
+    answers:
     - Andorra la Vella
     - Europe
   - question: Angola
-    answers: 
+    answers:
     - Luanda
     - Africa
   - question: Anguilla
-    answers: 
+    answers:
     - The Valley
     - North America
   - question: Antigua and Barbuda
-    answers: 
+    answers:
     - Saint John's
     - North America
   - question: Argentina
-    answers: 
+    answers:
     - Buenos Aires
     - South America
   - question: Armenia
-    answers: 
+    answers:
     - Yerevan
     - Europe
   - question: Aruba
-    answers: 
+    answers:
     - Oranjestad
     - North America
   - question: Australia
-    answers: 
+    answers:
     - Canberra
     - Australia
   - question: Austria
-    answers: 
+    answers:
     - Vienna
     - Europe
   - question: Azerbaijan
-    answers: 
+    answers:
     - Baku
     - Europe
   - question: Bahamas
-    answers: 
+    answers:
     - Nassau
     - North America
   - question: Bahrain
-    answers: 
+    answers:
     - Manama
     - Asia
   - question: Bangladesh
-    answers: 
+    answers:
     - Dhaka
     - Asia
   - question: Barbados
-    answers: 
+    answers:
     - Bridgetown
     - North America
   - question: Belarus
-    answers: 
+    answers:
     - Minsk
     - Europe
   - question: Belgium
-    answers: 
+    answers:
     - Brussels
     - Europe
   - question: Belize
-    answers: 
+    answers:
     - Belmopan
     - Central America
   - question: Benin
-    answers: 
+    answers:
     - Porto-Novo
     - Africa
   - question: Bermuda
-    answers: 
+    answers:
     - Hamilton
     - North America
   - question: Bhutan
-    answers: 
+    answers:
     - Thimphu
     - Asia
   - question: Bolivia
-    answers: 
+    answers:
     - La Paz
     - South America
   - question: Bosnia and Herzegovina
-    answers: 
+    answers:
     - Sarajevo
     - Europe
   - question: Botswana
-    answers: 
+    answers:
     - Gaborone
     - Africa
   - question: Brazil
-    answers: 
+    answers:
     - Brasilia
     - South America
   - question: British Virgin Islands
-    answers: 
+    answers:
     - Road Town
     - North America
   - question: Brunei Darussalam
-    answers: 
+    answers:
     - Bandar Seri Begawan
     - Asia
   - question: Bulgaria
-    answers: 
+    answers:
     - Sofia
     - Europe
   - question: Burkina Faso
-    answers: 
+    answers:
     - Ouagadougou
     - Africa
   - question: Myanmar
-    answers: 
+    answers:
     - Rangoon
     - Asia
   - question: Burundi
-    answers: 
+    answers:
     - Bujumbura
     - Africa
   - question: Cambodia
-    answers: 
+    answers:
     - Phnom Penh
     - Asia
   - question: Cameroon
-    answers: 
+    answers:
     - Yaounde
     - Africa
   - question: Canada
-    answers: 
+    answers:
     - Ottawa
     - Central America
   - question: Cape Verde
-    answers: 
+    answers:
     - Praia
     - Africa
   - question: Cayman Islands
-    answers: 
+    answers:
     - George Town
     - North America
   - question: Central African Republic
-    answers: 
+    answers:
     - Bangui
     - Africa
   - question: Chad
-    answers: 
+    answers:
     - N'Djamena
     - Africa
   - question: Chile
-    answers: 
+    answers:
     - Santiago
     - South America
   - question: China
-    answers: 
+    answers:
     - Beijing
     - Asia
   - question: Christmas Island
-    answers: 
+    answers:
     - The Settlement
     - Australia
   - question: Cocos Islands
-    answers: 
+    answers:
     - West Island
     - Australia
   - question: Colombia
-    answers: 
+    answers:
     - Bogota
     - South America
   - question: Comoros
-    answers: 
+    answers:
     - Moroni
     - Africa
   - question: Democratic Republic of the Congo
-    answers: 
+    answers:
     - Kinshasa
     - Africa
   - question: Republic of Congo
-    answers: 
+    answers:
     - Brazzaville
     - Africa
   - question: Cook Islands
-    answers: 
+    answers:
     - Avarua
     - Australia
   - question: Costa Rica
-    answers: 
+    answers:
     - San Jose
     - Central America
   - question: Cote d'Ivoire
-    answers: 
+    answers:
     - Yamoussoukro
     - Africa
   - question: Croatia
-    answers: 
+    answers:
     - Zagreb
     - Europe
   - question: Cuba
-    answers: 
+    answers:
     - Havana
     - North America
-  - question: CuraÃ§ao
-    answers: 
+  - question: "Cura\xC3\xA7ao"
+    answers:
     - Willemstad
     - North America
   - question: Cyprus
-    answers: 
+    answers:
     - Nicosia
     - Europe
   - question: Czech Republic
-    answers: 
+    answers:
     - Prague
     - Europe
   - question: Denmark
-    answers: 
+    answers:
     - Copenhagen
     - Europe
   - question: Djibouti
-    answers: 
+    answers:
     - Djibouti
     - Africa
   - question: Dominica
-    answers: 
+    answers:
     - Roseau
     - North America
   - question: Dominican Republic
-    answers: 
+    answers:
     - Santo Domingo
     - North America
   - question: Ecuador
-    answers: 
+    answers:
     - Quito
     - South America
   - question: Egypt
-    answers: 
+    answers:
     - Cairo
     - Africa
   - question: El Salvador
-    answers: 
+    answers:
     - San Salvador
     - Central America
   - question: Equatorial Guinea
-    answers: 
+    answers:
     - Malabo
     - Africa
   - question: Eritrea
-    answers: 
+    answers:
     - Asmara
     - Africa
   - question: Estonia
-    answers: 
+    answers:
     - Tallinn
     - Europe
   - question: Ethiopia
-    answers: 
+    answers:
     - Addis Ababa
     - Africa
   - question: Falkland Islands
-    answers: 
+    answers:
     - Stanley
     - South America
   - question: Faroe Islands
-    answers: 
+    answers:
     - Torshavn
     - Europe
   - question: Fiji
-    answers: 
+    answers:
     - Suva
     - Australia
   - question: Finland
-    answers: 
+    answers:
     - Helsinki
     - Europe
   - question: France
-    answers: 
+    answers:
     - Paris
     - Europe
   - question: French Polynesia
-    answers: 
+    answers:
     - Papeete
     - Australia
   - question: Gabon
-    answers: 
+    answers:
     - Libreville
     - Africa
   - question: The Gambia
-    answers: 
+    answers:
     - Banjul
     - Africa
   - question: Georgia
-    answers: 
+    answers:
     - Tbilisi
     - Europe
   - question: Germany
-    answers: 
+    answers:
     - Berlin
     - Europe
   - question: Ghana
-    answers: 
+    answers:
     - Accra
     - Africa
   - question: Gibraltar
-    answers: 
+    answers:
     - Gibraltar
     - Europe
   - question: Greece
-    answers: 
+    answers:
     - Athens
     - Europe
   - question: Greenland
-    answers: 
+    answers:
     - Nuuk
     - Central America
   - question: Grenada
-    answers: 
+    answers:
     - Saint George's
     - North America
   - question: Guam
-    answers: 
+    answers:
     - Hagatna
     - Australia
   - question: Guatemala
-    answers: 
+    answers:
     - Guatemala City
     - Central America
   - question: Guernsey
-    answers: 
+    answers:
     - Saint Peter Port
     - Europe
   - question: Guinea
-    answers: 
+    answers:
     - Conakry
     - Africa
   - question: Guinea-Bissau
-    answers: 
+    answers:
     - Bissau
     - Africa
   - question: Guyana
-    answers: 
+    answers:
     - Georgetown
     - South America
   - question: Haiti
-    answers: 
+    answers:
     - Port-au-Prince
     - North America
   - question: Vatican City
-    answers: 
+    answers:
     - Vatican City
     - Europe
   - question: Honduras
-    answers: 
+    answers:
     - Tegucigalpa
     - Central America
   - question: Hungary
-    answers: 
+    answers:
     - Budapest
     - Europe
   - question: Iceland
-    answers: 
+    answers:
     - Reykjavik
     - Europe
   - question: India
-    answers: 
+    answers:
     - New Delhi
     - Asia
   - question: Indonesia
-    answers: 
+    answers:
     - Jakarta
     - Asia
   - question: Iran
-    answers: 
+    answers:
     - Tehran
     - Asia
   - question: Iraq
-    answers: 
+    answers:
     - Baghdad
     - Asia
   - question: Ireland
-    answers: 
+    answers:
     - Dublin
     - Europe
   - question: Isle of Man
-    answers: 
+    answers:
     - Douglas
     - Europe
   - question: Israel
-    answers: 
+    answers:
     - Jerusalem
     - Asia
   - question: Italy
-    answers: 
+    answers:
     - Rome
     - Europe
   - question: Jamaica
-    answers: 
+    answers:
     - Kingston
     - North America
   - question: Japan
-    answers: 
+    answers:
     - Tokyo
     - Asia
   - question: Jersey
-    answers: 
+    answers:
     - Saint Helier
     - Europe
   - question: Jordan
-    answers: 
+    answers:
     - Amman
     - Asia
   - question: Kazakhstan
-    answers: 
+    answers:
     - Astana
     - Asia
   - question: Kenya
-    answers: 
+    answers:
     - Nairobi
     - Africa
   - question: Kiribati
-    answers: 
+    answers:
     - Tarawa
     - Australia
   - question: North Korea
-    answers: 
+    answers:
     - Pyongyang
     - Asia
   - question: South Korea
-    answers: 
+    answers:
     - Seoul
     - Asia
   - question: Kosovo
-    answers: 
+    answers:
     - Pristina
     - Europe
   - question: Kuwait
-    answers: 
+    answers:
     - Kuwait City
     - Asia
   - question: Kyrgyzstan
-    answers: 
+    answers:
     - Bishkek
     - Asia
   - question: Laos
-    answers: 
+    answers:
     - Vientiane
     - Asia
   - question: Latvia
-    answers: 
+    answers:
     - Riga
     - Europe
   - question: Lebanon
-    answers: 
+    answers:
     - Beirut
     - Asia
   - question: Lesotho
-    answers: 
+    answers:
     - Maseru
     - Africa
   - question: Liberia
-    answers: 
+    answers:
     - Monrovia
     - Africa
   - question: Libya
-    answers: 
+    answers:
     - Tripoli
     - Africa
   - question: Liechtenstein
-    answers: 
+    answers:
     - Vaduz
     - Europe
   - question: Lithuania
-    answers: 
+    answers:
     - Vilnius
     - Europe
   - question: Luxembourg
-    answers: 
+    answers:
     - Luxembourg
     - Europe
   - question: Macedonia
-    answers: 
+    answers:
     - Skopje
     - Europe
   - question: Madagascar
-    answers: 
+    answers:
     - Antananarivo
     - Africa
   - question: Malawi
-    answers: 
+    answers:
     - Lilongwe
     - Africa
   - question: Malaysia
-    answers: 
+    answers:
     - Kuala Lumpur
     - Asia
   - question: Maldives
-    answers: 
+    answers:
     - Male
     - Asia
   - question: Mali
-    answers: 
+    answers:
     - Bamako
     - Africa
   - question: Malta
-    answers: 
+    answers:
     - Valletta
     - Europe
   - question: Marshall Islands
-    answers: 
+    answers:
     - Majuro
     - Australia
   - question: Mauritania
-    answers: 
+    answers:
     - Nouakchott
     - Africa
   - question: Mauritius
-    answers: 
+    answers:
     - Port Louis
     - Africa
   - question: Mexico
-    answers: 
+    answers:
     - Mexico City
     - Central America
   - question: Federated States of Micronesia
-    answers: 
+    answers:
     - Palikir
     - Australia
   - question: Moldova
-    answers: 
+    answers:
     - Chisinau
     - Europe
   - question: Monaco
-    answers: 
+    answers:
     - Monaco
     - Europe
   - question: Mongolia
-    answers: 
+    answers:
     - Ulaanbaatar
     - Asia
   - question: Montenegro
-    answers: 
+    answers:
     - Podgorica
     - Europe
   - question: Montserrat
-    answers: 
+    answers:
     - Plymouth
     - North America
   - question: Morocco
-    answers: 
+    answers:
     - Rabat
     - Africa
   - question: Mozambique
-    answers: 
+    answers:
     - Maputo
     - Africa
   - question: Namibia
-    answers: 
+    answers:
     - Windhoek
     - Africa
   - question: Nepal
-    answers: 
+    answers:
     - Kathmandu
     - Asia
   - question: Netherlands
-    answers: 
+    answers:
     - Amsterdam
     - Europe
   - question: New Caledonia
-    answers: 
+    answers:
     - Noumea
     - Australia
   - question: New Zealand
-    answers: 
+    answers:
     - Wellington
     - Australia
   - question: Nicaragua
-    answers: 
+    answers:
     - Managua
     - Central America
   - question: Niger
-    answers: 
+    answers:
     - Niamey
     - Africa
   - question: Nigeria
-    answers: 
+    answers:
     - Abuja
     - Africa
   - question: Niue
-    answers: 
+    answers:
     - Alofi
     - Australia
   - question: Norfolk Island
-    answers: 
+    answers:
     - Kingston
     - Australia
   - question: Northern Mariana Islands
-    answers: 
+    answers:
     - Saipan
     - Australia
   - question: Norway
-    answers: 
+    answers:
     - Oslo
     - Europe
   - question: Oman
-    answers: 
+    answers:
     - Muscat
     - Asia
   - question: Pakistan
-    answers: 
+    answers:
     - Islamabad
     - Asia
   - question: Palau
-    answers: 
+    answers:
     - Melekeok
     - Australia
   - question: Panama
-    answers: 
+    answers:
     - Panama City
     - Central America
   - question: Papua New Guinea
-    answers: 
+    answers:
     - Port Moresby
     - Australia
   - question: Paraguay
-    answers: 
+    answers:
     - Asuncion
     - South America
   - question: Peru
-    answers: 
+    answers:
     - Lima
     - South America
   - question: Philippines
-    answers: 
+    answers:
     - Manila
     - Asia
   - question: Pitcairn Islands
-    answers: 
+    answers:
     - Adamstown
     - Australia
   - question: Poland
-    answers: 
+    answers:
     - Warsaw
     - Europe
   - question: Portugal
-    answers: 
+    answers:
     - Lisbon
     - Europe
   - question: Puerto Rico
-    answers: 
+    answers:
     - San Juan
     - North America
   - question: Qatar
-    answers: 
+    answers:
     - Doha
     - Asia
   - question: Romania
-    answers: 
+    answers:
     - Bucharest
     - Europe
   - question: Russia
-    answers: 
+    answers:
     - Moscow
     - Europe
   - question: Rwanda
-    answers: 
+    answers:
     - Kigali
     - Africa
   - question: Saint Barthelemy
-    answers: 
+    answers:
     - Gustavia
     - North America
   - question: Saint Helena
-    answers: 
+    answers:
     - Jamestown
     - Africa
   - question: Saint Kitts and Nevis
-    answers: 
+    answers:
     - Basseterre
     - North America
   - question: Saint Lucia
-    answers: 
+    answers:
     - Castries
     - North America
   - question: Saint Pierre and Miquelon
-    answers: 
+    answers:
     - Saint-Pierre
     - Central America
   - question: Saint Vincent and the Grenadines
-    answers: 
+    answers:
     - Kingstown
     - Central America
   - question: Samoa
-    answers: 
+    answers:
     - Apia
     - Australia
   - question: San Marino
-    answers: 
+    answers:
     - San Marino
     - Europe
   - question: Sao Tome and Principe
-    answers: 
+    answers:
     - Sao Tome
     - Africa
   - question: Saudi Arabia
-    answers: 
+    answers:
     - Riyadh
     - Asia
   - question: Senegal
-    answers: 
+    answers:
     - Dakar
     - Africa
   - question: Serbia
-    answers: 
+    answers:
     - Belgrade
     - Europe
   - question: Seychelles
-    answers: 
+    answers:
     - Victoria
     - Africa
   - question: Sierra Leone
-    answers: 
+    answers:
     - Freetown
     - Africa
   - question: Singapore
-    answers: 
+    answers:
     - Singapore
     - Asia
   - question: Sint Maarten
-    answers: 
+    answers:
     - Philipsburg
     - North America
   - question: Slovakia
-    answers: 
+    answers:
     - Bratislava
     - Europe
   - question: Slovenia
-    answers: 
+    answers:
     - Ljubljana
     - Europe
   - question: Solomon Islands
-    answers: 
+    answers:
     - Honiara
     - Australia
   - question: Somalia
-    answers: 
+    answers:
     - Mogadishu
     - Africa
   - question: South Africa
-    answers: 
+    answers:
     - Pretoria
     - Africa
   - question: South Sudan
-    answers: 
+    answers:
     - Juba
     - Africa
   - question: Spain
-    answers: 
+    answers:
     - Madrid
     - Europe
   - question: Sri Lanka
-    answers: 
+    answers:
     - Colombo
     - Asia
   - question: Sudan
-    answers: 
+    answers:
     - Khartoum
     - Africa
   - question: Suriname
-    answers: 
+    answers:
     - Paramaribo
     - South America
   - question: Svalbard
-    answers: 
+    answers:
     - Longyearbyen
     - Europe
   - question: Swaziland
-    answers: 
+    answers:
     - Mbabane
     - Africa
   - question: Sweden
-    answers: 
+    answers:
     - Stockholm
     - Europe
   - question: Switzerland
-    answers: 
+    answers:
     - Bern
     - Europe
   - question: Syria
-    answers: 
+    answers:
     - Damascus
     - Asia
   - question: Taiwan
-    answers: 
+    answers:
     - Taipei
     - Asia
   - question: Tajikistan
-    answers: 
+    answers:
     - Dushanbe
     - Asia
   - question: Tanzania
-    answers: 
+    answers:
     - Dar es Salaam
     - Africa
   - question: Thailand
-    answers: 
+    answers:
     - Bangkok
     - Asia
   - question: Timor-Leste
-    answers: 
+    answers:
     - Dili
     - Asia
   - question: Togo
-    answers: 
+    answers:
     - Lome
     - Africa
   - question: Tonga
-    answers: 
+    answers:
     - Nuku'alofa
     - Australia
   - question: Trinidad and Tobago
-    answers: 
+    answers:
     - Port of Spain
     - North America
   - question: Tunisia
-    answers: 
+    answers:
     - Tunis
     - Africa
   - question: Turkey
-    answers: 
+    answers:
     - Ankara
     - Europe
   - question: Turkmenistan
-    answers: 
+    answers:
     - Ashgabat
     - Asia
   - question: Turks and Caicos Islands
-    answers: 
+    answers:
     - Grand Turk
     - North America
   - question: Tuvalu
-    answers: 
+    answers:
     - Funafuti
     - Australia
   - question: Uganda
-    answers: 
+    answers:
     - Kampala
     - Africa
   - question: Ukraine
-    answers: 
+    answers:
     - Kyiv
     - Europe
   - question: United Arab Emirates
-    answers: 
+    answers:
     - Abu Dhabi
     - Asia
   - question: United Kingdom
-    answers: 
+    answers:
     - London
     - Europe
   - question: United States
-    answers: 
+    answers:
     - Washington
     - US
   - question: Uruguay
-    answers: 
+    answers:
     - Montevideo
     - South America
   - question: Uzbekistan
-    answers: 
+    answers:
     - Tashkent
     - Asia
   - question: Vanuatu
-    answers: 
+    answers:
     - Port-Vila
     - Australia
   - question: Venezuela
-    answers: 
+    answers:
     - Caracas
     - South America
   - question: Vietnam
-    answers: 
+    answers:
     - Hanoi
     - Asia
   - question: US Virgin Islands
-    answers: 
+    answers:
     - Charlotte Amalie
     - North America
   - question: Wallis and Futuna
-    answers: 
+    answers:
     - Mata-Utu
     - Australia
   - question: Yemen
-    answers: 
+    answers:
     - Sanaa
     - Asia
   - question: Zambia
-    answers: 
+    answers:
     - Lusaka
     - Africa
   - question: Zimbabwe
-    answers: 
+    answers:
     - Harare
     - Africa
   - question: US Minor Outlying Islands
-    answers: 
+    answers:
     - Washington
     - UM
   - question: Northern Cyprus
-    answers: 
+    answers:
     - North Nicosia
     - Europe
-  - question: British Indian Ocean Territory
-    answers: 
-    - Diego Garcia
+  - question: Brunei
+    answers:
+    - Bandar Seri Begawan
     - Africa
+  - question: Congo
+    answers:
+    - Kinshasa
+    - Africa
+  - question: Burma
+    answers:
+    - Naypyidaw
+    - Asia
+  - question: Macau
+    answers:
+    - Sniper Capital
+    - Asia
+  - question: Norfolk Island
+    answers:
+    - Kingston
+    - Australia
+  - question: Gaza Strip
+    answers:
+    - Gaza City
+    - Africa
+  - question: The Bahamas
+    answers:
+    - Nassau
+    - America
+  - question: Bouvet Island
+    answers:
+    - Oslo
+    - Antarctica
+  - question: Czech
+    answers:
+    - Praga
+    - Europe
+  - question: Hong Kong
+    answers:
+    - Victoria City
+    - Asia
+  - question: Lesatho
+    answers:
+    - Maseru
+    - Africa
+  - question: Mayotte
+    answers:
+    - Mamoudzou
+    - Africa
+  - question: Vatican
+    answers:
+    - Vatican
+    - Europe

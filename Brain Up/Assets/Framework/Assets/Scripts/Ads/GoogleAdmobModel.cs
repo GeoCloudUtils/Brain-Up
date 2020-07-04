@@ -41,7 +41,7 @@ namespace Assets.Scripts
 
         [Header("General")]
         public bool testMode = true;
-        public string packageName = "com.OveractGames.RedBlue.AnotherWay";
+        public string packageName = "com.OveractGames.-.-";
         [Header("Settings for Android")]
         public string androidAppId = "ca-app-pub-0000000000~00000000";
         public AdId[] androidAds = new AdId[3]

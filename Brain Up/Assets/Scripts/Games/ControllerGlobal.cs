@@ -13,6 +13,8 @@ using System;
 using UnityEngine;
 using System.Collections.Generic;
 using Assets.Scripts.Games.CapitalsGame;
+using Assets.Scripts.Games.GameData.DifficultyData;
+using Assets.Scripts.Games.HistoryGame;
 
 namespace Assets.Scripts.Games
 {
@@ -25,7 +27,44 @@ namespace Assets.Scripts.Games
         SelectFlag = 3,
         Acknowledge_Countries = 4,
         GuessWord = 5,
-        TimeKiller = 6,
+        TimeKiller = 6
+    }
+
+    public static class GameName
+    {
+        public static string GetById(GameId id)
+        {
+            switch (id)
+            {
+                case GameId.RepeatLetters: return "Repeat Letters";
+                case GameId.RepeatColors: return "Repeat Colors";
+                case GameId.Acknowledge_History: return "History";
+                case GameId.SelectFlag: return "Select Flag";
+                case GameId.Acknowledge_Countries: return "Countries";
+                case GameId.GuessWord: return "Guess Word";
+                case GameId.TimeKiller: return "TimeKiller";
+                default: break;
+            }
+            return null;
+        }
+    }
+
+    public static class GameDifficultyName
+    {
+        public static string GetById(GameDifficulty id)
+        {
+            switch (id)
+            {
+                case GameDifficulty.Welcome: return "Welcome";
+                case GameDifficulty.Easy: return "Easy";
+                case GameDifficulty.NotSoEasy: return "Not so Easy";
+                case GameDifficulty.Medium: return "Medium";
+                case GameDifficulty.Hard: return "Hard";
+                case GameDifficulty.Any: return "Any";
+                default: break;
+            }
+            return null;
+        }
     }
 
     [Serializable]
@@ -47,10 +86,12 @@ namespace Assets.Scripts.Games
     [Serializable]
     public enum GameDifficulty
     {
-        None = 0,
+        Any=-1,
+        Welcome=0,
         Easy = 1,
-        Medium = 2,
-        Hard = 3,
+        NotSoEasy=2,
+        Medium = 3,
+        Hard = 4
     }
 
     [Serializable]
@@ -86,10 +127,12 @@ namespace Assets.Scripts.Games
         public GameLanguage currGameLanguage;
         public GameDifficulty currDifficulty = GameDifficulty.Easy;
         public Continent currContinent = Continent.Any;
+        public int currProgress = 0;
         //
         private bool _gameRunning = false;
         private bool timerEnabled = false;
         private Database _database;
+        private DifficultyData levelsData;
         //getters & setters
         public int HintsUsed { get; set; }
         public int Attempts { get; set; }
@@ -113,6 +156,11 @@ namespace Assets.Scripts.Games
             public static ControllerTimeKiller ackTimeKiller;
         }
 
+        private new void Awake()
+        {
+            base.Awake();
+            levelsData = Resources.Load<DifficultyData>("GameData/LevelsData");
+        }
 
         private void Start()
         {
@@ -124,6 +172,20 @@ namespace Assets.Scripts.Games
             for (int a = 0; a < 10; ++a)
                 _database.SetGameProgress(a, 1);
             _database.BoughtItems.Clear();
+            int[] diffs = (int[])typeof(GameDifficulty).GetEnumValues();
+            int[] games = (int[])typeof(GameId).GetEnumValues();
+            for(int a=0; a < games.Length; ++a)
+            {
+                for (int b = 0; b < diffs.Length; ++b)
+                {
+                    if (diffs[b] < 0) continue;
+
+                    int progress = -1;
+                    if (b == 0)
+                        progress = 0;
+                    _database.SetGameProgressForDifficulty(games[a], diffs[b], progress);
+                }
+            }
             //  AddControllerForGame(GameId.Acknowledge_Countries, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
             //  AddControllerForGame(GameId.Acknowledge_History, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
         }
@@ -159,7 +221,7 @@ namespace Assets.Scripts.Games
         }
 
 
-        public void StartGame(GameId gameId, GameLanguage gameLanguage = GameLanguage.None)
+        public void StartGame(GameId gameId, GameLanguage gameLanguage = GameLanguage.English)
         {
             Debug.Log("GlobalController: Starting game...");
             
@@ -190,9 +252,10 @@ namespace Assets.Scripts.Games
             Action<bool,bool> action = (enableTimer, enableCheckbar) =>
             {
                 var global = ControllerGlobal.Instance;
-                Debug.LogFormat("Game Started. EnableTimer: {0}; GameId: {1}",
+                Debug.LogFormat("Game Started. EnableTimer: {0}; GameId: {1}; Diff: {2}",
                     enableTimer, 
-                    (int)_currController.GetModel().GameId);
+                    global.currGameId,
+                    global.currDifficulty);
                 if (enableTimer)
                 {
                     global.time = global.model.gameDuration;
@@ -229,6 +292,8 @@ namespace Assets.Scripts.Games
 
         internal void StopGame(GameEndReason reason)
         {
+            GameScreenGlobal.Instance.Show(false);
+            currProgress = 0;
             _gameRunning = false;
             if(_currController!=null)
                 _currController.StopGame();
@@ -237,7 +302,52 @@ namespace Assets.Scripts.Games
 
         internal bool Advance()
         {
-            return ((IAdvancingGame)_currController).Advance();
+            
+            Type type = _currController.GetType().GetInterface(nameof(IAdvancingGame));
+            if(type == null)
+                throw new UnityException();
+
+            if (type == null)
+            {
+                Debug.LogWarning(_currController.GetType() + " have not IAdvancingGame interface!");
+                return false;
+            }
+
+            bool canAdvance = ((IAdvancingGame)_currController).Advance();
+
+            if (!canAdvance)
+            {
+                StopGame(GameEndReason.Exit);
+                if (currDifficulty != GameDifficulty.Hard)//Unlock next stage
+                {
+                    Database.Instance.SetGameProgressForDifficulty(
+                        (int)currGameId,
+                        (int)currDifficulty + 1, 0);
+                }
+                GameScreenGlobal.Instance.ShowDiffLevelFinishedScreen(GameName.GetById(currGameId), GameDifficultyName.GetById(currDifficulty));
+            }
+            else
+            {
+                ++currProgress;
+
+                int last = 0;
+                if (currDifficulty == GameDifficulty.Any)
+                {
+                    last = Database.Instance.GetGameProgress((int)currGameId);
+                    if (currProgress > last)
+                        Database.Instance.SetGameProgress((int)currGameId, currProgress);
+                }
+                else
+                {
+                    last = Database.Instance.GetGameProgressForDifficulty((int)currGameId, (int)currDifficulty);
+                    if (currProgress > last)
+                        Database.Instance.SetGameProgressForDifficulty((int)currGameId, (int)currDifficulty, currProgress);
+                }
+            }
+           
+
+
+            return canAdvance;
         }
 
         internal void Pause(bool pause)
@@ -266,5 +376,53 @@ namespace Assets.Scripts.Games
 
             GoogleAdmobModel.Instance.ShowRewarded(callback);
         }
+
+        public void SetGameDifficulty(GameDifficulty difficulty)
+        {
+            currDifficulty = difficulty;
+        }
+
+        public void SetContinent(Continent continent)
+        {
+            currContinent = continent;
+        }
+
+        //private Dictionary<GameId, KeyValuePair<GameDifficulty,int>[]> MaxLevels = new Dictionary<GameId, KeyValuePair<GameDifficulty, int>>()
+        //{
+        //    { GameId., 2000 },
+        //    { GameId.Acknowledge_History, 2000 },
+        //    { GameId.Acknowledge_History, 2000 },
+        //    { GameId.Acknowledge_History, 2000 },
+        //    { GameId.Acknowledge_History, 2000 },
+        //};
+
+        internal int GetMaxLevel(GameId gameId, GameDifficulty difficulty)
+        {
+            foreach(var game in levelsData.rows)
+                if (game.gameId == gameId)
+                    foreach (var diff in game.data)
+                    {
+                        if(diff.difficulty == difficulty)
+                            return diff.nrMaxLevels;
+                    }
+            Debug.LogWarningFormat("Data not found for game={0} with difficulty={1}", gameId, difficulty);
+            return 0;
+        }
+
+        internal int GetMaxLevelForCurrGame()
+        {
+            return GetMaxLevel(currGameId, currDifficulty);
+        }
+
+        internal DifficultyDataRow GetLevelDataFor(GameId gameId)
+        {
+            foreach (var game in levelsData.rows)
+                if (game.gameId == gameId)
+                    return game;
+            Debug.LogWarningFormat("Level Data not found for game={0}", gameId);
+            return null;
+        }
+
+       
     }
 }

@@ -37,7 +37,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
             View.StartGame(() =>
               {
                   Model.StartGame();
-                  callback?.Invoke(EnableTimer, true);
+                  callback?.Invoke(EnableTimer, false);
               });
         }
 

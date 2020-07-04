@@ -6,6 +6,7 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
+using Assets.Scripts.Games.GameData.Question_;
 using Assets.Scripts.LettersGames;
 using Assets.Scripts.Screens;
 using System;
@@ -23,8 +24,6 @@ namespace Assets.Scripts.Games.TimeKillerGame
         public GameScreenMultipleAnswers gameScreen;
         //Properties
         public ModelTimeKiller Model;
-
-
 
         public void Create(ModelTimeKiller model)
         {
@@ -63,11 +62,11 @@ namespace Assets.Scripts.Games.TimeKillerGame
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);
 
             gameScreen.InitScreen(data.answers, data.question, answers);
-            gameScreen.SetProgress(Model.progress);
+            gameScreen.SetProgress(Model.progress, -1);
 
             gameScreen.Show(true);
 
-            endCallback.Invoke();
+            endCallback?.Invoke();
         }
 
         public void StopGame()
@@ -77,7 +76,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         internal void Advance()
         {
-           gameScreen.SetProgress(Model.progress);
+           gameScreen.SetProgress(Model.progress, ControllerGlobal.Instance.GetMaxLevelForCurrGame());
         }
 
         ModelAbstract ViewAbstract.GetModel()

@@ -3,6 +3,8 @@
  */
 using Assets.Scripts.Games;
 using Assets.Scripts.Games.GuessWordGame;
+using System;
+using TMPro;
 using UnityEngine;
 
 namespace Assets.Scripts.Screens
@@ -15,6 +17,7 @@ namespace Assets.Scripts.Screens
         public DialogWin winScreen;
         public DialogNoTime noTimeScreen;
         public DialogNoHints noHintsScreen;
+        public TMP_Text progressCount;
         //
         protected Database _database;
         protected ControllerGlobal globalController;
@@ -68,6 +71,14 @@ namespace Assets.Scripts.Screens
                 globalController.Pause(true);
             }
           
+        }
+
+        internal void SetProgress(int progress, int max)
+        {
+            if (max == -1)
+                progressCount.text = string.Format("Progress: {0}", progress);
+            else
+                progressCount.text = string.Format("Level: {0}/{1}", progress, max);
         }
     }
 }

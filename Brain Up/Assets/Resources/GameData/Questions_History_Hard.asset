@@ -13,604 +13,635 @@ MonoBehaviour:
   m_Name: Questions_History_Hard
   m_EditorClassIdentifier: 
   questions:
-  - question: With which Greek philosopher would you associate the phrase, "I know that I know nothing"?
-    answers: 
+  - question: With which Greek philosopher would you associate the phrase, "I know
+      that I know nothing"?
+    answers:
     - Socrates
     - Aristotle
     - Plato
     - Pythagoras
-  - question: Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?
-    answers: 
+  - question: Which naval battle was considered the turning point of the Pacific
+      Ocean Theater during World War 2?
+    answers:
     - Battle of Midway
     - Attack on Truk Island
     - Attack on Pearl Harbor
     - Battle of the Coral Sea
-  - question: In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?
-    answers: 
+  - question: In the year 1900, what were the most popular first names given to boy
+      and girl babies born in the United States?
+    answers:
     - John and Mary
     - Joseph and Catherine
     - William and Elizabeth
     - George and Anne
-  - question: Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?
-    answers: 
+  - question: Spain was formed in 1469 with the marriage of Isabella I of Castile
+      and Ferdinand II of what other Iberian kingdom?
+    answers:
     - Aragon
     - Galicia
     - Le&oacute;n
     - Navarre
-  - question: What was the name of the spy ring that helped the United States win the Revolutionary War?
-    answers: 
+  - question: What was the name of the spy ring that helped the United States win
+      the Revolutionary War?
+    answers:
     - Culper Ring
     - New York Spy Ring
     - Washington's Spies
     - Unnamed
   - question: When did Spanish Peninsular War start?
-    answers: 
+    answers:
     - 1808
     - 1806
     - 1810
     - 1809
   - question: What year was Canada founded in?
-    answers: 
+    answers:
     - 1867
     - 1798
     - 1859
     - 1668
   - question: List the following Iranic empires in chronological order?
-    answers: 
+    answers:
     - Median, Achaemenid, Parthian, Sassanid
     - Median, Achaemenid, Sassanid, Parthian
     - Achaemenid, Median, Parthian, Sassanid
     - Achaemenid, Median, Sassanid, Parthian
   - question: What age was King Henry V when he died?
-    answers: 
+    answers:
     - 35
     - 62
     - 87
     - 73
   - question: On which day did ARPANET suffer a 4 hour long network crash?
-    answers: 
+    answers:
     - October 27, 1980
     - November 21, 1969
     - October 29, 1969
     - December 9, 1991
   - question: What did the first vending machines in the early 1880's dispense?
-    answers: 
+    answers:
     - Post cards
     - Alcohol
     - Cigarettes
-    - Sodas 
+    - Sodas
   - question: When did Canada leave the confederation to become their own nation?
-    answers: 
+    answers:
     - July 1st, 1867
     - July 1st, 1763
     - July 1st, 1832
     - July 1st, 1902
   - question: When was the SS or Schutzstaffel established?
-    answers: 
+    answers:
     - April 4th, 1925
     - September 1st, 1941
     - March 8th, 1935
     - February 21st, 1926
-  - question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed "the Kingmaker"?
-    answers: 
+  - question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed
+      "the Kingmaker"?
+    answers:
     - Richard Neville
     - Richard III
     - Henry V
     - Thomas Warwick
   - question: When was Adolf Hitler appointed as Chancellor of Germany?
-    answers: 
+    answers:
     - January 30, 1933
     - September 1, 1939
     - February 27, 1933
     - October 6, 1939
   - question: Bohdan Khmelnytsky was which of the following?
-    answers: 
+    answers:
     - Leader of the Ukrainian Cossacks
     - General Secretary of the Communist Party of the USSR
     - Prince of Wallachia
     - Grand Prince of Novgorod
   - question: Which one of these rulers did not belong to the Habsburg dynasty?
-    answers: 
+    answers:
     - Philip V
     - Charles V
     - Philip II
     - Francis Joseph
   - question: How many sonatas did Ludwig van Beethoven write?
-    answers: 
+    answers:
     - 32
     - 50
     - 31
     - 21
   - question: The Second Boer War in 1899 was fought where?
-    answers: 
+    answers:
     - South Africa
     - Argentina
     - Nepal
     - Bulgaria
   - question: In which year did the Tokyo Subway Sarin Attack occur?
-    answers: 
+    answers:
     - 1995
     - 2001
     - 2011
     - 1991
   - question: What was the real name of the Albanian national leader Skanderbeg?
-    answers: 
+    answers:
     - Gjergj Kastrioti
     - Diturak Zhulati
     - Iskander Bejko
     - Mirash Krasniki
-  - question: Who invented the "Flying Shuttle" in 1738; one of the key developments in the industrialization of weaving?
-    answers: 
+  - question: Who invented the "Flying Shuttle" in 1738; one of the key developments
+      in the industrialization of weaving?
+    answers:
     - John Kay
     - James Hargreaves
     - Richard Arkwright
     - John Deere
   - question: When did Lithuania declare independence from the Soviet Union?
-    answers: 
+    answers:
     - March 11th, 1990
     - December 25th, 1991
     - December 5th, 1991
     - April 20th, 1989
   - question: What was Napoleon Bonaparte's name before he changed it?
-    answers: 
+    answers:
     - Napoleone di Buonaparte
     - Naapolion van Bonijpaart
     - Napole&atilde;o do Boaparte
     - Napoleona de Buenoparte
-  - question: The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?
-    answers: 
+  - question: The Hagia Sophia was commissioned by which emperor of the Byzantine
+      Empire?
+    answers:
     - Justinian I
     - Constantine IV
     - Arcadius
     - Theodosius the Great
-  - question: During the Spanish Civil War (1936), Francisco Franco fought for which political faction?
-    answers: 
+  - question: During the Spanish Civil War (1936), Francisco Franco fought for which
+      political faction?
+    answers:
     - Nationalist Spain
     - Republican Spain
     - Popular Front
     - Papal State
   - question: What was found in 1946 by two young shepards near a cave?
-    answers: 
+    answers:
     - Dead Sea Scrolls
     - The Blackbeard Chest
     - Sheep
     - The First Oaxaca Cave Sleeper
   - question: The Battle of Hastings was fought in which year?
-    answers: 
+    answers:
     - 1066
     - 911
     - 1204
     - 1420
-  - question: Who was the President of the United States during the signing of the Gadsden Purchase?
-    answers: 
+  - question: Who was the President of the United States during the signing of the
+      Gadsden Purchase?
+    answers:
     - Franklin Pierce
     - Andrew Johnson
     - Abraham Lincoln
     - James Polk
   - question: When was the city of Rome, Italy founded?
-    answers: 
+    answers:
     - 753 BCE
     - 902 BCE
     - 524 BCE
     - 697 BCE
-  - question: How many women joined the United States Armed Services during World War II?
-    answers: 
+  - question: How many women joined the United States Armed Services during World
+      War II?
+    answers:
     - 350,000
     - 225,000
     - 100,000
     - 500,000
-  - question: What was the code name for the Allied invasion of Southern France on August 15th, 1944?
-    answers: 
+  - question: What was the code name for the Allied invasion of Southern France on
+      August 15th, 1944?
+    answers:
     - Operation Dragoon
     - Operation Overlord
     - Operation Market Garden
     - Operation Torch
   - question: What was the aim of the "Umbrella Revolution" in Hong Kong in 2014?
-    answers: 
+    answers:
     - Genuine universal suffrage
     - Gaining Independence
     - Go back under British Rule
     - Lower taxes
   - question: What was the original name of New York City?
-    answers: 
+    answers:
     - New Amsterdam
     - New London
     - New Paris
     - New Rome
   - question: When was the "Siege of Leningrad" lifted during World War II?
-    answers: 
+    answers:
     - January 1944
     - September 1943
     - November 1943
     - March 1944
-  - question: The main objective of the German operation "Case Blue" during World War II was originally to capture what?
-    answers: 
+  - question: The main objective of the German operation "Case Blue" during World
+      War II was originally to capture what?
+    answers:
     - Caucasus
     - Stalingrad
     - Crimea
     - Voronezh
-  - question: Which of the following was not one of Joseph Stalin's ten blows during World War II?
-    answers: 
+  - question: Which of the following was not one of Joseph Stalin's ten blows during
+      World War II?
+    answers:
     - Vistula-Oder Offensive
     - Crimean Offensive
     - Leningrad-Novgorod Offensive
     - Operation Bagration
   - question: Which day did World War I begin?
-    answers: 
+    answers:
     - July 28
     - January 28
     - June 28
     - April 28
   - question: What did the abbreviation "RMS" stand for in the RMS Titanic in 1912?
-    answers: 
+    answers:
     - Royal Mail Ship
     - Royal Majesty Service
-    - Regular Maritime Schedule 
+    - Regular Maritime Schedule
     - Regulated Maelstrom Sensor
-  - question: What was the last colony the UK ceded marking the end of the British Empire?
-    answers: 
+  - question: What was the last colony the UK ceded marking the end of the British
+      Empire?
+    answers:
     - Hong Kong
     - India
     - Australia
     - Ireland
-  - question: In addition to his career as an astrologer and "prophet", Nostradamus published a 1555 treatise that included a section on what?
-    answers: 
+  - question: In addition to his career as an astrologer and "prophet", Nostradamus
+      published a 1555 treatise that included a section on what?
+    answers:
     - Making jams and jellies
     - Teaching parrots to talk
     - Cheating at card games
     - Digging graves
-  - question: Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?
-    answers: 
+  - question: Before the American colonies switched to the Gregorian calendar in
+      1752, on what date did their new year start?
+    answers:
     - March 25th
     - June 1st
     - September 25th
     - December 1st
   - question: Toussaint Louverture led a successful slave revolt in which country?
-    answers: 
+    answers:
     - Haiti
     - France
     - Cuba
     - United States
   - question: The ancient city of Chich&eacute;n Itz&aacute; was built by which civilization?
-    answers: 
+    answers:
     - Mayans
     - Aztecs
     - Incas
     - Toltecs
   - question: Which English king was married to Eleanor of Aquitaine?
-    answers: 
+    answers:
     - Henry II
     - Richard I
     - Henry I
     - Henry V
   - question: Which countries participated in the Lobster War?
-    answers: 
+    answers:
     - France and Brazil
     - Canada and Norway
     - Australia and New Zealand
     - United States and England
   - question: Who was the first man to travel into outer space twice?
-    answers: 
+    answers:
     - Gus Grissom
     - Vladimir Komarov
     - Charles Conrad
     - Yuri Gagarin
   - question: Who assassinated President James A. Garfield?
-    answers: 
+    answers:
     - Charles Guiteau
     - Sirhan Sirhan
     - Leon Czolgosz
     - John Wilkes Booth
   - question: The pantheon in Rome was used to worship what god?
-    answers: 
+    answers:
     - Any god they wanted
     - Athena
     - Zeus
     - Both Athena and Zeus
   - question: During World War I, which nation's monarchs were blood related?
-    answers: 
+    answers:
     - England, Germany, Russia
     - France, Russia, Germany
     - Serbia, Russia, Croatia
     - Germany, Spain, Austria
   - question: When did the French Revolution begin?
-    answers: 
+    answers:
     - 1789
     - 1823
     - 1756
     - 1799
-  - question: Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?
-    answers: 
+  - question: Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical
+      era?
+    answers:
     - Romantic
     - Classic
     - Baroque
     - Renaissance
-  - question: Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?
-    answers: 
+  - question: Which naval battle was considered the turning point of the Pacific
+      Ocean Theater during World War 2?
+    answers:
     - Battle of Midway
     - Attack on Truk Island
     - Attack on Pearl Harbor
     - Battle of the Coral Sea
-  - question: Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?
-    answers: 
+  - question: Spain was formed in 1469 with the marriage of Isabella I of Castile
+      and Ferdinand II of what other Iberian kingdom?
+    answers:
     - Aragon
     - Galicia
     - Le&oacute;n
     - Navarre
-  - question: What was the name of the spy ring that helped the United States win the Revolutionary War?
-    answers: 
+  - question: What was the name of the spy ring that helped the United States win
+      the Revolutionary War?
+    answers:
     - Culper Ring
     - New York Spy Ring
     - Washington's Spies
     - Unnamed
   - question: When did Spanish Peninsular War start?
-    answers: 
+    answers:
     - 1808
     - 1806
     - 1810
     - 1809
   - question: What year was Canada founded in?
-    answers: 
+    answers:
     - 1867
     - 1798
     - 1859
     - 1668
   - question: List the following Iranic empires in chronological order?
-    answers: 
+    answers:
     - Median, Achaemenid, Parthian, Sassanid
     - Median, Achaemenid, Sassanid, Parthian
     - Achaemenid, Median, Parthian, Sassanid
     - Achaemenid, Median, Sassanid, Parthian
   - question: What age was King Henry V when he died?
-    answers: 
+    answers:
     - 35
     - 62
     - 87
     - 73
   - question: On which day did ARPANET suffer a 4 hour long network crash?
-    answers: 
+    answers:
     - October 27, 1980
     - November 21, 1969
     - October 29, 1969
     - December 9, 1991
   - question: What did the first vending machines in the early 1880's dispense?
-    answers: 
+    answers:
     - Post cards
     - Alcohol
     - Cigarettes
-    - Sodas 
+    - Sodas
   - question: When did Canada leave the confederation to become their own nation?
-    answers: 
+    answers:
     - July 1st, 1867
     - July 1st, 1763
     - July 1st, 1832
     - July 1st, 1902
   - question: When was the SS or Schutzstaffel established?
-    answers: 
+    answers:
     - April 4th, 1925
     - September 1st, 1941
     - March 8th, 1935
     - February 21st, 1926
-  - question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed "the Kingmaker"?
-    answers: 
+  - question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed
+      "the Kingmaker"?
+    answers:
     - Richard Neville
     - Richard III
     - Henry V
     - Thomas Warwick
   - question: When was Adolf Hitler appointed as Chancellor of Germany?
-    answers: 
+    answers:
     - January 30, 1933
     - September 1, 1939
     - February 27, 1933
     - October 6, 1939
   - question: Which one of these rulers did not belong to the Habsburg dynasty?
-    answers: 
+    answers:
     - Philip V
     - Charles V
     - Philip II
     - Francis Joseph
   - question: How many sonatas did Ludwig van Beethoven write?
-    answers: 
+    answers:
     - 32
     - 50
     - 31
     - 21
-  - question: During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?
-    answers: 
-    - Hispania 
+  - question: During the Roman Triumvirate of 42 BCE, what region of the Roman Republic
+      was given to Lepidus?
+    answers:
+    - Hispania
     - Italia
     - Gallia
     - Asia
   - question: The Second Boer War in 1899 was fought where?
-    answers: 
+    answers:
     - South Africa
     - Argentina
     - Nepal
     - Bulgaria
   - question: In which year did the Tokyo Subway Sarin Attack occur?
-    answers: 
+    answers:
     - 1995
     - 2001
     - 2011
     - 1991
   - question: What was the real name of the Albanian national leader Skanderbeg?
-    answers: 
+    answers:
     - Gjergj Kastrioti
     - Diturak Zhulati
     - Iskander Bejko
     - Mirash Krasniki
   - question: What year was the United States Declaration of Independence signed?
-    answers: 
+    answers:
     - 1776
     - 1775
     - 1774
     - 1777
   - question: When did Lithuania declare independence from the Soviet Union?
-    answers: 
+    answers:
     - March 11th, 1990
     - December 25th, 1991
     - December 5th, 1991
     - April 20th, 1989
   - question: What was Napoleon Bonaparte's name before he changed it?
-    answers: 
+    answers:
     - Napoleone di Buonaparte
     - Naapolion van Bonijpaart
     - Napole&atilde;o do Boaparte
     - Napoleona de Buenoparte
-  - question: The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?
-    answers: 
+  - question: The Hagia Sophia was commissioned by which emperor of the Byzantine
+      Empire?
+    answers:
     - Justinian I
     - Constantine IV
     - Arcadius
     - Theodosius the Great
   - question: What was found in 1946 by two young shepards near a cave?
-    answers: 
+    answers:
     - Dead Sea Scrolls
     - The Blackbeard Chest
     - Sheep
     - The First Oaxaca Cave Sleeper
   - question: The Battle of Hastings was fought in which year?
-    answers: 
+    answers:
     - 1066
     - 911
     - 1204
     - 1420
-  - question: Who was the President of the United States during the signing of the Gadsden Purchase?
-    answers: 
+  - question: Who was the President of the United States during the signing of the
+      Gadsden Purchase?
+    answers:
     - Franklin Pierce
     - Andrew Johnson
     - Abraham Lincoln
     - James Polk
   - question: When was the city of Rome, Italy founded?
-    answers: 
+    answers:
     - 753 BCE
     - 902 BCE
     - 524 BCE
     - 697 BCE
-  - question: How many women joined the United States Armed Services during World War II?
-    answers: 
+  - question: How many women joined the United States Armed Services during World
+      War II?
+    answers:
     - 350,000
     - 225,000
     - 100,000
     - 500,000
-  - question: What was the code name for the Allied invasion of Southern France on August 15th, 1944?
-    answers: 
+  - question: What was the code name for the Allied invasion of Southern France on
+      August 15th, 1944?
+    answers:
     - Operation Dragoon
     - Operation Overlord
     - Operation Market Garden
     - Operation Torch
   - question: How long did the Warsaw Uprising during World War II last?
-    answers: 
+    answers:
     - 63 Days
     - 20 Days
     - 55 Days
     - 224 Days
   - question: What was the aim of the "Umbrella Revolution" in Hong Kong in 2014?
-    answers: 
+    answers:
     - Genuine universal suffrage
     - Gaining Independence
     - Go back under British Rule
     - Lower taxes
   - question: What was the original name of New York City?
-    answers: 
+    answers:
     - New Amsterdam
     - New London
     - New Paris
     - New Rome
-  - question: What was the name of the German offensive operation in October 1941 to take Moscow before winter?
-    answers: 
+  - question: What was the name of the German offensive operation in October 1941
+      to take Moscow before winter?
+    answers:
     - Operation Typhoon
     - Operation Sunflower
     - Operation Barbarossa
     - Case Blue
   - question: When was the "Siege of Leningrad" lifted during World War II?
-    answers: 
+    answers:
     - January 1944
     - September 1943
     - November 1943
     - March 1944
-  - question: The main objective of the German operation "Case Blue" during World War II was originally to capture what?
-    answers: 
+  - question: The main objective of the German operation "Case Blue" during World
+      War II was originally to capture what?
+    answers:
     - Caucasus
     - Stalingrad
     - Crimea
     - Voronezh
-  - question: Which of the following was not one of Joseph Stalin's ten blows during World War II?
-    answers: 
+  - question: Which of the following was not one of Joseph Stalin's ten blows during
+      World War II?
+    answers:
     - Vistula-Oder Offensive
     - Crimean Offensive
     - Leningrad-Novgorod Offensive
     - Operation Bagration
   - question: Which day did World War I begin?
-    answers: 
+    answers:
     - July 28
     - January 28
     - June 28
     - April 28
   - question: What did the abbreviation "RMS" stand for in the RMS Titanic in 1912?
-    answers: 
+    answers:
     - Royal Mail Ship
     - Royal Majesty Service
-    - Regular Maritime Schedule 
+    - Regular Maritime Schedule
     - Regulated Maelstrom Sensor
-  - question: What was the last colony the UK ceded marking the end of the British Empire?
-    answers: 
+  - question: What was the last colony the UK ceded marking the end of the British
+      Empire?
+    answers:
     - Hong Kong
     - India
     - Australia
     - Ireland
-  - question: In addition to his career as an astrologer and "prophet", Nostradamus published a 1555 treatise that included a section on what?
-    answers: 
+  - question: In addition to his career as an astrologer and "prophet", Nostradamus
+      published a 1555 treatise that included a section on what?
+    answers:
     - Making jams and jellies
     - Teaching parrots to talk
     - Cheating at card games
     - Digging graves
   - question: Toussaint Louverture led a successful slave revolt in which country?
-    answers: 
+    answers:
     - Haiti
     - France
     - Cuba
     - United States
   - question: From 1940 to 1942, what was the capital-in-exile of Free France ?
-    answers: 
+    answers:
     - Brazzaville
     - Algiers
     - Paris
     - Tunis
   - question: Which King of England was faced with the Peasants' Revolt in 1381?
-    answers: 
+    answers:
     - Richard II
     - Edward III
     - Edward II
     - Henry IV
   - question: The ancient city of Chich&eacute;n Itz&aacute; was built by which civilization?
-    answers: 
+    answers:
     - Mayans
     - Aztecs
     - Incas
     - Toltecs
   - question: Which English king was married to Eleanor of Aquitaine?
-    answers: 
+    answers:
     - Henry II
     - Richard I
     - Henry I
     - Henry V
   - question: Which countries participated in the Lobster War?
-    answers: 
+    answers:
     - France and Brazil
     - Canada and Norway
     - Australia and New Zealand
     - United States and England
   - question: Who was the first man to travel into outer space twice?
-    answers: 
+    answers:
     - Gus Grissom
     - Vladimir Komarov
     - Charles Conrad
     - Yuri Gagarin
   - question: The pantheon in Rome was used to worship what god?
-    answers: 
+    answers:
     - Any god they wanted
     - Athena
     - Zeus
     - Both Athena and Zeus
-

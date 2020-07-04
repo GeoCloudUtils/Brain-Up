@@ -49,9 +49,13 @@ namespace Assets.Scripts.Screens
             }
         }
 
-        internal void SetProgress(int progress)
+        internal void SetProgress(int progress, int max)
         {
-            progressText.text = "Level " + progress;
+            if(max == -1)//infinite almost
+                progressText.text = string.Format("Level {0}", progress);
+            else
+                progressText.text = string.Format("Level {0}/{1}", progress, max);
+
         }
 
         public void Show(bool show)
@@ -79,7 +83,7 @@ namespace Assets.Scripts.Screens
             }
 
             Debug.LogFormat("Init Screen. Question:{0};", question);
-            for (int a = 0; a < 4; ++a)
+            for (int a = 0; a < answers.Length; ++a)
                 Debug.LogFormat("Correct {0}: {1}", a, answers[a]);
 
             int cardsCount = options.Length;
@@ -107,7 +111,7 @@ namespace Assets.Scripts.Screens
             if (currState != 0) return currState;
 
             //Selected. 1 - correct answer, 2 wrong answer
-            int newState = answers[img.index] == true ? 1 : 2;
+            int newState =  answers[img.index] == true ? 1 : 2;
 
             //If wrong answer: decrease hearts and check game end
             if (newState == 2)
@@ -126,7 +130,9 @@ namespace Assets.Scripts.Screens
                 bool canAdvance = ControllerGlobal.Instance.Advance();
 
                 if (!canAdvance)
-                    ControllerGlobal.Instance.StopGame(GameEndReason.Win);
+                {
+                    //stage completed
+                }
                 else
                 {
                     _database.Coins += COINS_PER_CORRECT_ANSWER;

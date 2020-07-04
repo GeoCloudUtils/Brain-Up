@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774da39ec9fe7554fabf37bd58cbe0cb, type: 3}
+  m_Name: LevelsData
+  m_EditorClassIdentifier: 
+  rows:
+  - gameId: 2
+    totalLevels: 220
+    data:
+    - difficulty: 0
+      nrMaxLevels: 10
+    - difficulty: 1
+      nrMaxLevels: 10
+    - difficulty: 2
+      nrMaxLevels: 50
+    - difficulty: 3
+      nrMaxLevels: 50
+    - difficulty: 4
+      nrMaxLevels: 100
+  - gameId: 3
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 15
+    - difficulty: 1
+      nrMaxLevels: 15
+    - difficulty: 2
+      nrMaxLevels: 50
+    - difficulty: 3
+      nrMaxLevels: 100
+    - difficulty: 4
+      nrMaxLevels: 150
+  - gameId: 4
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 40
+    - difficulty: 1
+      nrMaxLevels: 40
+    - difficulty: 2
+      nrMaxLevels: 70
+    - difficulty: 3
+      nrMaxLevels: 70
+    - difficulty: 4
+      nrMaxLevels: 120
+  - gameId: 6
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 2000
+    - difficulty: 1
+      nrMaxLevels: 2000
+    - difficulty: 2
+      nrMaxLevels: 2000
+    - difficulty: 3
+      nrMaxLevels: 2000
+    - difficulty: 4
+      nrMaxLevels: 2000
+  - gameId: 1
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 5
+    - difficulty: 1
+      nrMaxLevels: 50
+    - difficulty: 2
+      nrMaxLevels: 100
+    - difficulty: 3
+      nrMaxLevels: 100
+    - difficulty: 4
+      nrMaxLevels: 150
+  - gameId: 0
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 45
+    - difficulty: 1
+      nrMaxLevels: 45
+    - difficulty: 2
+      nrMaxLevels: 45
+    - difficulty: 3
+      nrMaxLevels: 45
+    - difficulty: 4
+      nrMaxLevels: 60

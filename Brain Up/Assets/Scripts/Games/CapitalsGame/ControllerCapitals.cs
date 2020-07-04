@@ -4,6 +4,7 @@
 
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.Gamedata.TripleValueList;
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
 using Assets.Scripts.Games.RepeatLettersGame;
 using Assets.Scripts.Games.TimeKillerGame;
@@ -20,7 +21,7 @@ namespace Assets.Scripts.Games.CapitalsGame
         //Vars
         public ModelCapitals Model;
         public ViewCapitals View;
-        private Dictionary<Continent, string> continents = new Dictionary<Continent, string>();
+        private Dictionary<Continent, string> continentsNames = new Dictionary<Continent, string>();
         private Database _database;
         protected ControllerGlobal _globalController;
         //getters & setters
@@ -36,36 +37,68 @@ namespace Assets.Scripts.Games.CapitalsGame
             EnableTimer = false;
             _globalController = ControllerGlobal.Instance;
 
-            continents.Add(Continent.Africa, "Africa");
-            continents.Add(Continent.America, "America");
-            continents.Add(Continent.Australia, "Australia");
-            continents.Add(Continent.Europe, "Europe");
+            if (continentsNames.Count == 0)
+            {
+                continentsNames.Add(Continent.Africa, "Africa");
+                continentsNames.Add(Continent.America, "America");
+                continentsNames.Add(Continent.Australia, "Australia");
+                continentsNames.Add(Continent.Europe, "Europe");
+            }
         }
 
         
 
-        protected MultipleAnswersQuestion GetData()
+        protected TripleValueList GetData()
         {
-            MultipleAnswersQuestion allContinentsData = Resources.Load<MultipleAnswersQuestion>("GameData/Capitals");
-
-            MultipleAnswersQuestion data = ScriptableObject.CreateInstance<MultipleAnswersQuestion>();
-
-            Continent continent = ControllerGlobal.Instance.currContinent;
-            if (continent != Continent.Any)
+            if (_database == null)
             {
-                List<Question> questions = new List<Question>();
-                string currContinent = continents[continent];
-                foreach (Question q in allContinentsData.questions)
+                Start();
+            }
+
+            TripleValueList allContinentsData = Resources.Load<TripleValueList>("GameData/CountriesData");
+            allContinentsData = allContinentsData.Clone();
+            TripleValueList data = ScriptableObject.CreateInstance<TripleValueList>();
+            var globalController = ControllerGlobal.Instance;
+            Continent[] continents;
+            if (globalController.currDifficulty == GameDifficulty.Welcome
+                || globalController.currDifficulty == GameDifficulty.Easy)
+                continents = new Continent[] { Continent.Europe };
+            else if (globalController.currDifficulty == GameDifficulty.NotSoEasy
+                || globalController.currDifficulty == GameDifficulty.Medium)
+                continents = new Continent[] { Continent.Europe, Continent.America };
+            else
+                continents = null;
+
+            Debug.Log("Getting Data for continents:");
+            if (continents != null)
+            {
+                List<TripleValueListRow> rows = new List<TripleValueListRow>();
+                string[] currContinents = new string[continents.Length];
+                int counter = 0;
+                foreach(Continent c in continents)
                 {
-                    if (q.answers[1] == currContinent)
-                        questions.Add(q);
+                    currContinents[counter++] = continentsNames[c];
+                    Debug.Log("-> " + continentsNames[c]);
                 }
-                data.questions = questions.ToArray();
+
+                foreach (TripleValueListRow q in allContinentsData.rows)
+                {
+                    foreach (string contName in currContinents)
+                        if (q.item3 == contName)
+                        {
+                            rows.Add(q);
+                            break;
+                        }
+                }
+                data.rows = rows.ToArray();
             }
             else
             {
-                data.questions = allContinentsData.questions;
+                Debug.Log("-> All continents.");
+                data.rows = (TripleValueListRow[])allContinentsData.rows;
             }
+
+            Debug.Log("-> Countries: " + data.rows.Length);
 
             return data;
         }
@@ -73,9 +106,9 @@ namespace Assets.Scripts.Games.CapitalsGame
         public void StartGame(Action<bool, bool> callback)
         {
             Debug.Log("ControllerCapitals: StartGame start.");
-            MultipleAnswersQuestion data = GetData();
+            TripleValueList data = GetData();
 
-            Model.SetData(data);
+            Model.SetDictionary(data);
             Model.Create();
             View.Create(Model);
 
