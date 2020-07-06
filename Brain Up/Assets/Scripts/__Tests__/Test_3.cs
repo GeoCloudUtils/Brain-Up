@@ -79,7 +79,6 @@ namespace Assets.Scripts.__Tests__
 
             StringBuilder builder = new StringBuilder();
 
-            int c = 0;
             foreach (var data in json)
             {
                // if (c++ == 40) break;

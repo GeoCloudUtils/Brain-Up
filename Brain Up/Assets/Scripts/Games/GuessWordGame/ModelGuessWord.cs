@@ -13,45 +13,52 @@ namespace Assets.Scripts.Games.GuessWordGame
 {
     public class ModelGuessWord : SingleInstanceObject<ModelGuessWord>, ModelAbstract
     {
-        private CategorizedWordsDictionary dictionary;
-        private CatWord currWord;
-
+        public CategorizedWordsDictionary allData;
+        public int progress=0;
+        //
+        private CatWordRow data;
+        
+        //Props
         public GameId GameId { get; set; }
 
-        public void StartGame()
-        {
-            int progress = Database.Instance.GetGameProgress((int)GameId);
-            Debug.LogFormat("Letters game started. Progress: {0}; Words: {1}", progress, dictionary.words.Length);
-        }
 
         public void Create()
         {
-            dictionary = Resources.Load<CategorizedWordsDictionary>("GameData/GuessWord");
-            GameId = (int)GameId.RepeatLetters;
-            int progress = Database.Instance.GetGameProgress((int)GameId);
+            if(allData==null)
+                allData = Resources.Load<CategorizedWordsDictionary>("GameData/GuessWord");
 
-            foreach(CatWordRow row in dictionary.words){
+            foreach (CatWordRow row in allData.words)
+            {
                 if (row.category == "History")
                 {
-                    currWord = row.words[progress];
+                    data = row;
                     break;
                 }
             }
         }
 
-        public void StopGame()
+        public void StartGame()
         {
 
+        }
+
+        public void StopGame()
+        {
+            progress = 0;
         }
 
         public CatWord GetCurrentWord()
         {
-            return currWord;
+            return data.words[progress];
         }
 
-        public int GetRemainedWordsCount()
+
+        internal bool Advance()
         {
-            return dictionary.words.Length - Database.Instance.GetGameProgress((int)GameId);
+            progress += 1;
+            Debug.LogFormat("Avance::GuessWordModel: {0} {1}", progress,allData.words.Length);
+            if (progress >= data.words.Length) return false;
+            return true;
         }
 
     }

@@ -40,9 +40,7 @@ namespace Assets.Scripts.Games.RepeatLettersGame
 
         public void StartGame(Action endCallback = null)
         {
-            Debug.Log("HistoryController: Starting game...");
-
-            int progress = Database.Instance.GetGameProgress((int)GameId.Acknowledge_History);
+            int progress = Model.progress;
             WordRow wordInfo = Model.GetCurrentWord();
             description.text = "";
 
@@ -50,11 +48,11 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             char[] letters = w.ToCharArray();
             word.SetText(w);
             word.HideAllLetters();
-            Debug.Log("HistoryController: word - " + w);
+            Debug.LogFormat("HistoryController: word {0}; Progress: {1}", w, Model.progress);
+            gameScreen.SetProgress(Model.progress, Model.words.Length);
             gameScreen.Show(true);
 
             StartCoroutine(ShowLettersInRow(letters, endCallback));
-            Debug.Log("HistoryController: Game started.");
         }
 
         public void StopGame()
@@ -75,6 +73,11 @@ namespace Assets.Scripts.Games.RepeatLettersGame
 
             word.SetLetter(index, word.correctWord[index]);
             return true;
+        }
+
+        internal void Advance()
+        {
+            
         }
 
         ModelAbstract ViewAbstract.GetModel()

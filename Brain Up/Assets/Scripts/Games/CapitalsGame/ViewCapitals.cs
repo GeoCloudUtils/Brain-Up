@@ -6,8 +6,10 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games;
 using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.Gamedata.TripleValueList;
 using Assets.Scripts.Games.GameData;
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
+using Assets.Scripts.Games.GameData.Question_;
 using Assets.Scripts.Games.TimeKillerGame;
 using Assets.Scripts.LettersGames;
 using Assets.Scripts.Screens;
@@ -35,7 +37,7 @@ namespace Assets.Scripts.Games.CapitalsGame
             this.Model = model;
         }
 
-        public ModelTimeKiller GetModel()
+        public ModelCapitals GetModel()
         {
             return Model;
         }
@@ -67,8 +69,7 @@ namespace Assets.Scripts.Games.CapitalsGame
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);
 
             gameScreen.InitScreen(data.answers, data.question, answers);
-            gameScreen.SetProgress(Model.progress);
-
+            gameScreen.SetProgress(Model.progress, ControllerGlobal.Instance.GetMaxLevelForCurrGame());
             gameScreen.Show(true);
 
             endCallback.Invoke();
@@ -81,7 +82,7 @@ namespace Assets.Scripts.Games.CapitalsGame
 
         internal void Advance()
         {
-            gameScreen.SetProgress(Model.progress);
+            gameScreen.SetProgress(Model.progress+1, ControllerGlobal.Instance.GetMaxLevelForCurrGame());
         }
 
         ModelAbstract ViewAbstract.GetModel()

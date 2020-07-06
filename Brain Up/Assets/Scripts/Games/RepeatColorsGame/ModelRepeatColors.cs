@@ -6,6 +6,7 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games.Abstract;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace Assets.Scripts.Games.RepeatColorsGame
 {
@@ -13,32 +14,33 @@ namespace Assets.Scripts.Games.RepeatColorsGame
     {
         public Sprite[] allColors;
         private Sprite[] currColors;
-
+        private int currDifficulty;
+        private int progress = 0;
         public GameId GameId { get; set; }
 
         public void StartGame()
         {
-            int progress = Database.Instance.GetGameProgress((int)GameId);
-            int count = 3 + progress / 15;
-            if (count > 14)
-                count = 14;
-            Debug.LogFormat("Colors game started. Progress: {0}; Colors count: {1}", progress, count);
+            Debug.LogFormat("Colors game started. Colors count: {0}", currColors.Length);
         }
 
         public void Create()
         {
-            int progress = Database.Instance.GetGameProgress((int)GameId);
+            GameDifficulty diff = ControllerGlobal.Instance.currDifficulty;
 
-            int count = 3 + progress / 15;
-            if (count > 14)
-                count = 14;
+            int count = 3;
+            if (diff == GameDifficulty.Welcome) count = 3;
+            else if (diff == GameDifficulty.Easy) count = 4;
+            else if (diff == GameDifficulty.NotSoEasy) count = 6;
+            else if (diff == GameDifficulty.Medium) count = 10;
+            else if (diff == GameDifficulty.Hard) count = 14;
 
             currColors = GenerateColors(count);
+            currDifficulty = (int)diff;
         }
 
         public void StopGame()
         {
-
+            progress = 0;
         }
 
         public Sprite[] GetCurrentWord()
@@ -62,6 +64,15 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             }
 
             return currColors;
+        }
+
+        public bool Advance()
+        {
+            int maxLevel = ControllerGlobal.Instance.GetMaxLevelForCurrGame();
+            progress = progress + 1;
+            if (progress >= maxLevel) return false;
+
+            return true;
         }
     }
 }

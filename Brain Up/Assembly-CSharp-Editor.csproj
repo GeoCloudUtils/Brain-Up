@@ -323,14 +323,38 @@
     <Reference Include="UDP">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UDP/UDP.dll</HintPath>
     </Reference>
+    <Reference Include="Editor">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

@@ -6,6 +6,7 @@
 using Assets.Scripts.Framework.Other;
 using Assets.Scripts.Games;
 using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.Gamedata.TripleValueList;
 using Assets.Scripts.Games.GameData.SimpleWordsDictionary;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
 {
     public class ModelSelectFlag : SingleInstanceObject<ControllerSelectFlag>, ModelAbstract
     {
-        private SimpleWordsDictionary countriesFlags;
+        private TripleValueList allData;
         public Texture2D flagsTexture_1;
         public Texture2D flagsTexture_2;
         public int progress = 1;
@@ -29,7 +30,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
 
         private void Start()
         {
-            countriesFlags = Resources.Load<SimpleWordsDictionary>("GameData/CountriesFlags");
+            allData = Resources.Load<TripleValueList>("GameData/CountriesData");
         }
 
         public void StartGame()
@@ -38,6 +39,9 @@ namespace Assets.Scripts.Games.SelectFlagGame
 
         public void Create()
         {
+            if(allData == null)
+                allData = Resources.Load<TripleValueList>("GameData/CountriesData");
+
             List<Tuple<int, Sprite>> flags = GenerateFlags(FLAGS_COUNT);
             data = new List<Tuple<int, Sprite, string>>();
             for(int a=0; a < flags.Count; ++a)
@@ -45,8 +49,11 @@ namespace Assets.Scripts.Games.SelectFlagGame
                 Tuple<int, Sprite> flag = flags[a];
                 data.Add(new Tuple<int, Sprite, string>(flag.Item1, 
                     flag.Item2, 
-                    countriesFlags.words[flag.Item1]));
+                    (string)allData.rows[flag.Item1].item1.Clone()));
             }
+
+            ControllerGlobal global = ControllerGlobal.Instance;
+            questionsCount = global.GetMaxLevel(global.currGameId, global.currDifficulty);
         }
 
         public void StopGame()
@@ -57,6 +64,11 @@ namespace Assets.Scripts.Games.SelectFlagGame
         public List<Tuple<int, Sprite, string>> GetData()
         {
             return data;
+        }
+
+        public void SetDictionary(TripleValueList data)
+        {
+            allData = data;
         }
 
         private List<Tuple<int, Sprite>> GenerateFlags(int count)
@@ -92,7 +104,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
                 }
                 while (!isOk);
 
-                // Debug.LogFormat("Index: {0}; AbsIndex: {1}", index, absoluteIndex);
+                Debug.LogFormat("Index: {0}; AbsIndex: {1}", index, absoluteIndex);
 
                 int row = index / FLAGS_ON_ROW;
                 int col = index % FLAGS_ON_ROW;

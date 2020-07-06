@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Assets.Scripts.Games.RepeatLettersGame
 {
     public class ControllerRepeatLetters : SingleInstanceObject<ControllerRepeatLetters>,
-        ControllerAbstract, ICheckingGame
+        ControllerAbstract, ICheckingGame, IAdvancingGame
     {
         //Vars
         private Database _database;
@@ -79,6 +79,14 @@ namespace Assets.Scripts.Games.RepeatLettersGame
                 Attempts += 1;
                 return false;
             }
+        }
+
+        public bool Advance()
+        {
+            bool canAdvance = Model.Advance();
+            if (canAdvance)
+                View.Advance();
+            return canAdvance;
         }
 
         public void StopGame()

@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Assets.Scripts.Games.RepeatColorsGame
 {
     public class ControllerRepeatColors : SingleInstanceObject<ControllerRepeatColors>,
-        ControllerAbstract, ICheckingGame
+        ControllerAbstract, ICheckingGame, IAdvancingGame
     {
         //Vars
         private Database _database;
@@ -26,6 +26,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         private void Start()
         {
             _database = Database.Instance;
+            EnableTimer = false;
         }
 
         public void StartGame(Action<bool, bool> callback)
@@ -39,6 +40,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
               {
                   Model.StartGame();
                   callback?.Invoke(EnableTimer,true);
+                  Debug.Log("Colors game started!");
               });
         }
 
@@ -52,6 +54,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             Model.StopGame();
             View.StopGame();
             GameFinished?.Invoke(reason);
+            Debug.Log("Colors game STOPPED!");
         }
 
         public bool Hint()
@@ -67,9 +70,6 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             if (View.IsWordCorrect())
             {
                 Debug.Log("Is correct!");
-                int id = (int)GameId.RepeatLetters;
-                int progress = _database.GetGameProgress(id);
-                _database.SetGameProgress(id, progress + 1);
                 return true;
             }
             else
@@ -99,6 +99,15 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         ViewAbstract ControllerAbstract.GetView()
         {
             return View;
+        }
+
+        public bool Advance()
+        {
+            bool canAdvance = Model.Advance();
+            Debug.Log("Advancing... Can? " + canAdvance);
+            if (canAdvance)
+                View.Advance();
+            return canAdvance;
         }
     }
 }

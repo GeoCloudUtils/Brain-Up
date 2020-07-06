@@ -3,7 +3,7 @@
  */
 
 using Assets.Scripts.Framework.Other;
-using Assets.Scripts.Games.Abstract;
+using Assets.Scripts.Games.Abstract; 
 using Assets.Scripts.Games.GameData.MultipleAnswersQuestion;
 using Assets.Scripts.Games.RepeatLettersGame;
 using System;
@@ -18,6 +18,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
        //Vars
         private Database _database;
         protected ControllerGlobal _globalController;
+        private MultipleAnswersQuestion allData;
         //getters & setters
         [SerializeField] public ModelTimeKiller Model;
         [SerializeField] public ViewTimeKiller View;
@@ -36,15 +37,16 @@ namespace Assets.Scripts.Games.TimeKillerGame
 
         protected MultipleAnswersQuestion GetData()
         {
-            MultipleAnswersQuestion data = Resources.Load<MultipleAnswersQuestion>("GameData/Questions_General");
-            return data;
+            if(allData==null)
+                allData = Resources.Load<MultipleAnswersQuestion>("GameData/Questions_General");
+            return allData;
         }
 
         public void StartGame(Action<bool,bool> callback)
         {
             MultipleAnswersQuestion data = GetData();
 
-            Model.SetData(data);
+            Model.SetDictionary(data);
             Model.Create();
             View.Create(Model);
 
@@ -62,12 +64,6 @@ namespace Assets.Scripts.Games.TimeKillerGame
             StartGame(null);
         }
 
-        internal void StopGame(GameEndReason reason)
-        {
-            Model.StopGame();
-            View.StopGame();
-            GameFinished?.Invoke(reason);
-        }
 
         public bool Hint()
         {

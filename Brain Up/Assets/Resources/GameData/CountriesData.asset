@@ -1,0 +1,592 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba526428af43c314b9cd4dbe408bb551, type: 3}
+  m_Name: CountriesData
+  m_EditorClassIdentifier: 
+  rows:
+  - item1: Andorra
+    item2: Andorra la Vella
+    item3: Europe
+  - item1: United Arab Emirates
+    item2: Abu Dhabi
+    item3: Asia
+  - item1: Afghanistan
+    item2: Kabul
+    item3: Asia
+  - item1: Antigua and Barbuda
+    item2: Saint John's
+    item3: America
+  - item1: Anguilla
+    item2: The Valley
+    item3: Africa
+  - item1: Armenia
+    item2: Yerevan
+    item3: Asia
+  - item1: Moldova
+    item2: Chisinau
+    item3: Europe
+  - item1: Angola
+    item2: Luanda
+    item3: Africa
+  - item1: Burkina Faso
+    item2: Ouagadougou
+    item3: Africa
+  - item1: Bulgaria
+    item2: Sofia
+    item3: Europe
+  - item1: Bahrain
+    item2: Manama
+    item3: Asia
+  - item1: Burundi
+    item2: Bujumbura
+    item3: Africa
+  - item1: Benin
+    item2: Porto-Novo
+    item3: Africa
+  - item1: Bermuda
+    item2: Hamilton
+    item3: America
+  - item1: Brunei
+    item2: Bandar Seri Begawan
+    item3: Asia
+  - item1: Bolivia
+    item2: La Paz
+    item3: America
+  - item1: Congo
+    item2: Kinshasa
+    item3: Africa
+  - item1: Switzerland
+    item2: Bern
+    item3: Europe
+  - item1: Vietnam
+    item2: Hanoi
+    item3: Asia
+  - item1: Cook Islands
+    item2: Avarua
+    item3: Europe
+  - item1: Chile
+    item2: Santiago
+    item3: America
+  - item1: Cameroon
+    item2: Yaounde
+    item3: Africa
+  - item1: China
+    item2: Beijing
+    item3: Asia
+  - item1: Colombia
+    item2: Bogota
+    item3: America
+  - item1: Algeria
+    item2: Algiers
+    item3: Africa
+  - item1: Ecuador
+    item2: Quito
+    item3: America
+  - item1: Estonia
+    item2: Tallinn
+    item3: Europe
+  - item1: Egypt
+    item2: Cairo
+    item3: Africa
+  - item1: Western Sahara
+    item2: El-AaiÃºn
+    item3: Africa
+  - item1: Eritrea
+    item2: Asmara
+    item3: Africa
+  - item1: Spain
+    item2: Madrid
+    item3: Europe
+  - item1: Ethiopia
+    item2: Addis Ababa
+    item3: Africa
+  - item1: Ghana
+    item2: Accra
+    item3: Africa
+  - item1: Gibraltar
+    item2: Gibraltar
+    item3: Europe
+  - item1: Greenland
+    item2: Nuuk
+    item3: America
+  - item1: The Gambia
+    item2: Banjul
+    item3: Africa
+  - item1: Guinea
+    item2: Conakry
+    item3: Africa
+  - item1: Equatorial Guinea
+    item2: Malabo
+    item3: Africa
+  - item1: Greece
+    item2: Athens
+    item3: Europe
+  - item1: Albania
+    item2: Tirana
+    item3: Albania
+  - item1: Ireland
+    item2: Dublin
+    item3: Europe
+  - item1: Israel
+    item2: Jerusalem
+    item3: Asia
+  - item1: Isle of Man
+    item2: Douglas
+    item3: Asia
+  - item1: India
+    item2: New Delhi
+    item3: Asia
+  - item1: Serbia
+    item2: Belgrade
+    item3: Europe
+  - item1: Iraq
+    item2: Baghdad
+    item3: Asia
+  - item1: Iran
+    item2: Tehran
+    item3: Asia
+  - item1: Iceland
+    item2: Reykjavik
+    item3: Europe
+  - item1: North Korea
+    item2: Pyongyang
+    item3: Asia
+  - item1: South Korea
+    item2: Seoul
+    item3: Asia
+  - item1: Kuwait
+    item2: Kuwait City
+    item3: Asia
+  - item1: Cayman Islands
+    item2: George Town
+    item3: America
+  - item1: Kazakhstan
+    item2: Astana
+    item3: Asia
+  - item1: Laos
+    item2: Vientiane
+    item3: Asia
+  - item1: Lebanon
+    item2: Beirut
+    item3: Asia
+  - item1: Saint Lucia
+    item2: Castries
+    item3: America
+  - item1: Montenegro
+    item2: Podgorica
+    item3: Europe
+  - item1: Madagascar
+    item2: Antananarivo
+    item3: Africa
+  - item1: Marshall Islands
+    item2: Majuro
+    item3: Australia
+  - item1: Macedonia
+    item2: Skopje
+    item3: Europe
+  - item1: Mali
+    item2: Bamako
+    item3: Africa
+  - item1: Burma
+    item2: Naypyidaw
+    item3: Asia
+  - item1: Mongolia
+    item2: Ulaanbaatar
+    item3: Asia
+  - item1: Macau
+    item2: Sniper Capital
+    item3: Asia
+  - item1: New Caledonia
+    item2: Noumea
+    item3: Australia
+  - item1: Niger
+    item2: Niamey
+    item3: Africa
+  - item1: Norfolk Island
+    item2: Kingston
+    item3: Australia
+  - item1: Nigeria
+    item2: Abuja
+    item3: Africa
+  - item1: Nicaragua
+    item2: Managua
+    item3: America
+  - item1: Netherlands
+    item2: Amsterdam
+    item3: Europe
+  - item1: Norway
+    item2: Oslo
+    item3: Europe
+  - item1: Nauru
+    item2: Yaren
+    item3: Australia
+  - item1: Pitcairn Islands
+    item2: Adamstown
+    item3: Europe
+  - item1: Puerto Rico
+    item2: San Juan
+    item3: America
+  - item1: Gaza Strip
+    item2: Gaza City
+    item3: Africa
+  - item1: Portugal
+    item2: Lisbon
+    item3: Europe
+  - item1: Palau
+    item2: Melekeok
+    item3: Australia
+  - item1: Paraguay
+    item2: Asuncion
+    item3: America
+  - item1: Qatar
+    item2: Doha
+    item3: Asia
+  - item1: Romania
+    item2: Bucharest
+    item3: Europe
+  - item1: Svalbard
+    item2: Longyearbyen
+    item3: Europe
+  - item1: Slovakia
+    item2: Bratislava
+    item3: Europe
+  - item1: Sierra Leone
+    item2: Freetown
+    item3: Africa
+  - item1: San Marino
+    item2: San Marino
+    item3: Europe
+  - item1: Senegal
+    item2: Dakar
+    item3: Africa
+  - item1: Somalia
+    item2: Mogadishu
+    item3: Africa
+  - item1: Suriname
+    item2: Paramaribo
+    item3: America
+  - item1: Saint Lucia
+    item2: Castries
+    item3: America
+  - item1: Turkmenistan
+    item2: Ashgabat
+    item3: Asia
+  - item1: Tunisia
+    item2: Tunis
+    item3: Africa
+  - item1: Tonga
+    item2: Nuku'alofa
+    item3: Australia
+  - item1: Turkey
+    item2: Ankara
+    item3: Asia
+  - item1: Trinidad and Tobago
+    item2: Port of Spain
+    item3: America
+  - item1: Tuvalu
+    item2: Funafuti
+    item3: Australia
+  - item1: Taiwan
+    item2: Taipei
+    item3: Asia
+  - item1: Tanzania
+    item2: Dar es Salaam
+    item3: Africa
+  - item1: Argentina
+    item2: Buenos Aires
+    item3: America
+  - item1: American Samoa
+    item2: Pago Pago
+    item3: America
+  - item1: Austria
+    item2: Vienna
+    item3: Europe
+  - item1: Australia
+    item2: Canberra
+    item3: Unknown
+  - item1: Aruba
+    item2: Oranjestad
+    item3: America
+  - item1: Azerbaijan
+    item2: Baku
+    item3: Asia
+  - item1: Ukraine
+    item2: Kyiv
+    item3: Europe
+  - item1: Barbados
+    item2: Bridgetown
+    item3: America
+  - item1: The Bahamas
+    item2: Nassau
+    item3: America
+  - item1: Bhutan
+    item2: Thimphu
+    item3: Asia
+  - item1: Bouvet Island
+    item2: Oslo
+    item3: Other
+  - item1: Botswana
+    item2: Gaborone
+    item3: Africa
+  - item1: Belarus
+    item2: Minsk
+    item3: Europe
+  - item1: Belize
+    item2: Belmopan
+    item3: America
+  - item1: Canada
+    item2: Ottawa
+    item3: America
+  - item1: Liechtenstein
+    item2: Vaduz
+    item3: Europe
+  - item1: Cuba
+    item2: Havana
+    item3: America
+  - item1: Cape Verde
+    item2: Praia
+    item3: Africa
+  - item1: Christmas Island
+    item2: The Settlement
+    item3: Other
+  - item1: Cyprus
+    item2: Nicosia
+    item3: Europe
+  - item1: Czech
+    item2: Praga
+    item3: Europe
+  - item1: Germany
+    item2: Berlin
+    item3: Europe
+  - item1: Djibouti
+    item2: Djibouti
+    item3: Africa
+  - item1: Denmark
+    item2: Copenhagen
+    item3: Europe
+  - item1: Fiji
+    item2: Suva
+    item3: Australia
+  - item1: Falkland Islands
+    item2: Stanley
+    item3: America
+  - item1: Italy
+    item2: Rome
+    item3: Europe
+  - item1: Faroe Islands
+    item2: Torshavn
+    item3: Other
+  - item1: France
+    item2: Paris
+    item3: Europe
+  - item1: Gabon
+    item2: Libreville
+    item3: Africa
+  - item1: United Kingdom
+    item2: London
+    item3: Europe
+  - item1: Grenada
+    item2: Saint George's
+    item3: America
+  - item1: Guam
+    item2: Hagatna
+    item3: Other
+  - item1: Guinea
+    item2: Conakry
+    item3: Africa
+  - item1: Guyana
+    item2: Georgetown
+    item3: America
+  - item1: Hong Kong
+    item2: Victoria City
+    item3: Asia
+  - item1: Guatemala
+    item2: Guatemala City
+    item3: America
+  - item1: Honduras
+    item2: Tegucigalpa
+    item3: America
+  - item1: Croatia
+    item2: Zagreb
+    item3: Europe
+  - item1: Haiti
+    item2: Port-au-Prince
+    item3: America
+  - item1: Jersey
+    item2: Saint Helier
+    item3: Other
+  - item1: Jamaica
+    item2: Kingston
+    item3: America
+  - item1: Jordan
+    item2: Amman
+    item3: Asia
+  - item1: Japan
+    item2: Tokyo
+    item3: Asia
+  - item1: Kenya
+    item2: Nairobi
+    item3: Africa
+  - item1: Kyrgyzstan
+    item2: Bishkek
+    item3: Asia
+  - item1: Cambodia
+    item2: Phnom Penh
+    item3: Asia
+  - item1: Kiribati
+    item2: Tarawa
+    item3: Australia
+  - item1: Sri Lanka
+    item2: Colombo
+    item3: Asia
+  - item1: Liberia
+    item2: Monrovia
+    item3: Africa
+  - item1: Lesatho
+    item2: Maseru
+    item3: Other
+  - item1: Lithuania
+    item2: Vilnius
+    item3: Europe
+  - item1: Luxembourg
+    item2: Luxembourg
+    item3: Europe
+  - item1: Latvia
+    item2: Riga
+    item3: Europe
+  - item1: Libya
+    item2: Tripoli
+    item3: Africa
+  - item1: Morocco
+    item2: Rabat
+    item3: Africa
+  - item1: Mauritania
+    item2: Nouakchott
+    item3: Africa
+  - item1: Montserrat
+    item2: Plymouth
+    item3: America
+  - item1: Malta
+    item2: Valletta
+    item3: Europe
+  - item1: Mauritius
+    item2: Port Louis
+    item3: Africa
+  - item1: Maldives
+    item2: Male
+    item3: Asia
+  - item1: Malawi
+    item2: Lilongwe
+    item3: Africa
+  - item1: Mexico
+    item2: Mexico City
+    item3: America
+  - item1: Malaysia
+    item2: Kuala Lumpur
+    item3: Asia
+  - item1: New Zealand
+    item2: Wellington
+    item3: Australia
+  - item1: Oman
+    item2: Muscat
+    item3: Asia
+  - item1: Panama
+    item2: Panama City
+    item3: America
+  - item1: Peru
+    item2: Lima
+    item3: America
+  - item1: French Polynesia
+    item2: Papeete
+    item3: Other
+  - item1: Papua New Guinea
+    item2: Port Moresby
+    item3: Australia
+  - item1: Philippines
+    item2: Manila
+    item3: Asia
+  - item1: Pakistan
+    item2: Islamabad
+    item3: Asia
+  - item1: Russia
+    item2: Moscow
+    item3: Europe
+  - item1: Rwanda
+    item2: Kigali
+    item3: Africa
+  - item1: Saudi Arabia
+    item2: Riyadh
+    item3: Asia
+  - item1: Solomon Islands
+    item2: Honiara
+    item3: Australia
+  - item1: Seychelles
+    item2: Victoria
+    item3: Africa
+  - item1: Sudan
+    item2: Khartoum
+    item3: Africa
+  - item1: Sweden
+    item2: Stockholm
+    item3: Europe
+  - item1: Singapore
+    item2: Singapore
+    item3: Asia
+  - item1: Syria
+    item2: Damascus
+    item3: Asia
+  - item1: Swaziland
+    item2: Mbabane
+    item3: Africa
+  - item1: Mayotte
+    item2: Mamoudzou
+    item3: Other
+  - item1: Chad
+    item2: N'Djamena
+    item3: Africa
+  - item1: Yemen
+    item2: Sanaa
+    item3: Asia
+  - item1: Togo
+    item2: Lome
+    item3: Africa
+  - item1: Thailand
+    item2: Bangkok
+    item3: Asia
+  - item1: Tajikistan
+    item2: Dushanbe
+    item3: Asia
+  - item1: Uganda
+    item2: Kampala
+    item3: Africa
+  - item1: United States
+    item2: Washington
+    item3: Other
+  - item1: Uruguay
+    item2: Montevideo
+    item3: America
+  - item1: Uzbekistan
+    item2: Tashkent
+    item3: Asia
+  - item1: Vatican
+    item2: Vatican
+    item3: Europe
+  - item1: Zimbabwe
+    item2: Harare
+    item3: Africa
+  - item1: Venezuela
+    item2: Caracas
+    item3: America
+  - item1: Nepal
+    item2: Kathmandu
+    item3: Asia
+

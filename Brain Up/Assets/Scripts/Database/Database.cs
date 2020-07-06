@@ -103,6 +103,8 @@ namespace Assets.Scripts
             Debug.Log("Coins count: " + data.coins);
             Debug.Log("Levels: " + data.level);
             Debug.Log("Hints count: " + data.hints);
+            print("Load db path: " + databaseFile);
+
 
             var currGamesCount = Enum.GetValues(typeof(GameId)).Length;
             int lastGamesCount = data.gamesProgress.Length;
@@ -139,6 +141,22 @@ namespace Assets.Scripts
             return data.gamesProgress[gameId];
         }
 
+        internal void SetGameProgressForDifficulty(int gameId, int difficulty, int progress)
+        {
+            data.gamesProgressPerDifficulty[gameId, difficulty] = progress;
+        }
+
+
+        internal void IncreaseGameProgressForDifficulty(int gameId, int difficulty)
+        {
+            int curr = GetGameProgressForDifficulty(gameId, difficulty);
+            SetGameProgressForDifficulty(gameId, difficulty, curr+1);
+        }
+
+        internal int GetGameProgressForDifficulty(int gameId, int difficulty)
+        {
+            return data.gamesProgressPerDifficulty[gameId,difficulty];
+        }
 
         internal void SetAsBought(int itemId)
         {
@@ -159,6 +177,7 @@ namespace Assets.Scripts
                 return;
             BoughtItems.Remove(itemId);
         }
+
 
         #endregion
 

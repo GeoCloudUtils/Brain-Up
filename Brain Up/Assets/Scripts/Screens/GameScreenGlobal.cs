@@ -26,6 +26,7 @@ namespace Assets.Scripts.Screens
         public DialogNoTime noTimeScreen = null;
         public DialogNoHints noHintsScreen = null;
         public DialogNoCoins noCoinsScreen = null;
+        public DialogDifficultyLevelFinished diffLevelFinishedScreen = null;
         //
         protected Database _database;
         protected ControllerGlobal globalController;
@@ -71,7 +72,9 @@ namespace Assets.Scripts.Screens
         {
             if (globalController.Check() == true)
             {
-                globalController.StopGame(GameEndReason.Win);
+                bool canAdvance = ControllerGlobal.Instance.Advance();
+                if(canAdvance)
+                    ControllerGlobal.Instance.RestartGame();
             }
         }
 
@@ -137,6 +140,12 @@ namespace Assets.Scripts.Screens
         internal void ShowLoadingAdScreen(bool show)
         {
             loadingAdScreen.SetActive(show);
+        }
+
+        internal void ShowDiffLevelFinishedScreen(string gameName, string difficultyName)
+        {
+            diffLevelFinishedScreen.InitScreen(gameName, difficultyName);
+            diffLevelFinishedScreen.Show(true);
         }
         #endregion
 

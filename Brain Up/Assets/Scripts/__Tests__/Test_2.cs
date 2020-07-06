@@ -19,10 +19,17 @@ namespace Assets.Scripts.__Tests__
             //ReadXML(filePath.Replace(".xml", "_fixed.xml"));
 
             string root = @"F:\Projects\Unity\__BlackArtSoft_Projects__\BrainUp\Brain Up\Assets\Resources\GameData\";
-            XMLToScriptableObject(root + "general.xml", root + "tmp_file.txt");
-            XMLToScriptableObject(root + "general-2.xml", root + "tmp_file.txt");
-            XMLToScriptableObject(root + "general-3.xml", root + "tmp_file.txt");
-            XMLToScriptableObject(root + "general-4.xml", root + "tmp_file.txt");
+
+            FixXml(root + @"\Raw\general.xml");
+            FixXml(root + @"\Raw\general-2.xml");
+            FixXml(root + @"\Raw\general-3.xml");
+            FixXml(root + @"\Raw\general-4.xml");
+
+
+            XMLToScriptableObject(root + @"\Raw\general_fixed.xml", root + "general_questions.txt");
+            XMLToScriptableObject(root + @"\Raw\general-2_fixed.xml", root + "general_questions.txt");
+            XMLToScriptableObject(root + @"\Raw\general-3_fixed.xml", root + "general_questions.txt");
+            XMLToScriptableObject(root + @"\Raw\general-4_fixed.xml", root + "general_questions.txt");
         }
 
         private void XMLToScriptableObject(string filePath, string outFilePath)
@@ -47,16 +54,33 @@ namespace Assets.Scripts.__Tests__
 
                          */
                         //return only when you have START tag  
+                        string value = null;
                         switch (reader.Name.ToString())
                         {
                             case "question":
+                                value = reader.GetAttribute(1);
+                                value = value.Replace("&#039;", "`");
+                                value = value.Replace("'", "`");
+                                value = value.Replace("\"", "``");
+                                value = value.Replace("&quot;", "``");
+                                value = value.Replace(":", "?");
+                                value = value.Trim();
+
                                 //Debug.Log("Question: " + reader.GetAttribute(1));
-                                builder.Append("  - question: " + reader.GetAttribute(1)+"\n");
+                                builder.Append("  - question: " + value + "\n");
                                 builder.Append("    answers: "+"\n");
                                 break;
                             case "answer":
+                                value = reader.GetAttribute(1);
+                                value = value.Replace("&#039;", "`");
+                                value = value.Replace("'", "`");
+                                value = value.Replace("\"", "``");
+                                value = value.Replace("&quot;", "``");
+                                value = value.Replace(":", "?");
+                                value = value.Trim();
+
                                 //Debug.Log("- answer: " + reader.GetAttribute(1));
-                                builder.Append("    - " + reader.GetAttribute(1) + "\n");
+                                builder.Append("    - " + value + "\n");
                                 break;
                         }
                     }

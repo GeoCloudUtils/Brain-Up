@@ -27,18 +27,21 @@ namespace Assets.Scripts.Games.GuessWordGame
         public TMP_Text bigLetter;
         [Header("Settings")]
         public float changeLetterInterval = 1f;
-        //Properties
+        //Vars
         public ModelGuessWord Model;
 
-        public void Create(ModelGuessWord model)
-        {
-            this.Model = model;
-        }
+
+        //Getters & Setters
+        public GameScreenAbstract GetScreen() => gameScreen;
+        public ModelAbstract GetModel() => Model;
+        public void Create(ModelGuessWord model)=> this.Model = model;
+        public bool IsWordCorrect() => word.IsCorrect();
+        public void SetModel(ModelAbstract model) => Model = (ModelGuessWord)model;
+
 
 
         public void StartGame(Action endCallback = null)
         {
-
             CatWord wordRow = Model.GetCurrentWord();
 
             description.text = wordRow.description;
@@ -48,7 +51,9 @@ namespace Assets.Scripts.Games.GuessWordGame
             word.SetText(w);
             word.HideAllLetters();
 
+            gameScreen.SetProgress(Model.progress + 1, -1);
             gameScreen.Show(true);
+
             endCallback?.Invoke();
         }
 
@@ -72,27 +77,9 @@ namespace Assets.Scripts.Games.GuessWordGame
             return true;
         }
 
-
-
-
-        public bool IsWordCorrect()
+        internal void Advance()
         {
-            return word.IsCorrect();
-        }
-
-        public GameScreenAbstract GetScreen()
-        {
-            return gameScreen;
-        }
-
-        public ModelAbstract GetModel()
-        {
-            return Model;
-        }
-
-        public void SetModel(ModelAbstract model)
-        {
-            Model = (ModelGuessWord)model;
+            
         }
     }
 }

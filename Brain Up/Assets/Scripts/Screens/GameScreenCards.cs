@@ -73,7 +73,10 @@ namespace Assets.Scripts.Screens
 
         internal void SetProgress(int curr, int max)
         {
-            this.progress.text = string.Format("Progress: {0}/{1}", curr, max);
+            if(max == -1)//infinite
+                this.progress.text = string.Format("Level {0}", curr);
+            else
+                this.progress.text = string.Format("Progress: {0}/{1}", curr, max);
         }
 
         public void OnWikipediaClicked()
@@ -84,7 +87,6 @@ namespace Assets.Scripts.Screens
 
         private int OnCheckState(StatesImage img)
         {
-            Debug.Log("Here 1");
             //Already selected
             int currState = img.GetState();
             if (currState != 0) return currState;
@@ -110,7 +112,9 @@ namespace Assets.Scripts.Screens
                 bool canAdvance = ControllerGlobal.Instance.Advance();
 
                 if (!canAdvance)
-                    ControllerGlobal.Instance.StopGame(GameEndReason.Win);
+                {
+                    //Stage completed
+                }
                 else
                     ControllerGlobal.Instance.RestartGame();
 

@@ -4,6 +4,8 @@
 
 using Assets.Scripts.Games;
 using Assets.Scripts.Games.RepeatColorsGame;
+using TMPro;
+using UnityEngine;
 
 namespace Assets.Scripts.Screens
 {
@@ -17,14 +19,5 @@ namespace Assets.Scripts.Screens
             gameId = (int)GameId.RepeatColors;
             _controller = ControllerRepeatColors.Instance;
         }
-
-        public void OnCheckClicked()
-        {
-            if (_controller.Check() == true)
-            {
-                globalController.StopGame(GameEndReason.Win);
-            }
-        }
-
     }
 }

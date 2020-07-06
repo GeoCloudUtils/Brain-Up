@@ -10,6 +10,7 @@ namespace Assets.Scripts
         public int hints = 3;
         public int[] starPerLevel = new int[200];
         public int[] gamesProgress = new int[20];
+        public int[,] gamesProgressPerDifficulty = new int[20,5];
         public List<int> boughtItems = new List<int>();
     }
 }

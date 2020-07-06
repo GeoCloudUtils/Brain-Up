@@ -11,6 +11,7 @@ namespace Assets.Scripts.Screens
         public GameObject[] categories;
         public ScreenSelectModule selectModuleScreen;
         private GameObject _lastCategory;
+        public ScreenDifficultyLevels difficultyLevelsScreen;
 
         public void Show(GameModule category)
         {
@@ -22,8 +23,22 @@ namespace Assets.Scripts.Screens
         {
             if (_lastCategory != null)
                 _lastCategory.SetActive(false);
-            GameScreenGlobal.Instance.Show(true);
-            ControllerGlobal.Instance.StartGame((GameId)gameId, GameLanguage.English);
+
+            var global = ControllerGlobal.Instance;
+            GameId gameType = (GameId)gameId;
+            if (global.GetLevelDataFor(gameType) == null)//have not difficulty levels
+            {
+                GameScreenGlobal.Instance.Show(true);
+                global.currDifficulty = GameDifficulty.Any;
+                global.StartGame(gameType, GameLanguage.English);
+            }
+            else
+            {
+                difficultyLevelsScreen.InitScreen(gameType);
+                difficultyLevelsScreen.Show(true);
+            }
+
+            
         }
 
         public void OnExitClicked()

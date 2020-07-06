@@ -17,11 +17,12 @@ namespace Assets.Scripts.Games.RepeatColorsGame
     {
         [Header("References")]
         public ImagesWord word;
-        public GameObject showColorsScreen;
-        public GameScreenLetters gameScreen;
+        public GameScreenColors gameScreen;
+        public GameObject showColorScreen;
         public Image bigColor;
         [Header("Settings")]
         public float changeColorInterval = 1f;
+        private int progress = 1;
         //
         public ModelRepeatColors Model;
 
@@ -39,15 +40,19 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             word.SetImages(currWord);
             word.HideAllLetters();
 
+            var global = ControllerGlobal.Instance;
+            int max = global.GetMaxLevelForCurrGame();
+            gameScreen.SetProgress(progress, max);
+
             StartCoroutine(ShowLettersInRow(currWord, endCallback));
         }
 
         public void StopGame()
         {
-            gameScreen.Show(false);
             if(word.currSelectedLetterIndex!=-1)
                 word.DeselectLetter(word.currSelectedLetterIndex);
             word.currSelectedLetterIndex = -1;
+            progress = 1;
         }
 
         public bool Hint()
@@ -76,9 +81,8 @@ namespace Assets.Scripts.Games.RepeatColorsGame
 
         private IEnumerator ShowLettersInRow(Sprite[] letters, Action endCallback)
         {
-            Debug.Log("ShowLettersInRow started");
             GameScreenGlobal.Instance.Show(false);
-            showColorsScreen.SetActive(true);
+            showColorScreen.SetActive(true);
 
             foreach (Sprite let in letters)
             {
@@ -86,8 +90,8 @@ namespace Assets.Scripts.Games.RepeatColorsGame
                 yield return new WaitForSeconds(changeColorInterval);
             }
 
+            showColorScreen.SetActive(false);
             gameScreen.Show(true);
-            showColorsScreen.SetActive(false);
             GameScreenGlobal.Instance.Show(true);
 
             endCallback?.Invoke();
@@ -108,6 +112,11 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         public void SetModel(ModelAbstract model)
         {
             Model = (ModelRepeatColors)model;
+        }
+
+        public void Advance()
+        {
+            ++progress;
         }
     }
 }
