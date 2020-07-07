@@ -19,7 +19,12 @@ namespace Assets.Scripts.Games.Other
         public GameObject levelLocked;
         public GameDifficulty difficulty;
         public bool locked = false;
+        private Vector2 progressBarSize;
 
+        private void Start()
+        {
+            progressBarSize = levelProgressBar.rectTransform.sizeDelta;
+        }
 
         public void SetDifficulty(GameId gameId)
         {
@@ -47,7 +52,7 @@ namespace Assets.Scripts.Games.Other
             else //level in progress
             {
                 float progress = levelsCompleted / (float)levelsMax;
-                levelProgressBar.fillAmount = progress;
+                levelProgressBar.rectTransform.sizeDelta = new Vector3(progressBarSize.x * progress, progressBarSize.y);
                 levelProgressCount.gameObject.SetActive(true);
                 levelProgressCount.text = levelsCompleted + "/" + levelsMax;
                 levelFinished.SetActive(false);
