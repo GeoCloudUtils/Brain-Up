@@ -49,7 +49,6 @@ namespace Assets.Scripts.Screens
             var list = new List<Tuple<int, Sprite>>();
 
             int flagsCount = flagsCountOnOneTexture + flagsCountOnOneTexture;
-            var rand = new System.Random();
             for(int a=0; a < count; ++a)
             {
                 Texture2D texture;
@@ -59,7 +58,7 @@ namespace Assets.Scripts.Screens
                 bool isOk = false;
                 do
                 {
-                    absoluteIndex = rand.Next(0, flagsCount);
+                    absoluteIndex = GlobalRandomizer.Next(0, flagsCount);
                     if (absoluteIndex < flagsCountOnOneTexture)
                     {
                         index = absoluteIndex;

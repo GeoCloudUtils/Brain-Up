@@ -24,7 +24,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         public float changeColorInterval = 1f;
         private int progress = 1;
         //
-        public ModelRepeatColors Model;
+        public ModelRepeatColors Model { get; protected set; }
 
         public void Create(ModelRepeatColors model)
         {
@@ -64,8 +64,7 @@ namespace Assets.Scripts.Games.RepeatColorsGame
             foreach (int i in unknownLettersIndexes)
                 Debug.Log("Unknown: " + i);
 
-            System.Random rand = new System.Random();
-            int index = unknownLettersIndexes[rand.Next(0, unknownLettersIndexes.Count)];
+            int index = unknownLettersIndexes[GlobalRandomizer.Next(0, unknownLettersIndexes.Count)];
 
             word.SetLetter(index, word.correctImages[index]);
             return true;

@@ -20,7 +20,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
         //Vars
         public GameScreenCards gameScreen;
         //Properties
-        public ModelSelectFlag Model;
+        public ModelSelectFlag Model { get; protected set; }
 
 
         public void Create(ModelSelectFlag model)
@@ -50,7 +50,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
 
             gameScreen.SetProgress(Model.progress, -1);
 
-            int correctIndex = new System.Random().Next(0, data.Count);
+            int correctIndex = GlobalRandomizer.Next(0, data.Count);
             answers[correctIndex] = true;
 
             Sprite[] flags = new Sprite[data.Count]; 

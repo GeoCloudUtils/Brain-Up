@@ -26,7 +26,7 @@ namespace Assets.Scripts.Games.Other
             int levelsCompleted = Database.Instance.GetGameProgressForDifficulty((int)gameId, (int)difficulty);
             int levelsMax = ControllerGlobal.Instance.GetMaxLevel(gameId, difficulty);
 
-            Debug.LogFormat("Diff {0} progress: {1}/{2}", difficulty, levelsCompleted, levelsMax);
+            //Debug.LogFormat("Diff {0} progress: {1}/{2}", difficulty, levelsCompleted, levelsMax);
 
             if (levelsCompleted + 1 >= levelsMax)//level completed
             {

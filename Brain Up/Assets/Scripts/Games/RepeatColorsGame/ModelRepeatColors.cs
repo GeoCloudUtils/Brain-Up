@@ -51,13 +51,12 @@ namespace Assets.Scripts.Games.RepeatColorsGame
         private Sprite[] GenerateColors(int count)
         {
             currColors = new Sprite[count];
-            System.Random rand = new System.Random();
             int lastIndex = -1;
             for(int a =0; a < count; ++a)
             {
                 int index = -2;
                 do {
-                    index = rand.Next(0, allColors.Length);
+                    index = GlobalRandomizer.Next(0, allColors.Length);
                     currColors[a] = allColors[index];
                 } while (lastIndex == index);
                 lastIndex = index;

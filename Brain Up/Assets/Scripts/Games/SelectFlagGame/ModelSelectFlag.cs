@@ -76,7 +76,6 @@ namespace Assets.Scripts.Games.SelectFlagGame
             var list = new List<Tuple<int, Sprite>>();
 
             int flagsCount = FLAGS_COUNT_ON_TEXTURE + FLAGS_COUNT_ON_TEXTURE;
-            var rand = new System.Random();
             for (int a = 0; a < count; ++a)
             {
                 Texture2D texture;
@@ -86,7 +85,7 @@ namespace Assets.Scripts.Games.SelectFlagGame
                 bool isOk = false;
                 do
                 {
-                    absoluteIndex = rand.Next(0, flagsCount);
+                    absoluteIndex = GlobalRandomizer.Next(0, flagsCount);
                     if (absoluteIndex < FLAGS_COUNT_ON_TEXTURE)
                     {
                         index = absoluteIndex;

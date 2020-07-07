@@ -27,19 +27,22 @@ namespace Assets.Scripts.Games.RepeatLettersGame
         public GameScreenLetters gameScreen;
         public TMP_Text description;
         public TMP_Text bigLetter;
+        public Keyboard keyboard;
         [Header("Settings")]
         public float changeLetterInterval = 1f;
         //Properties
-        public ModelRepeatLetters Model;
+        public ModelRepeatLetters Model { get; protected set; }
 
 
         public void Create(ModelRepeatLetters model)
         {
             this.Model = model;
+            keyboard.SetLetters("ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray());
         }
 
         public void StartGame(Action endCallback = null)
         {
+
             int progress = Model.progress;
             WordRow wordInfo = Model.GetCurrentWord();
             description.text = "";
@@ -68,10 +71,9 @@ namespace Assets.Scripts.Games.RepeatLettersGame
             List<int> unknownLettersIndexes = word.GetIncorrectLettersIndexes();
             if (unknownLettersIndexes.Count == 0) return false;
 
-            System.Random rand = new System.Random();
-            int index = unknownLettersIndexes[rand.Next(0, unknownLettersIndexes.Count)];
+            int index = unknownLettersIndexes[GlobalRandomizer.Next(0, unknownLettersIndexes.Count)];
 
-            word.SetLetter(index, word.correctWord[index]);
+            word.SetLetter(index, word.currWord[index]);
             return true;
         }
 

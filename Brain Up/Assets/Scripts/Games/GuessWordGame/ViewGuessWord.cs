@@ -25,20 +25,25 @@ namespace Assets.Scripts.Games.GuessWordGame
         public GameScreenLetters gameScreen;
         public TMP_Text description;
         public TMP_Text bigLetter;
+        public Keyboard keyboard;
         [Header("Settings")]
         public float changeLetterInterval = 1f;
         //Vars
-        public ModelGuessWord Model;
+        public ModelGuessWord Model { get; protected set; }
 
 
         //Getters & Setters
         public GameScreenAbstract GetScreen() => gameScreen;
         public ModelAbstract GetModel() => Model;
-        public void Create(ModelGuessWord model)=> this.Model = model;
         public bool IsWordCorrect() => word.IsCorrect();
         public void SetModel(ModelAbstract model) => Model = (ModelGuessWord)model;
 
 
+        public void Create(ModelGuessWord model)
+        {
+            keyboard.SetLetters("ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray());
+            this.Model = model;
+        }
 
         public void StartGame(Action endCallback = null)
         {
@@ -70,10 +75,9 @@ namespace Assets.Scripts.Games.GuessWordGame
             List<int> unknownLettersIndexes = word.GetIncorrectLettersIndexes();
             if (unknownLettersIndexes.Count == 0) return false;
 
-            System.Random rand = new System.Random();
-            int index = unknownLettersIndexes[rand.Next(0, unknownLettersIndexes.Count)];
+            int index = unknownLettersIndexes[GlobalRandomizer.Next(0, unknownLettersIndexes.Count)];
 
-            word.SetLetter(index,word.correctWord[index]);
+            word.SetLetter(index,word.currWord[index]);
             return true;
         }
 

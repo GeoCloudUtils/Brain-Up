@@ -9,16 +9,12 @@ namespace Assets.Scripts.Games.Other
     public class Keyboard : MonoBehaviour
     {
         public Text[] keyTexts;
-        public Word word;
+        public SimpleWord word;
 
         void Start()
         {
             if (keyTexts == null || keyTexts.Length == 0) Debug.LogError(nameof(keyTexts) + " is not assigned!");
             if (word == null) Debug.LogError(nameof(word) + " is not assigned!");
-
-            SetLetters("ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray());
-            SetLetters("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ".ToCharArray());
-            SetLetters("AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ".ToCharArray());
         }
 
         public void SetLetters(char[] letters)

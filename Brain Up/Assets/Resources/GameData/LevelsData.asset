@@ -91,3 +91,42 @@ MonoBehaviour:
       nrMaxLevels: 45
     - difficulty: 4
       nrMaxLevels: 60
+  - gameId: 7
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 45
+    - difficulty: 1
+      nrMaxLevels: 45
+    - difficulty: 2
+      nrMaxLevels: 60
+    - difficulty: 3
+      nrMaxLevels: 74
+    - difficulty: 4
+      nrMaxLevels: 100
+  - gameId: 8
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 45
+    - difficulty: 1
+      nrMaxLevels: 60
+    - difficulty: 2
+      nrMaxLevels: 80
+    - difficulty: 3
+      nrMaxLevels: 100
+    - difficulty: 4
+      nrMaxLevels: 100
+  - gameId: 9
+    totalLevels: 0
+    data:
+    - difficulty: 0
+      nrMaxLevels: 45
+    - difficulty: 1
+      nrMaxLevels: 60
+    - difficulty: 2
+      nrMaxLevels: 80
+    - difficulty: 3
+      nrMaxLevels: 100
+    - difficulty: 4
+      nrMaxLevels: 100

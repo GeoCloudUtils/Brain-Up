@@ -57,7 +57,6 @@ namespace Assets.Scripts.Screens
 
         public void Show(bool show)
         {
-            Debug.Log("Global Screen shown: " + show);
             screen.SetActive(show);
             if (_lastScreen != null && !show)
                 _lastScreen.Show(false);

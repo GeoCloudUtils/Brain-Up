@@ -27,7 +27,10 @@ namespace Assets.Scripts.Games
         SelectFlag = 3,
         Acknowledge_Countries = 4,
         GuessWord = 5,
-        TimeKiller = 6
+        TimeKiller = 6,
+        Numbers_Sum = 7,
+        Numbers_Product = 8,
+        Numbers_Expression = 9,
     }
 
     public static class GameName
@@ -43,6 +46,9 @@ namespace Assets.Scripts.Games
                 case GameId.Acknowledge_Countries: return "Countries";
                 case GameId.GuessWord: return "Guess Word";
                 case GameId.TimeKiller: return "TimeKiller";
+                case GameId.Numbers_Sum: return "Sum";
+                case GameId.Numbers_Product: return "Product";
+                case GameId.Numbers_Expression: return "Expression";
                 default: break;
             }
             return null;
@@ -210,7 +216,7 @@ namespace Assets.Scripts.Games
         }
 
 
-        internal bool Check()
+        internal bool Check() 
         {
             return ((ICheckingGame)_currController).Check();
         }
@@ -223,7 +229,7 @@ namespace Assets.Scripts.Games
 
         public void StartGame(GameId gameId, GameLanguage gameLanguage = GameLanguage.English)
         {
-            Debug.Log("GlobalController: Starting game...");
+            Debug.Log("GlobalController: Starting game... GameId: " + gameId);
             
             switch (gameId){
                 case GameId.SelectFlag: 
@@ -240,6 +246,12 @@ namespace Assets.Scripts.Games
                     _currController = ControllerHistory.Instance; break;
                 case GameId.Acknowledge_Countries:
                     _currController = ControllerCapitals.Instance; break;
+                case GameId.Numbers_Sum:
+                    _currController = ControllerNumbersSum.Instance; break;
+                case GameId.Numbers_Product:
+                    _currController = ControllerNumbersProduct.Instance; break;
+                case GameId.Numbers_Expression:
+                    _currController = ControllerNumbersExpression.Instance; break;
             }
 
 

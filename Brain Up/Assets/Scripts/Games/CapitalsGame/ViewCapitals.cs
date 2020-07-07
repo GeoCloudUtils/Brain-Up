@@ -27,7 +27,7 @@ namespace Assets.Scripts.Games.CapitalsGame
         //Vars
         public GameScreenMultipleAnswers gameScreen;
         //Properties
-        public ModelCapitals Model;
+        public ModelCapitals Model { get; protected set; }
 
 
 
@@ -63,7 +63,7 @@ namespace Assets.Scripts.Games.CapitalsGame
             data.answers.Shuffle((index_1, index_2) =>
             {
                 answers.Swap(index_1, index_2);
-            });
+            }, GlobalRandomizer.SEED);
 
             for (int a = 0; a < answers.Length; ++a)
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);

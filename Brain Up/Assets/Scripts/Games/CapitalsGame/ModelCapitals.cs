@@ -63,7 +63,6 @@ namespace Assets.Scripts.Games.CapitalsGame
         private Question GenerateQuestion() 
         {
             TripleValueListRow[] allQuestions = new TripleValueListRow[4];
-            var rand = new System.Random();
             int[] indexes = new int[4];
 
             for(int a=0; a < 4; ++a)
@@ -74,7 +73,7 @@ namespace Assets.Scripts.Games.CapitalsGame
                 do
                 {
                     --attempts;
-                    index = rand.Next(0, allData.rows.Length);
+                    index = GlobalRandomizer.Next(0, allData.rows.Length);
                     isOk = true;
                     foreach (int i in indexes)
                         if (i == index)

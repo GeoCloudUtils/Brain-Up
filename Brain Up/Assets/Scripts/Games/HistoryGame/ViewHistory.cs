@@ -23,7 +23,7 @@ namespace Assets.Scripts.Games.HistoryGame
         //Vars
         public GameScreenMultipleAnswers gameScreen;
         //Properties
-        public ModelHistory Model;
+        public ModelHistory Model { get; protected set; }
 
 
 
@@ -61,7 +61,7 @@ namespace Assets.Scripts.Games.HistoryGame
             data.answers.Shuffle((index_1, index_2) =>
             {
                 answers.Swap(index_1, index_2);
-            });
+            }, GlobalRandomizer.SEED);
 
             for (int a=0; a < answers.Length; ++a)
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);

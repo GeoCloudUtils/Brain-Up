@@ -39,7 +39,6 @@ public class ScreenDifficultyLevels : MonoBehaviour
 
     public void OnLevelClicked(UIDifficultyLevel uiButton)
     {
-        Debug.Log("Hello!--_");
         if (uiButton.locked)
         {
             Debug.LogWarning("The level is locked!");

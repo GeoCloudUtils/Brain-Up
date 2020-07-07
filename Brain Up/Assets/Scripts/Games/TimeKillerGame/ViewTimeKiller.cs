@@ -23,7 +23,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
         //Vars
         public GameScreenMultipleAnswers gameScreen;
         //Properties
-        public ModelTimeKiller Model;
+        public ModelTimeKiller Model { get; protected set; }
 
         public void Create(ModelTimeKiller model)
         {
@@ -56,7 +56,7 @@ namespace Assets.Scripts.Games.TimeKillerGame
             data.answers.Shuffle((index_1, index_2) =>
             {
                 answers.Swap(index_1, index_2);
-            });
+            }, GlobalRandomizer.SEED);
 
             for (int a=0; a < answers.Length; ++a)
                 Debug.LogFormat("Answer {0}: {1}", a, answers[a]);

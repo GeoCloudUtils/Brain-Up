@@ -8,9 +8,15 @@ namespace Assets.Scripts.LettersGames
 {
     public static class ListExtensions
     {
-        public static void Shuffle<T>(this IList<T> list, Action<int, int> callback=null)
+        public static void Shuffle<T>(this IList<T> list, Action<int, int> callback=null, int randSeed = -1)
         {
-            Random rand = new Random();
+            Random rand;
+            if (randSeed!=-1)
+                rand = new Random(randSeed);
+            else
+                rand = new Random();
+
+
             int n = list.Count;
             while (n > 1)
             {
