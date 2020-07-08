@@ -177,6 +177,7 @@
     <Compile Include="Assets\Scripts\Other\ExpressionTrees\Token.cs" />
     <Compile Include="Assets\Scripts\Other\ExpressionTrees\Tokenizer.cs" />
     <Compile Include="Assets\Scripts\Other\Keyboard.cs" />
+    <Compile Include="Assets\Scripts\Other\PlayerRatingView.cs" />
     <Compile Include="Assets\Scripts\Other\ScaledGridLayoutGroup.cs" />
     <Compile Include="Assets\Scripts\Other\SimpleWord.cs" />
     <Compile Include="Assets\Scripts\Other\UIDifficultyLevel.cs" />
@@ -198,6 +199,7 @@
     <Compile Include="Assets\Scripts\Screens\GameScreenMultipleAnswers.cs" />
     <Compile Include="Assets\Scripts\Screens\GameScreenNumbers.cs" />
     <Compile Include="Assets\Scripts\Screens\ScreenDifficultyLevels.cs" />
+    <Compile Include="Assets\Scripts\Screens\ScreenRating.cs" />
     <Compile Include="Assets\Scripts\Screens\ScreenSelectCategory.cs" />
     <Compile Include="Assets\Scripts\Screens\ScreenSelectModule.cs" />
     <Compile Include="Assets\Scripts\Screens\ScreenShop.cs" />

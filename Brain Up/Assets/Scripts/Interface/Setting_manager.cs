@@ -1,4 +1,5 @@
 ﻿/// author GEO
+using Assets.Scripts.Framework.Sounds;
 using DG.Tweening;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,11 @@ public class Setting_manager : MonoBehaviour
     public Button sfx_button;
     public Button removeAds_button;
     public Button close_button;
+    public Button restore_purchases;
     public bool musicOn = false;
     public bool sfxOn = false;
+
+    public SoundController soundController;
 
     protected bool captureEvents = true;
     private void Awake()
@@ -24,8 +28,11 @@ public class Setting_manager : MonoBehaviour
             PlayerPrefs.SetString("Music_state", "ON");
         if (!PlayerPrefs.HasKey("Sfx_state"))
             PlayerPrefs.SetString("Sfx_state", "ON");
+
         musicOn = PlayerPrefs.GetString("Music_state") == "ON";
         sfxOn = PlayerPrefs.GetString("Sfx_state") == "ON";
+
+        Debug.LogFormat("Settings: {0} {1}", musicOn, sfxOn);
     }
     private void OnEnable()
     {
@@ -38,13 +45,19 @@ public class Setting_manager : MonoBehaviour
         if (!GetComponent<DOTweenAnimation>().tween.IsPlaying())
             GetComponent<DOTweenAnimation>().DOPlay();
 
-        music_button.onClick.AddListener(delegate { SetMusicState(true); });
-        sfx_button.onClick.AddListener(delegate { SetSfxState(true); });
+        music_button.onClick.AddListener(delegate { ToggleMusicState(); });
+        sfx_button.onClick.AddListener(delegate { ToggleSfxState(); });
         close_button.onClick.AddListener(CloseSettings);
         removeAds_button.onClick.AddListener(ShowRemoveAdScreen);
+        restore_purchases.onClick.AddListener(RestorePurchases);
 
-        SetMusicState(false);
-        SetSfxState(false);
+        SetMusicState(musicOn);
+        SetSfxState(sfxOn);
+    }
+
+    private void RestorePurchases()
+    {
+        Debug.LogWarning("TODO: Implement this!!");
     }
 
     private void ShowRemoveAdScreen()
@@ -89,39 +102,42 @@ public class Setting_manager : MonoBehaviour
     {
         if (!captureEvents || ad_screen.gameObject.activeSelf)
             return;
-        musicOn = PlayerPrefs.GetString("Music_state") == "ON";
-        sfxOn = PlayerPrefs.GetString("Sfx_state") == "ON";
+      //  musicOn = PlayerPrefs.GetString("Music_state") == "ON";
+      //  sfxOn = PlayerPrefs.GetString("Sfx_state") == "ON";
         if (Input.GetMouseButtonDown(0))
         {
             if (!IsPointerOverUIElement())
                 CloseSettings();
         }
     }
-    private void SetMusicState(bool is_event)
+    private void SetMusicState(bool state)
     {
         if (!captureEvents)
             return;
+
         RectTransform t = music_button.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>();
         Image toggle_bg = music_button.transform.GetChild(0).GetComponent<Image>();
 
-        bool isTrue = is_event ? t.anchoredPosition.x > 0f : PlayerPrefs.GetString("Music_state") != "ON";
-        toggle_bg.DOColor(!isTrue ? new Color(0.5f, 1f, 1f, 1f) : new Color(0.3f, 0.3f, 0.3f, 1f), 0.1f);
-        t.DOLocalMoveX(isTrue ? -33f : 33f, 0.1f).SetEase(Ease.InOutBack);
-        if (is_event)
-            PlayerPrefs.SetString("Music_state", isTrue ? "OFF" : "ON");
+        toggle_bg.DOColor(state ? new Color(0.3f, 0.3f, 0.3f, 1f) : new Color(0.5f, 1f, 1f, 1f), 0.1f);
+        t.anchoredPosition = new Vector2(state ? -33f : 33f, t.anchoredPosition.y);
+        PlayerPrefs.SetString("Music_state", state ? "ON" : "OFF");
+        soundController.SetMusicVolume(state ? 0 : 1);
     }
 
-    private void SetSfxState(bool is_event)
+    private void SetSfxState(bool state)
     {
         if (!captureEvents)
             return;
+
         RectTransform t = sfx_button.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>();
         Image toggle_bg = sfx_button.transform.GetChild(0).GetComponent<Image>();
 
-        bool isTrue = is_event ? t.anchoredPosition.x > 0f : PlayerPrefs.GetString("Sfx_state") != "ON";
-        toggle_bg.DOColor(!isTrue ? new Color(0.5f, 1f, 1f, 1f) : new Color(0.3f, 0.3f, 0.3f, 1f), 0.1f);
-        t.DOLocalMoveX(isTrue ? -33f : 33f, 0.1f).SetEase(Ease.InOutBack);
-        if (is_event)
-            PlayerPrefs.SetString("Sfx_state", isTrue ? "OFF" : "ON");
+        toggle_bg.DOColor(state ? new Color(0.3f, 0.3f, 0.3f, 1f) : new Color(0.5f, 1f, 1f, 1f), 0.1f);
+        t.anchoredPosition = new Vector2(state ? -33f : 33f, t.anchoredPosition.y);
+        PlayerPrefs.SetString("Sfx_state", state ? "ON" : "OFF");
+        soundController.SetEffectsVolume(state ? 0 : 1);
     }
+
+    private void ToggleMusicState() { SetMusicState(!musicOn); }
+    private void ToggleSfxState() { SetSfxState(!sfxOn); }
 }
