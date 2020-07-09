@@ -80,6 +80,7 @@
     <Compile Include="Assets\Framework\Assets\Scripts\DataStructures\Graph.cs" />
     <Compile Include="Assets\Framework\Assets\Scripts\Database\AbstractDatabase.cs" />
     <Compile Include="Assets\Framework\Assets\Scripts\Database\AbstractDatabaseData.cs" />
+    <Compile Include="Assets\Framework\Assets\Scripts\Database\FirebaseController.cs" />
     <Compile Include="Assets\Framework\Assets\Scripts\Debugging\ExecuteTimeTest.cs" />
     <Compile Include="Assets\Framework\Assets\Scripts\Events\Events.cs" />
     <Compile Include="Assets\Framework\Assets\Scripts\General\InAppPurchaseController.cs" />
@@ -283,6 +284,7 @@
     <Compile Include="Assets\Scripts\__Tests__\Test_5.cs" />
     <Compile Include="Assets\Scripts\__Tests__\Test_6.cs" />
     <Compile Include="Assets\Scripts\__Tests__\Test_7.cs" />
+    <Compile Include="Assets\Scripts\__Tests__\Test_8.cs" />
     <Compile Include="Assets\Scripts\__Tests__\UnitTest_Games.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -562,6 +564,30 @@
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.auth@6.15.1/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.database@6.15.1/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/UnityVersions/2019.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

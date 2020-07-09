@@ -386,6 +386,33 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Editor/Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.auth@6.15.1/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.app@6.15.1/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.google.firebase.database@6.15.1/Firebase/Plugins/Firebase.Database.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>F:/Projects/Unity/__BlackArtSoft_Projects__/BrainUp/Brain Up/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>

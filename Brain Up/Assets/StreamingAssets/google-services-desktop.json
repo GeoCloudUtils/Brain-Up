@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145234905898",
+    "firebase_url": "https://brain-up-27568343.firebaseio.com",
+    "project_id": "brain-up-27568343",
+    "storage_bucket": "brain-up-27568343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145234905898:android:150ed5c773007d06fd2c53",
+        "android_client_info": {
+          "package_name": "com.OveractGames.BrainUp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145234905898-ut9j4r71tlh6c7n8i2464485uogoui5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.OveractGames.BrainUp",
+            "certificate_hash": "4a4b984ee83e45d751fedaf4fe1c825810e2daaf"
+          }
+        },
+        {
+          "client_id": "145234905898-nliegacsqh1dfkl0603ljmkqp4rqp14p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2iZN91GQZ0AYH6uelo0tmrhfaPdPM68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145234905898-nliegacsqh1dfkl0603ljmkqp4rqp14p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
