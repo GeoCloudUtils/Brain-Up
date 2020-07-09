@@ -2,6 +2,7 @@
     Author: Ghercioglo Roman
  */
 using Assets.Scripts.Games;
+using TMPro;
 using UnityEngine;
 
 namespace Assets.Scripts.Screens
@@ -12,9 +13,11 @@ namespace Assets.Scripts.Screens
         public GameObject screen;
         public ScreenSelectModule selectModuleScreen;
         public ScreenShop shopScreen;
+        public TMP_Text coinsCount;
 
         private void Start()
         {
+            coinsCount.text = "+" + ControllerGlobal.Instance.COINS_FOR_AD;
         }
 
         public void OnGamesListClicked()

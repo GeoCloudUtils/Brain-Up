@@ -107,7 +107,8 @@ namespace Assets.Scripts.Games
         NoTime = 2,
         Win = 3,
         NoAttempts = 4,
-        NoCoins = 5
+        NoCoins = 5,
+        Paused = 6
     }
 
     [Serializable]
@@ -144,6 +145,7 @@ namespace Assets.Scripts.Games
         public int Attempts { get; set; }
         [SerializeField] public int COINS_FOR_AD;
         [SerializeField] public int TIME_FOR_AD;
+        [SerializeField] public int HINTS_FOR_AD;
 
         //events
         public Action<GameEndReason> GameFinished;
@@ -192,8 +194,7 @@ namespace Assets.Scripts.Games
                     _database.SetGameProgressForDifficulty(games[a], diffs[b], progress);
                 }
             }
-            //  AddControllerForGame(GameId.Acknowledge_Countries, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
-            //  AddControllerForGame(GameId.Acknowledge_History, (ControllerAbstract<ModelAbstract, ViewAbstract<ModelAbstract>>)ControllerRepeatColors.Instance);
+            PlayerPrefs.DeleteKey("LastPlayedGame");
         }
 
 
@@ -257,6 +258,7 @@ namespace Assets.Scripts.Games
 
             currGameId = gameId;
             currGameLanguage = gameLanguage;
+            SaveGame();
 
             _currController.GetModel().GameId = gameId;
             GameScreenGlobal.Instance._lastScreen = _currController.GetView().GetScreen() ;
@@ -277,6 +279,24 @@ namespace Assets.Scripts.Games
                 global.GameStarted?.Invoke(enableTimer, enableCheckbar);
             };
             _currController.StartGame(action);
+        }
+
+        public void LoadLastGame(Action<bool> result)
+        {
+            if (!PlayerPrefs.HasKey("LastPlayedGame"))
+            {
+                result?.Invoke(false);
+                return;
+            }
+            result?.Invoke(true);
+
+            GameId lastGame = (GameId)int.Parse(PlayerPrefs.GetString("LastPlayedGame"));
+            StartGame(lastGame);
+        }
+
+        public void SaveGame()
+        {
+            PlayerPrefs.SetString("LastPlayedGame", ((int)currGameId).ToString());
         }
 
         internal void Prolong(Action<bool> resultCallback)

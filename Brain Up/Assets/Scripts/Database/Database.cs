@@ -14,7 +14,7 @@ namespace Assets.Scripts
         public Action<int, int> onCoinsCountChanged = null;
         public Action<int> onLevelChanged = null;
         public Action<int, int> onHintsCountChanged=null;
-
+        public Action<int, int> onExperienceCountChanged = null;
         #endregion
 
 
@@ -29,6 +29,16 @@ namespace Assets.Scripts
                     value = 0;
                 onCoinsCountChanged?.Invoke(data.coins, value);
                 data.coins = value;
+            }
+        }
+
+        public int Experience
+        {
+            get => data.experience;
+            set
+            {
+                onExperienceCountChanged?.Invoke(data.experience, value);
+                data.experience = value;
             }
         }
 
@@ -63,6 +73,8 @@ namespace Assets.Scripts
         }
 
         public List<int> BoughtItems => data.boughtItems;
+
+
         #endregion
 
 

@@ -34,7 +34,7 @@ namespace Assets.Scripts.Screens
             return null;
         }
 
-        internal void Show(bool show)
+        public void Show(bool show)
         {
             screen.SetActive(show);
         }

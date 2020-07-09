@@ -1,7 +1,9 @@
 ﻿/*
     Author: Ghercioglo Roman
  */
+using Assets.Scripts.Framework.General;
 using Assets.Scripts.Games;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -11,10 +13,12 @@ namespace Assets.Scripts.Screens
     {
         [Header("References")]
         public GameObject screen;
+        public TMP_Text timeForAd;
         public ScreenSelectModule selectModuleScreen;
 
         private void Start()
         {
+            timeForAd.text = "+" + TimeHelper.FormatMMSS(ControllerGlobal.Instance.timeForWatchAd);
         }
 
         public void OnGamesListClicked()
@@ -37,10 +41,6 @@ namespace Assets.Scripts.Screens
             {
                 if (!success)
                     screen.SetActive(true);
-                //if (success)
-                //    GlobalController.Instance.Prolong();
-                //else
-                //    screen.SetActive(true);
             });
         }
 

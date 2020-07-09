@@ -119,7 +119,7 @@ namespace Assets.Scripts.Framework.Build
 
         private static string IncreaseBuild()
         {
-            return IncrementVersion(0, 1, 0);
+            return IncrementVersion(0, 0, 1);
         }
 
 

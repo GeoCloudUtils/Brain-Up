@@ -19,6 +19,7 @@ namespace Assets.Scripts.Screens
         public ScreenSelectModule selectModuleScreen = null;
         public TMP_Text hintsCount = null;
         public TMP_Text coinsCount = null;
+        public TMP_Text experienceCount = null;
         public GameObject timerParent = null;
         public GameObject checkbar = null;
         public DialogWin winScreen = null;
@@ -47,12 +48,14 @@ namespace Assets.Scripts.Screens
             //connect to events
             _database.onHintsCountChanged += OnHintsCountChanged;
             _database.onCoinsCountChanged += OnCoinsCountChanged;
+            _database.onExperienceCountChanged += OnExperienceCountChanged;
             globalController.GameFinished += OnGameFinished;
             globalController.GameStarted += OnGameStarted;
 
             //update interface
             OnHintsCountChanged(0, _database.Hints);
             OnCoinsCountChanged(0, _database.Coins);
+            OnExperienceCountChanged(0, _database.Experience);
         }
 
         public void Show(bool show)
@@ -94,7 +97,11 @@ namespace Assets.Scripts.Screens
         {
             coinsCount.text = newCount.ToString();
         }
-
+        
+        private void OnExperienceCountChanged(int oldCount, int newCount)
+        {
+            experienceCount.text = newCount.ToString();
+        }
 
         protected void OnGameFinished(GameEndReason reason)
         {
@@ -124,6 +131,10 @@ namespace Assets.Scripts.Screens
             {
                 noCoinsScreen.Show(true);
             }
+            else if (reason == GameEndReason.Paused)
+            {
+                screen.SetActive(false);
+            }
         }
 
         protected void OnGameStarted(bool enableTimer, bool enableCheckbar)
@@ -143,7 +154,7 @@ namespace Assets.Scripts.Screens
 
         internal void ShowDiffLevelFinishedScreen(string gameName, string difficultyName)
         {
-            diffLevelFinishedScreen.InitScreen(gameName, difficultyName);
+            diffLevelFinishedScreen.InitScreen(gameName, difficultyName, 40, 40);
             diffLevelFinishedScreen.Show(true);
         }
         #endregion

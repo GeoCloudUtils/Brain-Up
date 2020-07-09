@@ -15,6 +15,8 @@ namespace Assets.Scripts.Screens
         public GameObject screen;
         public ScreenSelectModule selectModuleScreen;
         public TMP_Text info;
+        public TMP_Text coinsReward;
+        public TMP_Text experienceReward;
 
         public void OnYesClicked()
         {
@@ -27,9 +29,25 @@ namespace Assets.Scripts.Screens
             screen.SetActive(show);
         }
 
-        internal void InitScreen(string gameName, string difficultyName)
+        internal void InitScreen(string gameName, string difficultyName, int coinsCountReward, int expCountReward)
         {
             info.text = string.Format("You finished <b>\"{0}\"</b> stage of <b>\"{1}\"</b> game.\"",difficultyName,gameName);
+
+            if (coinsCountReward > 0)
+            {
+                coinsReward.text = "+" + coinsCountReward;
+                coinsReward.transform.parent.gameObject.SetActive(true);
+            }
+            else
+                coinsReward.transform.parent.gameObject.SetActive(false);
+
+            if (expCountReward > 0)
+            {
+                experienceReward.text = "+" + expCountReward;
+                experienceReward.transform.parent.gameObject.SetActive(true);
+            }
+            else
+                experienceReward.transform.parent.gameObject.SetActive(false);
         }
     }
 }

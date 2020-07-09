@@ -32,7 +32,7 @@ public class Setting_manager : MonoBehaviour
         musicOn = PlayerPrefs.GetString("Music_state") == "ON";
         sfxOn = PlayerPrefs.GetString("Sfx_state") == "ON";
 
-        Debug.LogFormat("Settings: {0} {1}", musicOn, sfxOn);
+        Debug.LogFormat("Music enabled: {0}; Sounds enabled: {1}", musicOn, sfxOn);
     }
     private void OnEnable()
     {
@@ -122,6 +122,7 @@ public class Setting_manager : MonoBehaviour
         t.anchoredPosition = new Vector2(state ? -33f : 33f, t.anchoredPosition.y);
         PlayerPrefs.SetString("Music_state", state ? "ON" : "OFF");
         soundController.SetMusicVolume(state ? 0 : 1);
+        musicOn = state;
     }
 
     private void SetSfxState(bool state)
@@ -136,6 +137,7 @@ public class Setting_manager : MonoBehaviour
         t.anchoredPosition = new Vector2(state ? -33f : 33f, t.anchoredPosition.y);
         PlayerPrefs.SetString("Sfx_state", state ? "ON" : "OFF");
         soundController.SetEffectsVolume(state ? 0 : 1);
+        sfxOn = state;
     }
 
     private void ToggleMusicState() { SetMusicState(!musicOn); }

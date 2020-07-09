@@ -2,6 +2,7 @@
     Author: Ghercioglo Roman
  */
 using Assets.Scripts.Games;
+using TMPro;
 using UnityEngine;
 
 namespace Assets.Scripts.Screens
@@ -11,10 +12,11 @@ namespace Assets.Scripts.Screens
         [Header("References")]
         public GameObject screen;
         public ScreenShop shopScreen;
+        public TMP_Text coinsCount;
 
         private void Start()
         {
-
+            coinsCount.text = "+" + ControllerGlobal.Instance.COINS_FOR_AD;
         }
 
         internal void Show(bool show)
